@@ -2,7 +2,7 @@ const CURRENT_URL='https://raw.githubusercontent.com/EngTW/English-for-Programme
 const LEGACY_URL='https://raw.githubusercontent.com/mahavivo/english-wordlists/master/%E5%8F%B0%E7%81%A3%E9%AB%98%E4%B8%AD%E8%8B%B1%E6%96%87%E5%8F%83%E8%80%83%E8%A9%9E%E5%BD%99%E8%A1%A8.txt';
 const LOCAL_VOCAB_URL='data/vocabulary-zh.json?v=1.4.4';
 const DETAILS_URL='data/vocabulary-details.json?v=1.4.5';
-const EXAMPLES_URL='data/vocabulary-examples.json?v=1.4.7';
+const EXAMPLES_URL='data/vocabulary-examples.json?v=1.4.8';
 let WORD_DETAILS={};
 let WORD_EXAMPLES={};
 const STORAGE_KEY='hs7000-v1';
@@ -32,7 +32,7 @@ function saveState(){localStorage.setItem(STORAGE_KEY,JSON.stringify(state))}
 function normalizeWord(w){return String(w||'').toLowerCase().replace(/^\*/,'').trim()}
 function parseLegacy(text){const map=new Map();text.split(/\r?\n/).forEach(line=>{line=line.trim();if(!line||/^[A-Z]$/.test(line)||line.includes('大學學測'))return;const m=line.match(/^\*?([A-Za-z][A-Za-z.'-]*(?:\s+[A-Za-z][A-Za-z.'-]*)?)\s+(.+)$/);if(!m)return;const word=normalizeWord(m[1]);let rest=m[2].trim();const posMatch=rest.match(/^((?:adj\.|adv\.|n\.|v\.|prep\.|conj\.|pron\.|art\.|num\.|aux\.|int\.)[^\u4e00-\u9fff]*)/i);let pos=[],meaning=rest;if(posMatch){pos=posMatch[1].split(/[\/;, ]+/).filter(x=>x.includes('.'));meaning=rest.slice(posMatch[0].length).trim()}map.set(word,{meaning:meaning||'—',pos})});return map}
 function rootHint(word){if(ENRICH[word]?.root)return ENRICH[word].root;const pre=PREFIXES.find(([x])=>word.startsWith(x)&&word.length>x.length+3);const suf=SUFFIXES.find(([x])=>word.endsWith(x)&&word.length>x.length+3);const bits=[];if(pre)bits.push(`${pre[0]}-（${pre[1]}）`);if(suf)bits.push(`-${suf[0]}（${suf[1]}）`);return bits.length?bits.join(' ＋ '):'此字建議以字族與例句一起記憶'}
-function genericExample(w){if(ENRICH[w.word]?.ex)return ENRICH[w.word].ex;const p=(w.pos||[])[0]||'';if(p.startsWith('v'))return `Students can learn how to use “${w.word}” correctly through context and practice.`;if(p.startsWith('adj'))return `The word “${w.word}” often appears in reading passages at the high-school level.`;if(p.startsWith('n'))return `Understanding “${w.word}” in context can make a reading passage much easier.`;return `Try to notice how “${w.word}” is used in the sentence around it.`}
+function genericExample(w){return '例句待校正'}
 function genericCollocations(w){if(ENRICH[w.word]?.col)return ENRICH[w.word].col;const p=(w.pos||[])[0]||'';if(p.startsWith('v'))return [`${w.word} + 受詞`,`can / may + ${w.word}`,`${w.word} carefully`];if(p.startsWith('adj'))return [`be ${w.word}`,`very / highly ${w.word}`,`${w.word} + 名詞`];if(p.startsWith('n'))return [`a / the ${w.word}`,`${w.word} of ...`,`important ${w.word}`];return [`常見於句中依詞性搭配`];}
 function editDistance(a,b){const m=a.length,n=b.length,d=Array.from({length:m+1},()=>Array(n+1).fill(0));for(let i=0;i<=m;i++)d[i][0]=i;for(let j=0;j<=n;j++)d[0][j]=j;for(let i=1;i<=m;i++)for(let j=1;j<=n;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1));return d[m][n]}
 function confusables(w){if(ENRICH[w.word]?.conf)return ENRICH[w.word].conf;return bank.filter(x=>x.word!==w.word&&Math.abs(x.word.length-w.word.length)<=1&&x.word[0]===w.word[0]).map(x=>({x,d:editDistance(w.word,x.word)})).filter(o=>o.d>0&&o.d<=2).sort((a,b)=>a.d-b.d).slice(0,3).map(o=>o.x.word)}
@@ -43,7 +43,7 @@ function isHighFreq(w){return HIGH_FREQ_WORDS.has(w.word)||(w.level>=3&&w.level<
 function frequencyLabel(w){return isHighFreq(w)?'🔥 學測優先':'一般'}
 function parseCustomWords(){return (document.getElementById('customWords')?.value||'').toLowerCase().split(/[\s,;，、]+/).map(normalizeWord).filter(Boolean)}
 
-async function loadWordExamples(){try{const r=await fetch(EXAMPLES_URL,{cache:'no-store'});if(!r.ok)throw new Error('examples '+r.status);const x=await r.json();WORD_EXAMPLES=x.words||{};console.info('V1.4.7 examples loaded',Object.keys(WORD_EXAMPLES).length);if(bank.length)renderAll();}catch(e){console.warn('word examples unavailable',e)}}
+async function loadWordExamples(){try{const r=await fetch(EXAMPLES_URL,{cache:'no-store'});if(!r.ok)throw new Error('examples '+r.status);const x=await r.json();WORD_EXAMPLES=x.words||{};console.info('V1.4.8 examples loaded',Object.keys(WORD_EXAMPLES).length);if(bank.length)renderAll();}catch(e){console.warn('word examples unavailable',e)}}
 async function loadWordDetails(){try{const r=await fetch(DETAILS_URL,{cache:'no-store'});if(!r.ok)throw new Error('details '+r.status);const x=await r.json();WORD_DETAILS=x.words||{};console.info('V1.4.4 details loaded',Object.keys(WORD_DETAILS).length);if(bank.length)renderAll();}catch(e){console.warn('word details unavailable',e)}}
 async function loadBank(){
   const status=document.getElementById('bankStatus');
