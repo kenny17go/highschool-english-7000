@@ -46,3 +46,20 @@
 
 ### 統計口徑
 V1.3 的「真題出現紀錄」統計的是大考中心 111–115 學測英文**詞彙題四個選項**中的單字年度標記，不代表大考中心官方公布的全卷詞頻。網站另外計算的「優先度」是個人化學習指標。
+
+## V1.4 — 101～115 學測英文全卷語料化
+
+V1.4 新增「15 年語料庫」與自動建置管線。為避免重新散布完整試卷文字，網站只保存衍生統計：每年內容詞 token 數、不同詞形數、每字總出現次數、出現年度、逐年次數，以及詞彙題／綜合測驗／文意選填／篇章結構／閱讀／混合題等題型分布。
+
+### 第一次上傳 GitHub 後
+
+1. 開啟 GitHub Repository → **Actions**。
+2. 選擇 **Build GSAT corpus**。
+3. 按 **Run workflow**。
+4. Workflow 會從大考中心官方 PDF 建置 `data/gsat-corpus-stats.json`，並自動 commit 回 repository。
+5. GitHub Pages 更新後，「學測戰情室 → 15年語料庫」會顯示 15/15 已語料化與實際詞頻。
+
+建置程式：`tools/build_gsat_corpus.py`  
+Workflow：`.github/workflows/build-gsat-corpus.yml`
+
+> ZIP 內預先放的是「來源索引版」JSON，因此即使尚未執行 Action，網站仍可正常運作；完整 15 年詞頻要在 GitHub 上第一次執行 workflow 後產生。

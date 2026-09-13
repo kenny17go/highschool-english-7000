@@ -44,7 +44,7 @@
 
       <button class="insight-entry" id="openInsightsBtn">
         <span class="insight-entry-icon">◎</span>
-        <span><b>V1.3 學測戰情室</b><small>近五年真題字 · 熟練度地圖 · AI 弱點練習</small></span>
+        <span><b>V1.4 15年學測語料庫</b><small>101–115 全卷語料 · 趨勢 · 熟練度 · AI 弱點</small></span>
         <span class="entry-arrow">›</span>
       </button>
 
@@ -142,11 +142,12 @@
     <section class="view" data-view="insights">
       <div class="insights-head">
         <button class="text-btn back-btn" id="exitInsightsBtn" aria-label="返回">‹</button>
-        <div><span class="eyebrow">V1.3 · GSAT Intelligence</span><h2>學測戰情室</h2></div>
+        <div><span class="eyebrow">V1.4 · GSAT Corpus Intelligence</span><h2>學測戰情室</h2></div>
       </div>
 
       <div class="insights-tabs" id="insightsTabs">
         <button class="chip active" data-insight-tab="freq">高頻統計</button>
+        <button class="chip" data-insight-tab="corpus">15年語料庫</button>
         <button class="chip" data-insight-tab="patterns">真題句型</button>
         <button class="chip" data-insight-tab="map">熟練地圖</button>
         <button class="chip" data-insight-tab="ai">AI 弱點</button>
@@ -154,8 +155,8 @@
 
       <div class="insight-panel active" data-insight-panel="freq">
         <div class="dashboard-card source-card">
-          <div><span class="mini-label">官方資料層</span><h3>111–115 學測英文</h3><p>統計近五年「詞彙題選項」的真題出現紀錄；熱度分數另結合你的錯題與熟練度。</p></div>
-          <div class="source-badge">5 年</div>
+          <div><span class="mini-label">官方資料層</span><h3>111–115 詞彙題索引</h3><p>保留 V1.3 的近五年詞彙題精確索引；V1.4 的 101–115 全卷詞頻請切到「15年語料庫」。</p></div>
+          <div class="source-badge">V1.4</div>
         </div>
         <div class="analysis-kpis">
           <div><small>真題字資料</small><b id="gsatWordCount">0</b><span>個選項詞</span></div>
@@ -165,6 +166,29 @@
         <div class="section-title"><h3>你的學測優先榜</h3><span>真題 × 弱點</span></div>
         <div id="gsatRanking" class="ranking-list"></div>
         <p class="data-note">「真題出現」只代表該字曾出現在近五年詞彙題選項，不等於大考中心公布的官方單字頻率排名。</p>
+      </div>
+
+      <div class="insight-panel" data-insight-panel="corpus">
+        <div class="dashboard-card source-card">
+          <div><span class="mini-label">101–115 · Official Corpus Pipeline</span><h3>15 年學測英文全卷語料庫</h3><p>官方試題只用來做斷詞與統計；網站保存衍生資料，不保存整份試卷全文。</p></div>
+          <div class="source-badge">15 年</div>
+        </div>
+        <div class="analysis-kpis corpus-kpis">
+          <div><small>試卷涵蓋</small><b id="corpusPaperCount">15</b><span>101–115</span></div>
+          <div><small>內容詞 token</small><b id="corpusTokenCount">待建置</b><span>排除常見功能詞</span></div>
+          <div><small>不同詞形</small><b id="corpusUniqueCount">待建置</b><span>全卷語料</span></div>
+        </div>
+        <div class="dashboard-card corpus-method">
+          <span class="mini-label">Corpus Method</span>
+          <h3>PDF → 文字 → 題型切分 → 單字統計</h3>
+          <p>V1.4 已加入自動化建置流程：GitHub Action 會下載大考中心 101–115 官方英文試題、抽取英文內容、依詞彙／綜合測驗／文意選填／篇章結構／閱讀等區段統計，再輸出精簡 JSON 給網站使用。</p>
+        </div>
+        <div class="section-title"><h3>15 年資料覆蓋</h3><span id="corpusBuildStatus">來源索引完成</span></div>
+        <div id="corpusYearGrid" class="corpus-year-grid"></div>
+        <div class="section-title"><h3>語料單字查詢</h3><span>年度 × 題型</span></div>
+        <div class="corpus-search"><input id="corpusSearchInput" placeholder="輸入單字，例如 achieve" autocomplete="off"><button class="secondary" id="corpusSearchBtn">查詢</button></div>
+        <div id="corpusSearchResult" class="dashboard-card corpus-result"><p>完成 GitHub Action 建置後，可查每個字 15 年總出現次數、出現年度及題型分布。</p></div>
+        <p class="data-note">若目前顯示「來源索引完成」，代表 ZIP 內已放入 15 年來源清單；第一次上傳 GitHub 後，到 Actions 執行 <b>Build GSAT corpus</b>，即可生成完整統計檔。</p>
       </div>
 
       <div class="insight-panel" data-insight-panel="patterns">
@@ -241,7 +265,7 @@
       <label>每日新單字<input type="number" id="dailyGoal" min="5" max="100" step="5" value="20" /></label>
       <label>學習範圍<select id="studyMode"><option value="7000">7000 完整模式</option><option value="6000">108 課綱 6000 核心</option><option value="4500">4500 核心優先</option></select></label>
       <label class="toggle"><input type="checkbox" id="autoSpeak" checked />顯示單字時自動發音</label>
-      <p class="note">版本 V1.3 · 學測戰情室 + 自適應弱點引擎</p>
+      <p class="note">版本 V1.4 · 101–115 學測語料庫 + 自適應弱點引擎</p>
       <button class="primary big" id="saveSettingsBtn">儲存</button>
     </form>
   </dialog>
