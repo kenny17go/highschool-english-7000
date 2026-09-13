@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - 'tools/build_examples.py'
-      - 'data/ai-original-examples.json'
+      - 'data/ai-original-examples*.json'
       - '.github/workflows/update-vocab.yml'
 
 permissions:
@@ -36,21 +36,25 @@ jobs:
       - name: Validate generated vocabulary data
         run: |
           python3 - <<'PY'
-          import json
+          import glob,json
           e=json.load(open('data/vocabulary-examples.json',encoding='utf-8'))
           s=json.load(open('data/vocabulary-example-sources.json',encoding='utf-8'))
-          a=json.load(open('data/ai-original-examples.json',encoding='utf-8'))
+          merged={}
+          for path in ['data/ai-original-examples.json']+sorted(glob.glob('data/ai-original-examples-batch-*.json')):
+              p=json.load(open(path,encoding='utf-8'))
+              assert p.get('version') == '1.5.1'
+              merged.update(p.get('words',{}))
           assert e.get('version') == '1.5.1'
           assert len(e.get('words',{})) >= 6000
           assert e.get('summary',{}).get('aiOriginalReady',0) > 0
+          assert e.get('summary',{}).get('aiOriginalInput',0) == len(merged)
           assert e['words']['absence']['status'] == 'ready'
           assert e['words']['absence']['zh']
           assert 'chatgpt_original' in s.get('sources',{})
-          assert a.get('version') == '1.5.1'
-          assert len(a.get('words',{})) >= 50
+          assert len(merged) >= 200
           print('Version:', e.get('version'))
           print('Summary:', e.get('summary'))
-          print('AI originals:', len(a.get('words',{})))
+          print('Merged AI originals:', len(merged))
           print('Sources:', list(s.get('sources',{})))
           PY
 
