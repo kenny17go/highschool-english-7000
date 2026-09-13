@@ -74,7 +74,7 @@
         <div class="answer-area hidden" id="answerArea">
           <div class="meaning" id="wordMeaning">—</div>
           <div class="detail-grid">
-            <div class="detail-block"><span>高中例句</span><div class="example" id="wordExample">—</div></div>
+            <div class="detail-block"><span>高中例句</span><div class="example" id="wordExample">—</div><div class="example-zh" id="wordExampleZh">—</div></div>
             <div class="detail-block"><span>常用搭配</span><div id="wordCollocations">—</div></div>
             <div class="detail-block"><span>字首・字尾・字族</span><div id="wordRoot">—</div></div>
             <div class="detail-block"><span>同義字</span><div id="wordSynonyms">—</div></div>
@@ -246,7 +246,7 @@
       <div class="detail-top"><div><span class="pill" id="detailLevel">Level</span><span class="frequency-badge" id="detailFrequency"></span></div><button class="icon-btn" id="closeDetailBtn" aria-label="關閉">✕</button></div>
       <div class="detail-word-line"><div><h2 id="detailWord">word</h2><p id="detailPos">—</p></div><div class="detail-actions"><button class="secondary" id="detailSpeakBtn">🔊 發音</button><button class="favorite-btn" id="detailFavoriteBtn">☆ 收藏</button></div></div>
       <section class="detail-section"><h3>完整中文釋義</h3><p class="detail-meaning" id="detailMeaning">—</p></section>
-      <section class="detail-section"><h3>高中程度例句</h3><p id="detailExample">—</p><button class="text-btn" id="detailExampleSpeak">🔊 朗讀例句</button></section>
+      <section class="detail-section"><h3>高中程度例句</h3><p id="detailExample">—</p><p class="example-zh" id="detailExampleZh">—</p><button class="text-btn" id="detailExampleSpeak">🔊 朗讀例句</button></section>
       <section class="detail-section corpus-intel">
         <div class="corpus-intel-head"><div><h3>101～115 學測真題情報</h3><p>15 年全卷語料統計，與你的學習進度分開計算。</p></div><span class="corpus-status pending" id="detailCorpusStatus">語料待建置</span></div>
         <div class="corpus-intel-kpis">
@@ -278,7 +278,8 @@
       <label>每日新單字<input type="number" id="dailyGoal" min="5" max="100" step="5" value="20" /></label>
       <label>學習範圍<select id="studyMode"><option value="7000">7000 完整模式</option><option value="6000">108 課綱 6000 核心</option><option value="4500">4500 核心優先</option></select></label>
       <label class="toggle"><input type="checkbox" id="autoSpeak" checked />顯示單字時自動發音</label>
-      <p class="note">版本 V1.4.4 · 本地中文釋義 + 完整單字資訊 + 101–115 學測語料庫</p>
+      <label class="toggle"><input type="checkbox" id="showExampleZh" checked />顯示例句中文翻譯</label>
+      <p class="note">版本 V1.4.5 · 例句中譯 + 例句品質提升 + 101–115 學測語料庫</p>
       <button class="primary big" id="saveSettingsBtn">儲存</button>
     </form>
   </dialog>
