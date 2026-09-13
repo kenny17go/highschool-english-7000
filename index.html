@@ -42,6 +42,12 @@
       <button class="primary big" id="startTodayBtn">開始今日 20 字</button>
       <button class="secondary big" id="startReviewBtn">先複習到期單字</button>
 
+      <button class="insight-entry" id="openInsightsBtn">
+        <span class="insight-entry-icon">◎</span>
+        <span><b>V1.3 學測戰情室</b><small>近五年真題字 · 熟練度地圖 · AI 弱點練習</small></span>
+        <span class="entry-arrow">›</span>
+      </button>
+
       <div class="section-title"><h3>學習路線</h3><span id="bankStatus">準備中</span></div>
       <div class="level-list" id="levelList"></div>
     </section>
@@ -133,6 +139,66 @@
       <div class="word-list" id="wordList"></div>
     </section>
 
+    <section class="view" data-view="insights">
+      <div class="insights-head">
+        <button class="text-btn back-btn" id="exitInsightsBtn" aria-label="返回">‹</button>
+        <div><span class="eyebrow">V1.3 · GSAT Intelligence</span><h2>學測戰情室</h2></div>
+      </div>
+
+      <div class="insights-tabs" id="insightsTabs">
+        <button class="chip active" data-insight-tab="freq">高頻統計</button>
+        <button class="chip" data-insight-tab="patterns">真題句型</button>
+        <button class="chip" data-insight-tab="map">熟練地圖</button>
+        <button class="chip" data-insight-tab="ai">AI 弱點</button>
+      </div>
+
+      <div class="insight-panel active" data-insight-panel="freq">
+        <div class="dashboard-card source-card">
+          <div><span class="mini-label">官方資料層</span><h3>111–115 學測英文</h3><p>統計近五年「詞彙題選項」的真題出現紀錄；熱度分數另結合你的錯題與熟練度。</p></div>
+          <div class="source-badge">5 年</div>
+        </div>
+        <div class="analysis-kpis">
+          <div><small>真題字資料</small><b id="gsatWordCount">0</b><span>個選項詞</span></div>
+          <div><small>你的高風險字</small><b id="riskWordCount">0</b><span>優先複習</span></div>
+          <div><small>已掌握真題字</small><b id="masteredGsatPct">0%</b><span>目前進度</span></div>
+        </div>
+        <div class="section-title"><h3>你的學測優先榜</h3><span>真題 × 弱點</span></div>
+        <div id="gsatRanking" class="ranking-list"></div>
+        <p class="data-note">「真題出現」只代表該字曾出現在近五年詞彙題選項，不等於大考中心公布的官方單字頻率排名。</p>
+      </div>
+
+      <div class="insight-panel" data-insight-panel="patterns">
+        <div class="dashboard-card">
+          <span class="mini-label">不重製完整試題</span>
+          <h3>學測真題句型 · 改寫訓練</h3>
+          <p>依近年官方題型與句構特徵重新寫成練習句，保留命題思路，但不直接複製整題。</p>
+        </div>
+        <div id="patternCards" class="pattern-list"></div>
+      </div>
+
+      <div class="insight-panel" data-insight-panel="map">
+        <div class="dashboard-card">
+          <div class="map-summary"><div><span class="mini-label">Mastery Map</span><h3>單字熟練度地圖</h3></div><b id="mapMasteryPct">0%</b></div>
+          <div class="mastery-legend"><span><i class="heat none"></i>未學</span><span><i class="heat low"></i>薄弱</span><span><i class="heat mid"></i>熟悉</span><span><i class="heat high"></i>穩定</span></div>
+        </div>
+        <div id="masteryMap" class="mastery-map"></div>
+        <div id="levelRiskSummary" class="level-risk-summary"></div>
+      </div>
+
+      <div class="insight-panel" data-insight-panel="ai">
+        <div class="ai-coach-card">
+          <div class="ai-orb">AI</div>
+          <div><span class="mini-label">本機自適應弱點引擎</span><h3 id="aiCoachTitle">正在分析你的弱點</h3><p id="aiCoachText">完成一些學習或測驗後，系統會依錯題、熟練度、到期複習與真題紀錄自動調整出題權重。</p></div>
+        </div>
+        <div id="weaknessList" class="weakness-list"></div>
+        <div class="ai-actions">
+          <label>題數<select id="aiQuizCount"><option>5</option><option selected>10</option><option>20</option></select></label>
+          <button class="primary big" id="startAiQuizBtn">生成我的弱點題組</button>
+        </div>
+        <p class="data-note">V1.3 的 AI 弱點功能在手機本機運算，不會上傳學習紀錄，也不需要 API Key。</p>
+      </div>
+    </section>
+
     <section class="view" data-view="progress">
       <div class="section-title"><h2>學習進度</h2><span>本機保存</span></div>
       <div class="dashboard-card"><h3>整體進度</h3><div class="big-number"><span id="overallLearned">0</span><small> / <span id="overallTotal">0</span> 字</small></div><div class="progress-track"><div id="overallBar"></div></div></div>
@@ -175,7 +241,7 @@
       <label>每日新單字<input type="number" id="dailyGoal" min="5" max="100" step="5" value="20" /></label>
       <label>學習範圍<select id="studyMode"><option value="7000">7000 完整模式</option><option value="6000">108 課綱 6000 核心</option><option value="4500">4500 核心優先</option></select></label>
       <label class="toggle"><input type="checkbox" id="autoSpeak" checked />顯示單字時自動發音</label>
-      <p class="note">版本 V1.2.1 · iPhone 原生感介面 + 新版 App Icon</p>
+      <p class="note">版本 V1.3 · 學測戰情室 + 自適應弱點引擎</p>
       <button class="primary big" id="saveSettingsBtn">儲存</button>
     </form>
   </dialog>
