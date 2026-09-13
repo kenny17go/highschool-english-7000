@@ -24,7 +24,7 @@ jobs:
       - name: Build 101-115 English corpus statistics
         run: python3 tools/build_gsat_corpus.py
 
-      - name: Validate corpus
+      - name: Validate corpus quality
         run: |
           python3 - <<'PY'
           import json
@@ -32,11 +32,29 @@ jobs:
           with open('data/gsat-corpus-stats.json', encoding='utf-8') as f:
               x = json.load(f)
 
+          assert x['version'] == '1.4.2'
           assert x['summary']['papers'] == 15
           assert all(str(y) in x['years'] for y in range(101, 116))
           assert x['summary']['tokens'] > 10000
+          assert x['summary']['unique'] > 3000
+          assert x['quality']['lemmatized'] is True
+          assert x['quality']['boilerplateFiltered'] is True
+
+          # Section detection should work for a meaningful number of years.
+          # Keep threshold conservative because older PDFs vary in extraction quality.
+          assert x['summary']['sectionCoverageYears'] >= 8
+
+          # Regression checks: instruction/layout words should not dominate the corpus.
+          for banned in ('passage', 'following', 'question', 'questions', 'blank', 'blanks'):
+              assert banned not in x['words'], f'boilerplate leak: {banned}'
+
+          # Lemma regression checks.
+          assert 'people' not in x['words'] or 'person' in x['words']
+          assert 'made' not in x['words']
+          assert 'used' not in x['words']
 
           print(x['summary'])
+          print(x['quality'])
           PY
 
       - name: Commit generated statistics
@@ -44,5 +62,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/gsat-corpus-stats.json
-          git diff --cached --quiet || git commit -m "data: rebuild GSAT 101-115 corpus [skip ci]"
+          git diff --cached --quiet || git commit -m "data: rebuild GSAT corpus v1.4.2 [skip ci]"
           git push
