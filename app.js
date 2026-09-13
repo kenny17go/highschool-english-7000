@@ -58,7 +58,7 @@ function showQuiz(){if(quizIndex>=quiz.length){const pct=Math.round(quizScore/qu
 function renderOptions(opts,label,isCorrect,w){const el=document.getElementById('quizOptions');opts.forEach(o=>{const b=document.createElement('button');b.className='option';b.textContent=label(o);b.onclick=()=>answerQuiz(b,isCorrect(o),w,label(w));el.appendChild(b)})}
 function answerQuiz(btn,correct,w,answerText){document.querySelectorAll('.option').forEach(b=>b.disabled=true);state.stats.total++;if(correct){btn.classList.add('correct');quizScore++;state.stats.correct++;document.getElementById('quizFeedback').textContent='答對了！'}else{btn.classList.add('wrong');state.mistakes[w.word]=(state.mistakes[w.word]||0)+1;document.getElementById('quizFeedback').textContent=`正確答案：${answerText}`;document.querySelectorAll('.option').forEach(b=>{if(b.textContent===answerText)b.classList.add('correct')})}saveState();document.getElementById('nextQuizBtn').classList.remove('hidden')}
 function submitSpelling(){if(!currentQuestion||currentQuestion.type!=='spelling')return;const {w}=currentQuestion,inp=document.getElementById('spellingInput'),ans=normalizeWord(inp.value),correct=ans===w.word;state.stats.total++;inp.disabled=true;if(correct){quizScore++;state.stats.correct++;document.getElementById('quizFeedback').textContent='拼字正確！'}else{state.mistakes[w.word]=(state.mistakes[w.word]||0)+1;document.getElementById('quizFeedback').textContent=`正確拼字：${w.word}`}saveState();document.getElementById('nextQuizBtn').classList.remove('hidden')}
-function fillDetail(w){currentDetailWord=w;const d=detailFor(w),p=getProgress(w.word);document.getElementById('detailLevel').textContent=w.level===7?'進階補充':`Level ${w.level}`;document.getElementById('detailFrequency').textContent=frequencyLabel(w);document.getElementById('detailWord').textContent=w.word;document.getElementById('detailPos').textContent=(w.pos||[]).join(' / ')||'—';document.getElementById('detailMeaning').textContent=w.meaning;document.getElementById('detailExample').textContent=d.example;document.getElementById('detailCollocations').textContent=d.collocations.join(' · ')||'—';document.getElementById('detailRoot').textContent=d.root;document.getElementById('detailSynonyms').textContent=d.syn.join(' · ')||'—';document.getElementById('detailAntonyms').textContent=d.ant.join(' · ')||'—';document.getElementById('detailConfusables').textContent=d.conf.join(' · ')||'—';document.getElementById('detailStudyStatus').textContent=p?`已學習 · 上次評級：${p.grade||'—'} · 下次複習：${p.due?new Date(p.due).toLocaleDateString('zh-TW'):'—'}`:'尚未學習';document.getElementById('detailFavoriteBtn').textContent=isFavorite(w.word)?'★ 已收藏':'☆ 收藏'}
+function fillDetail(w){currentDetailWord=w;const d=detailFor(w),p=getProgress(w.word);document.getElementById('detailLevel').textContent=w.level===7?'進階補充':`Level ${w.level}`;document.getElementById('detailFrequency').textContent=frequencyLabel(w);document.getElementById('detailWord').textContent=w.word;document.getElementById('detailPos').textContent=(w.pos||[]).join(' / ')||'—';document.getElementById('detailMeaning').textContent=w.meaning;document.getElementById('detailExample').textContent=d.example;document.getElementById('detailCollocations').textContent=d.collocations.join(' · ')||'—';document.getElementById('detailRoot').textContent=d.root;document.getElementById('detailSynonyms').textContent=d.syn.join(' · ')||'—';document.getElementById('detailAntonyms').textContent=d.ant.join(' · ')||'—';document.getElementById('detailConfusables').textContent=d.conf.join(' · ')||'—';document.getElementById('detailStudyStatus').textContent=p?`已學習 · 上次評級：${p.grade||'—'} · 下次複習：${p.due?new Date(p.due).toLocaleDateString('zh-TW'):'—'}`:'尚未學習';document.getElementById('detailFavoriteBtn').textContent=isFavorite(w.word)?'★ 已收藏':'☆ 收藏';renderDetailCorpus(w)}
 function openWordDetail(w){fillDetail(w);document.getElementById('wordDetailDialog').showModal()}
 function showView(name){document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.dataset.view===name));document.querySelectorAll('.nav-item').forEach(n=>n.classList.toggle('active',n.dataset.target===name));if(name==='book')renderBook();if(name==='progress')renderProgress();if(name==='insights')renderInsights();window.scrollTo({top:0,behavior:'smooth'})}
 function syncSettingsUI(){document.getElementById('dailyGoal').value=state.settings.dailyGoal||20;document.getElementById('studyMode').value=state.settings.mode||'7000';document.getElementById('autoSpeak').checked=state.settings.autoSpeak!==false}
@@ -95,10 +95,48 @@ async function loadCorpusData(){
   try{
     const r=await fetch('./data/gsat-corpus-stats.json',{cache:'no-store'}); if(!r.ok)throw new Error('corpus');
     CORPUS_DATA=await r.json();
-  }catch(e){CORPUS_DATA={version:'1.4',years:{},summary:{papers:15,tokens:0,unique:0},words:{}}}
-  renderCorpusLab();
+  }catch(e){CORPUS_DATA={version:'1.4.1',years:{},summary:{papers:15,tokens:0,unique:0},words:{}}}
+  renderCorpusLab();if(currentDetailWord)renderDetailCorpus(currentDetailWord);
 }
 function fmtNum(n){return Number(n||0).toLocaleString('en-US')}
+const CORPUS_SECTION_NAMES={vocabulary:'詞彙題',cloze:'綜合測驗',fill:'文意選填',discourse:'篇章結構',reading:'閱讀測驗',mixed:'混合題',translation:'中譯英',writing:'英文作文'};
+function corpusIsReady(){return Number(CORPUS_DATA?.summary?.tokens||0)>0}
+function corpusWordInfo(word){return CORPUS_DATA?.words?.[normalizeWord(word)]||null}
+function recentFiveCounts(x){return [111,112,113,114,115].map(y=>Number(x?.byYear?.[String(y)]||0))}
+function recentTrend(x){
+  const counts=recentFiveCounts(x),n=counts.length,meanX=2,meanY=counts.reduce((a,b)=>a+b,0)/n;
+  let num=0,den=0;counts.forEach((y,i)=>{num+=(i-meanX)*(y-meanY);den+=(i-meanX)**2});const slope=den?num/den:0;
+  let dir='flat',label='→ 持平';if(slope>=.25){dir='up';label='↑ 上升'}else if(slope<=-.25){dir='down';label='↓ 下降'}
+  return {counts,slope,dir,label,total:counts.reduce((a,b)=>a+b,0)};
+}
+function corpusImportance(x){
+  if(!corpusIsReady())return {stars:0,score:0,label:'待建置'};
+  if(!x)return {stars:1,score:0,label:'低'};
+  const recent=recentTrend(x).total,sectionN=Object.keys(x.sections||{}).filter(k=>x.sections[k]>0).length;
+  const score=Math.min(25,(Number(x.yearCount||0)*1.15)+(Math.log2(Number(x.count||0)+1)*1.7)+(recent*1.3)+(sectionN*.9));
+  const stars=score>=18?5:score>=13?4:score>=8?3:score>=4?2:1;
+  const label=['','低','留意','重要','高頻','核心'][stars];return {stars,score:Math.round(score*10)/10,label};
+}
+function starText(n){return n?`${'★'.repeat(n)}${'☆'.repeat(5-n)}`:'待建置'}
+function renderDetailCorpus(w){
+  const status=document.getElementById('detailCorpusStatus');if(!status)return;
+  const x=corpusWordInfo(w.word),ready=corpusIsReady(),importance=corpusImportance(x),trend=recentTrend(x);
+  document.getElementById('detailCorpusCount').textContent=ready?fmtNum(x?.count||0):'—';
+  document.getElementById('detailCorpusYearCount').textContent=ready?`${x?.yearCount||0} / 15`:'—';
+  document.getElementById('detailCorpusTrend').textContent=ready?trend.label:'待建置';
+  document.getElementById('detailCorpusTrend').className=`trend-value ${ready?trend.dir:'pending'}`;
+  document.getElementById('detailCorpusImportance').textContent=starText(importance.stars);
+  document.getElementById('detailCorpusImportanceText').textContent=ready?`${importance.label} · 指數 ${importance.score}`:'完成 GitHub 語料建置後自動計算';
+  status.textContent=ready?'101–115 全卷統計':'語料待建置';status.className=`corpus-status ${ready?'ready':'pending'}`;
+  const years=document.getElementById('detailCorpusYears');
+  years.innerHTML=ready?(x?.years?.length?x.years.map(y=>`<span>${y}</span>`).join(''):'<em>101～115 全卷未偵測到此字</em>'):'<em>請先在 GitHub Actions 執行 Build GSAT corpus</em>';
+  const secs=document.getElementById('detailCorpusSections');
+  if(!ready){secs.innerHTML='<div class="corpus-empty-line">完整題型分布會在語料建置後顯示。</div>'}
+  else if(!x||!Object.keys(x.sections||{}).length){secs.innerHTML='<div class="corpus-empty-line">目前無題型分布紀錄。</div>'}
+  else{const entries=Object.entries(x.sections).filter(([,v])=>v>0).sort((a,b)=>b[1]-a[1]),max=Math.max(...entries.map(([,v])=>v));secs.innerHTML=entries.map(([k,v])=>`<div class="section-dist-row"><span>${CORPUS_SECTION_NAMES[k]||k}</span><i><b style="width:${Math.max(6,v/max*100)}%"></b></i><strong>${v}</strong></div>`).join('')}
+  const chart=document.getElementById('detailRecentTrend');
+  const max=Math.max(1,...trend.counts);chart.innerHTML=[111,112,113,114,115].map((y,i)=>`<div class="trend-col"><div class="trend-count">${ready?trend.counts[i]:'—'}</div><div class="trend-track"><i style="height:${ready?Math.max(ready&&trend.counts[i]?12:3,trend.counts[i]/max*100):3}%"></i></div><small>${y}</small></div>`).join('');
+}
 function renderCorpusLab(){
   const grid=document.getElementById('corpusYearGrid');if(!grid)return;
   const years=CORPUS_DATA?.years||{},summary=CORPUS_DATA?.summary||{};
@@ -113,9 +151,9 @@ function searchCorpusWord(){
   const q=normalizeWord(document.getElementById('corpusSearchInput')?.value||'');const box=document.getElementById('corpusSearchResult');if(!box)return;
   if(!q){box.innerHTML='<p>輸入英文單字後查詢。</p>';return}
   const x=CORPUS_DATA?.words?.[q];
-  if(x){const secNames={vocabulary:'詞彙',cloze:'綜合測驗',fill:'文意選填',discourse:'篇章結構',reading:'閱讀',mixed:'混合題',translation:'中譯英',writing:'作文'};const secs=Object.entries(x.sections||{}).sort((a,b)=>b[1]-a[1]);box.innerHTML=`<h4>${q}</h4><p>101–115 全卷共出現 <b>${x.count}</b> 次，分布於 <b>${x.yearCount}</b> 個年度。</p><div class="corpus-badges">${(x.years||[]).map(y=>`<span>${y}</span>`).join('')}</div><p>${secs.length?'題型分布：'+secs.map(([k,v])=>`${secNames[k]||k} ${v}`).join(' · '):'尚無題型分布資料'}</p>`}
+  if(x){const secs=Object.entries(x.sections||{}).sort((a,b)=>b[1]-a[1]),imp=corpusImportance(x),trend=recentTrend(x);box.innerHTML=`<h4>${q}</h4><p>101–115 全卷共出現 <b>${x.count}</b> 次，分布於 <b>${x.yearCount}</b> 個年度。</p><div class="corpus-badges">${(x.years||[]).map(y=>`<span>${y}</span>`).join('')}</div><p>${secs.length?'題型分布：'+secs.map(([k,v])=>`${CORPUS_SECTION_NAMES[k]||k} ${v}`).join(' · '):'尚無題型分布資料'}</p><p>近5年趨勢：<b>${trend.label}</b> · 真題重要度：<b>${starText(imp.stars)}</b></p>`}
   else if((CORPUS_DATA?.summary?.tokens||0)===0){box.innerHTML=`<h4>${q}</h4><p>目前 ZIP 內是來源索引版。上傳 GitHub 後執行 <b>Build GSAT corpus</b>，就會自動產生 101–115 全卷詞頻資料。</p>`}
-  else box.innerHTML=`<h4>${q}</h4><p>在目前保留的前 5,000 個內容詞統計中沒有找到此字。</p>`;
+  else box.innerHTML=`<h4>${q}</h4><p>在 101～115 完整內容詞統計中未偵測到此字。</p>`;
 }
 
 function masteryScore(word){
@@ -128,7 +166,7 @@ function masteryScore(word){
 }
 function weaknessScore(w){
   const p=getProgress(w.word), mistakes=Number(state.mistakes?.[w.word]||0), gs=GSAT_INDEX.get(w.word);
-  let score=mistakes*18 + (gs?18+gs.count*6:0);
+  const cx=corpusWordInfo(w.word),ci=corpusImportance(cx);let score=mistakes*18 + (gs?18+gs.count*6:0) + (corpusIsReady()?ci.stars*5:0);
   if(p){score+=(100-masteryScore(w.word))*.45;if(isDue(p))score+=12}else score+=8;
   if(w.level>=4&&w.level<=6)score+=6;
   if(isFavorite(w.word))score+=2;

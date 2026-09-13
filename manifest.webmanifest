@@ -1,13 +1,21 @@
 {
-  "name":"高中英文 7000 字學習系統",
-  "short_name":"高中7000字",
-  "start_url":"./",
-  "display":"standalone",
-  "background_color":"#07101f",
-  "theme_color":"#07101f",
-  "lang":"zh-Hant-TW",
-  "icons":[
-    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png"},
-    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png"}
+  "name": "高中英文 7000 字學習系統",
+  "short_name": "高中7000字",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7fafc",
+  "theme_color": "#ffffff",
+  "lang": "zh-Hant-TW",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }

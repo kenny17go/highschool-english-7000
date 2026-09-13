@@ -247,6 +247,19 @@
       <div class="detail-word-line"><div><h2 id="detailWord">word</h2><p id="detailPos">—</p></div><div class="detail-actions"><button class="secondary" id="detailSpeakBtn">🔊 發音</button><button class="favorite-btn" id="detailFavoriteBtn">☆ 收藏</button></div></div>
       <section class="detail-section"><h3>完整中文釋義</h3><p class="detail-meaning" id="detailMeaning">—</p></section>
       <section class="detail-section"><h3>高中程度例句</h3><p id="detailExample">—</p><button class="text-btn" id="detailExampleSpeak">🔊 朗讀例句</button></section>
+      <section class="detail-section corpus-intel">
+        <div class="corpus-intel-head"><div><h3>101～115 學測真題情報</h3><p>15 年全卷語料統計，與你的學習進度分開計算。</p></div><span class="corpus-status pending" id="detailCorpusStatus">語料待建置</span></div>
+        <div class="corpus-intel-kpis">
+          <div><small>歷屆出現次數</small><b id="detailCorpusCount">—</b><span>全卷內容詞</span></div>
+          <div><small>出題年份</small><b id="detailCorpusYearCount">—</b><span>出現年度數</span></div>
+          <div><small>近5年趨勢</small><b class="trend-value pending" id="detailCorpusTrend">待建置</b><span>111～115</span></div>
+          <div><small>真題重要度</small><b class="importance-stars" id="detailCorpusImportance">待建置</b><span id="detailCorpusImportanceText">—</span></div>
+        </div>
+        <div class="corpus-subblock"><h4>出題年份</h4><div class="corpus-year-badges" id="detailCorpusYears"><em>—</em></div></div>
+        <div class="corpus-subblock"><h4>題型分布</h4><div class="section-distribution" id="detailCorpusSections"></div></div>
+        <div class="corpus-subblock"><div class="trend-title"><h4>近5年升降趨勢</h4><span>年度出現次數</span></div><div class="recent-trend-chart" id="detailRecentTrend"></div></div>
+        <p class="corpus-intel-note">真題重要度綜合「15 年出現年度數、總次數、近5年密度、題型廣度」計算，★ 越多代表越值得優先熟練；它不是大考中心官方評級。</p>
+      </section>
       <div class="detail-grid detail-page-grid">
         <div class="detail-block"><span>常用搭配</span><div id="detailCollocations">—</div></div>
         <div class="detail-block"><span>字根字首</span><div id="detailRoot">—</div></div>
@@ -265,7 +278,7 @@
       <label>每日新單字<input type="number" id="dailyGoal" min="5" max="100" step="5" value="20" /></label>
       <label>學習範圍<select id="studyMode"><option value="7000">7000 完整模式</option><option value="6000">108 課綱 6000 核心</option><option value="4500">4500 核心優先</option></select></label>
       <label class="toggle"><input type="checkbox" id="autoSpeak" checked />顯示單字時自動發音</label>
-      <p class="note">版本 V1.4 · 101–115 學測語料庫 + 自適應弱點引擎</p>
+      <p class="note">版本 V1.4.1 · 單字真題情報 + 101–115 學測語料庫</p>
       <button class="primary big" id="saveSettingsBtn">儲存</button>
     </form>
   </dialog>
