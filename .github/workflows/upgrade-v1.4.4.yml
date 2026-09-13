@@ -1,0 +1,59 @@
+name: Upgrade V1.4.4 vocabulary details
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/apply_v144.py'
+      - '.github/workflows/upgrade-v1.4.4.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install WordNet tools
+        run: |
+          python3 -m pip install --disable-pip-version-check nltk
+          python3 -m nltk.downloader -q wordnet omw-1.4
+
+      - name: Apply V1.4.4 upgrade
+        run: python3 tools/apply_v144.py
+
+      - name: Check JavaScript syntax
+        run: node --check app.js
+
+      - name: Validate generated data
+        run: |
+          python3 - <<'PY'
+          import json
+
+          v=json.load(open('data/vocabulary-zh.json',encoding='utf-8'))
+          d=json.load(open('data/vocabulary-details.json',encoding='utf-8'))
+          vm={x['word']:x for x in v['words']}
+
+          assert d['version']=='1.4.4'
+          assert len(d['words']) >= 6000
+          assert vm['absence']['meaning'] not in ('','—','中文釋義待補充')
+          assert d['words']['absence']['syn']
+          assert 'presence' in d['words']['absence']['ant']
+          assert d['words']['absence']['family']
+
+          print('absence:', vm['absence']['meaning'])
+          print(d['words']['absence'])
+          print(d['summary'])
+          PY
+
+      - name: Commit V1.4.4
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app.js index.html sw.js data/vocabulary-details.json
+          git diff --cached --quiet || git commit -m "feat: upgrade vocabulary details to V1.4.4 [skip ci]"
+          git push
