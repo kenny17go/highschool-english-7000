@@ -37,7 +37,49 @@ function toggleFavorite(word){state.favorites=state.favorites||{};if(state.favor
 function isHighFreq(w){return HIGH_FREQ_WORDS.has(w.word)||(w.level>=3&&w.level<=5&&!!ENRICH[w.word])}
 function frequencyLabel(w){return isHighFreq(w)?'🔥 學測優先':'一般'}
 function parseCustomWords(){return (document.getElementById('customWords')?.value||'').toLowerCase().split(/[\s,;，、]+/).map(normalizeWord).filter(Boolean)}
-async function loadBank(){document.getElementById('bankStatus').textContent='載入字庫…';try{const [curRes,oldRes]=await Promise.all([fetch(CURRENT_URL),fetch(LEGACY_URL)]);if(!curRes.ok||!oldRes.ok)throw new Error('network');const current=await curRes.json(),legacy=parseLegacy(await oldRes.text()),currentSet=new Set();bank=current.map(x=>{const word=normalizeWord(x.Word);currentSet.add(word);const old=legacy.get(word);return {word,pos:x.PartsOfSpeech||old?.pos||[],level:Number(x.Level)||1,meaning:old?.meaning||'中文釋義待補充',source:'108'}});const extras=[];for(const [word,info] of legacy){if(!currentSet.has(word)&&extras.length<1000)extras.push({word,pos:info.pos,level:7,meaning:info.meaning,source:'legacy'})}bank.push(...extras);document.getElementById('bankStatus').textContent=`已載入 ${bank.length.toLocaleString()} 字`;}catch(e){bank=[...FALLBACK];document.getElementById('bankStatus').textContent='離線示範字庫'}renderAll()}
+async function loadBank(){
+  const status=document.getElementById('bankStatus');
+  status.textContent='載入本地中文字庫…';
+  try{
+    const localRes=await fetch(LOCAL_VOCAB_URL,{cache:'no-store'});
+    if(localRes.ok){
+      const local=await localRes.json();
+      if(Array.isArray(local.words)&&local.words.length>=6000){
+        bank=local.words.map(x=>({
+          word:normalizeWord(x.word),
+          pos:Array.isArray(x.pos)?x.pos:[],
+          level:Number(x.level)||7,
+          meaning:String(x.meaning||'—').trim()||'—',
+          source:x.source||'local'
+        }));
+        const missing=bank.filter(x=>!x.meaning||x.meaning==='—'||x.meaning.includes('待補充')).length;
+        status.textContent=`已載入 ${bank.length.toLocaleString()} 字 · 中文釋義本地版${missing?` · ${missing} 字待校正`:''}`;
+        renderAll();
+        return;
+      }
+    }
+  }catch(e){console.warn('local vocabulary unavailable',e)}
+  status.textContent='本地字庫未建置，改用線上備援…';
+  try{
+    const [curRes,oldRes]=await Promise.all([fetch(CURRENT_URL),fetch(LEGACY_URL)]);
+    if(!curRes.ok||!oldRes.ok)throw new Error('network');
+    const current=await curRes.json(),legacy=parseLegacy(await oldRes.text()),currentSet=new Set();
+    bank=current.map(x=>{
+      const word=normalizeWord(x.Word);currentSet.add(word);const old=legacy.get(word);
+      return {word,pos:x.PartsOfSpeech||old?.pos||[],level:Number(x.Level)||1,meaning:old?.meaning||'中文釋義待補充',source:'108'};
+    });
+    const extras=[];
+    for(const [word,info] of legacy){
+      if(!currentSet.has(word)&&extras.length<1000)extras.push({word,pos:info.pos,level:7,meaning:info.meaning,source:'legacy'});
+    }
+    bank.push(...extras);
+    status.textContent=`已載入 ${bank.length.toLocaleString()} 字 · 線上備援`;
+  }catch(e){
+    bank=[...FALLBACK];
+    status.textContent='離線示範字庫';
+  }
+  renderAll();
+}
 function eligibleBank(){const mode=state.settings.mode;return bank.filter(w=>mode==='7000'?true:mode==='6000'?w.level<=6:w.level<=4)}
 function getProgress(word){return state.progress[word]||null}function isDue(p){return p&&p.due&&new Date(p.due)<=new Date()}function getNewWords(n){return eligibleBank().filter(w=>!getProgress(w.word)).slice(0,n)}function getDueWords(){return eligibleBank().filter(w=>isDue(getProgress(w.word))).sort((a,b)=>new Date(getProgress(a.word).due)-new Date(getProgress(b.word).due))}
 function updateStreak(){const today=new Date().toISOString().slice(0,10);if(state.lastStudy===today)return;const y=new Date(Date.now()-86400000).toISOString().slice(0,10);state.streak=state.lastStudy===y?(state.streak||0)+1:1;state.lastStudy=today;saveState()}
