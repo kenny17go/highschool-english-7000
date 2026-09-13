@@ -6,6 +6,7 @@ on:
     paths:
       - 'tools/update_vocab.py'
       - 'tools/build_examples.py'
+      - 'data/ai-original-examples.json'
       - '.github/workflows/update-vocab.yml'
 
 permissions:
@@ -24,16 +25,6 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install example-engine dependencies
-        run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install nltk
-          python3 - <<'PY'
-          import nltk
-          nltk.download('wordnet')
-          nltk.download('omw-1.4')
-          PY
-
       - name: Check Python syntax
         run: |
           python3 -m py_compile tools/update_vocab.py tools/build_examples.py
@@ -41,7 +32,7 @@ jobs:
       - name: Update vocabulary system
         run: python3 tools/update_vocab.py
 
-      - name: Build full example engine
+      - name: Build AI-original example system
         run: python3 tools/build_examples.py
 
       - name: Check JavaScript syntax
@@ -52,29 +43,19 @@ jobs:
           python3 - <<'PY'
           import json
           e=json.load(open('data/vocabulary-examples.json',encoding='utf-8'))
-          c=json.load(open('data/vocabulary-example-candidates.json',encoding='utf-8'))
-          r=json.load(open('data/vocabulary-example-review.json',encoding='utf-8'))
-          t=json.load(open('data/vocabulary-example-translations.json',encoding='utf-8'))
           s=json.load(open('data/vocabulary-example-sources.json',encoding='utf-8'))
-          assert e.get('version') == '1.5.0'
-          assert c.get('version') == '1.5.0'
-          assert r.get('version') == '1.5.0'
-          assert t.get('version') == '1.5.0'
+          a=json.load(open('data/ai-original-examples.json',encoding='utf-8'))
+          assert e.get('version') == '1.5.1'
           assert len(e.get('words',{})) >= 6000
-          assert c.get('summary',{}).get('words',0) >= 6000
+          assert e.get('summary',{}).get('aiOriginalReady',0) > 0
           assert e['words']['absence']['status'] == 'ready'
           assert e['words']['absence']['zh']
-          assert 'qualityGrades' in e.get('summary',{})
-          assert r.get('batch',{}).get('reviewed',0) <= 500
-          assert 'approvedCandidates' in r.get('batch',{})
-          assert t.get('summary',{}).get('translated',0) == 0
-          assert 'princeton_wordnet' in s.get('sources',{})
-          assert 'words_tw_reference' in s.get('sources',{})
+          assert 'chatgpt_original' in s.get('sources',{})
+          assert a.get('version') == '1.5.1'
+          assert len(a.get('words',{})) >= 50
           print('Version:', e.get('version'))
-          print('Published summary:', e.get('summary'))
-          print('Candidate summary:', c.get('summary'))
-          print('Review batch:', r.get('batch'))
-          print('Translation queue:', t.get('summary'))
+          print('Summary:', e.get('summary'))
+          print('AI originals:', len(a.get('words',{})))
           print('Sources:', list(s.get('sources',{})))
           PY
 
@@ -83,5 +64,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add app.js index.html styles.css sw.js data/*.json tools/build_examples.py
-          git diff --cached --quiet || git commit -m "data: build V1.5.0 review and translation batch"
+          git diff --cached --quiet || git commit -m "data: build V1.5.1 AI-original examples"
           git push
