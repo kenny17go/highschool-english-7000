@@ -59,7 +59,14 @@
         <button class="speak-btn" id="speakBtn">🔊 聽發音</button>
         <div class="answer-area hidden" id="answerArea">
           <div class="meaning" id="wordMeaning">—</div>
-          <div class="example" id="wordExample">—</div>
+          <div class="detail-grid">
+            <div class="detail-block"><span>高中例句</span><div class="example" id="wordExample">—</div></div>
+            <div class="detail-block"><span>常用搭配</span><div id="wordCollocations">—</div></div>
+            <div class="detail-block"><span>字根字首</span><div id="wordRoot">—</div></div>
+            <div class="detail-block"><span>同義字</span><div id="wordSynonyms">—</div></div>
+            <div class="detail-block"><span>反義字</span><div id="wordAntonyms">—</div></div>
+            <div class="detail-block"><span>易混淆字</span><div id="wordConfusables">—</div></div>
+          </div>
           <div class="hint" id="wordHint"></div>
         </div>
       </article>
@@ -74,17 +81,26 @@
     </section>
 
     <section class="view" data-view="quiz">
-      <div class="section-title"><h2>測驗</h2><span>英 → 中</span></div>
+      <div class="section-title"><h2>測驗</h2><span id="quizModeLabel">段考模式</span></div>
+      <div class="mode-tabs" id="examModeTabs">
+        <button class="mode-tab active" data-exam="regular">段考模式</button>
+        <button class="mode-tab" data-exam="gsat">學測模式</button>
+      </div>
+      <div class="exam-desc" id="examDesc">段考模式：中英互譯、精準字義、拼字與課內型單字題。</div>
       <div class="quiz-setup" id="quizSetup">
+        <label>題型<select id="quizType"><option value="mixed">綜合</option><option value="en-zh">英 → 中</option><option value="zh-en">中 → 英</option><option value="spelling">拼字</option><option value="cloze">克漏字</option></select></label>
         <label>題數<select id="quizCount"><option>10</option><option>20</option><option>30</option></select></label>
         <label>範圍<select id="quizScope"><option value="all">全部</option><option value="learned">已學過</option><option value="mistakes">錯題</option><option value="1">Level 1</option><option value="2">Level 2</option><option value="3">Level 3</option><option value="4">Level 4</option><option value="5">Level 5</option><option value="6">Level 6</option><option value="7">進階補充</option></select></label>
         <button class="primary big" id="beginQuizBtn">開始測驗</button>
       </div>
       <div class="quiz-area hidden" id="quizArea">
         <div class="quiz-top"><span id="quizIndex">1/10</span><span id="quizScore">0 分</span></div>
+        <div class="question-type" id="questionType">單字題</div>
         <h2 id="quizWord">word</h2>
+        <p class="quiz-context" id="quizContext"></p>
         <button class="speak-btn" id="quizSpeakBtn">🔊</button>
         <div class="options" id="quizOptions"></div>
+        <div class="spelling-box hidden" id="spellingBox"><input id="spellingInput" autocomplete="off" autocapitalize="none" placeholder="輸入英文拼字"/><button class="primary" id="submitSpellingBtn">送出</button></div>
         <div class="quiz-feedback" id="quizFeedback"></div>
         <button class="primary hidden" id="nextQuizBtn">下一題</button>
       </div>
@@ -122,7 +138,7 @@
       <label>每日新單字<input type="number" id="dailyGoal" min="5" max="100" step="5" value="20" /></label>
       <label>學習範圍<select id="studyMode"><option value="7000">7000 完整模式</option><option value="6000">108 課綱 6000 核心</option><option value="4500">4500 核心優先</option></select></label>
       <label class="toggle"><input type="checkbox" id="autoSpeak" checked />顯示單字時自動發音</label>
-      <p class="note">版本 V1.0 · 108 課綱 Level 1–6 + 進階補充層</p>
+      <p class="note">版本 V1.1 · 深度單字卡 + 段考／學測雙模式</p>
       <button class="primary big" id="saveSettingsBtn">儲存</button>
     </form>
   </dialog>
