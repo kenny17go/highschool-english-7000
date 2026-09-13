@@ -2,7 +2,7 @@ const CURRENT_URL='https://raw.githubusercontent.com/EngTW/English-for-Programme
 const LEGACY_URL='https://raw.githubusercontent.com/mahavivo/english-wordlists/master/%E5%8F%B0%E7%81%A3%E9%AB%98%E4%B8%AD%E8%8B%B1%E6%96%87%E5%8F%83%E8%80%83%E8%A9%9E%E5%BD%99%E8%A1%A8.txt';
 const LOCAL_VOCAB_URL='data/vocabulary-zh.json?v=1.4.4';
 const DETAILS_URL='data/vocabulary-details.json?v=1.4.5';
-const EXAMPLES_URL='data/vocabulary-examples.json?v=1.4.9';
+const EXAMPLES_URL='data/vocabulary-examples.json?v=1.5.0';
 let WORD_DETAILS={};
 let WORD_EXAMPLES={};
 const STORAGE_KEY='hs7000-v1';
@@ -43,7 +43,7 @@ function isHighFreq(w){return HIGH_FREQ_WORDS.has(w.word)||(w.level>=3&&w.level<
 function frequencyLabel(w){return isHighFreq(w)?'🔥 學測優先':'一般'}
 function parseCustomWords(){return (document.getElementById('customWords')?.value||'').toLowerCase().split(/[\s,;，、]+/).map(normalizeWord).filter(Boolean)}
 
-async function loadWordExamples(){try{const r=await fetch(EXAMPLES_URL,{cache:'no-store'});if(!r.ok)throw new Error('examples '+r.status);const x=await r.json();WORD_EXAMPLES=x.words||{};console.info('V1.4.9 examples loaded',Object.keys(WORD_EXAMPLES).length);if(bank.length)renderAll();}catch(e){console.warn('word examples unavailable',e)}}
+async function loadWordExamples(){try{const r=await fetch(EXAMPLES_URL,{cache:'no-store'});if(!r.ok)throw new Error('examples '+r.status);const x=await r.json();WORD_EXAMPLES=x.words||{};console.info('V1.5.0 examples loaded',Object.keys(WORD_EXAMPLES).length);if(bank.length)renderAll();}catch(e){console.warn('word examples unavailable',e)}}
 async function loadWordDetails(){try{const r=await fetch(DETAILS_URL,{cache:'no-store'});if(!r.ok)throw new Error('details '+r.status);const x=await r.json();WORD_DETAILS=x.words||{};console.info('V1.4.4 details loaded',Object.keys(WORD_DETAILS).length);if(bank.length)renderAll();}catch(e){console.warn('word details unavailable',e)}}
 async function loadBank(){
   const status=document.getElementById('bankStatus');
