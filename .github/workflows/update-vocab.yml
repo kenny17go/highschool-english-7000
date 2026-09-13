@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'tools/update_vocab.py'
       - 'tools/build_examples.py'
       - 'data/ai-original-examples.json'
       - '.github/workflows/update-vocab.yml'
@@ -26,11 +25,7 @@ jobs:
           python-version: '3.12'
 
       - name: Check Python syntax
-        run: |
-          python3 -m py_compile tools/update_vocab.py tools/build_examples.py
-
-      - name: Update vocabulary system
-        run: python3 tools/update_vocab.py
+        run: python3 -m py_compile tools/build_examples.py
 
       - name: Build AI-original example system
         run: python3 tools/build_examples.py
