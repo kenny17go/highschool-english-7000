@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1220" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="高中7000字" />
+  <title>高中英文 7000 字學習系統</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">高中英文 × 學測</div>
+      <h1>7000 字學習系統</h1>
+    </div>
+    <button class="icon-btn" id="settingsBtn" aria-label="設定">⚙︎</button>
+  </header>
+
+  <main id="app" class="app-shell">
+    <section class="view active" data-view="home">
+      <div class="hero-card">
+        <div>
+          <span class="pill">今日任務</span>
+          <h2>每天 20 字，穩定累積</h2>
+          <p id="todaySummary">載入字庫中…</p>
+        </div>
+        <div class="ring" id="todayRing"><span id="todayPct">0%</span></div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat"><span>已學</span><b id="learnedCount">0</b><small>字</small></div>
+        <div class="stat"><span>待複習</span><b id="reviewCount">0</b><small>字</small></div>
+        <div class="stat"><span>連續</span><b id="streakCount">0</b><small>天</small></div>
+        <div class="stat"><span>正確率</span><b id="accuracyCount">—</b><small></small></div>
+      </div>
+
+      <button class="primary big" id="startTodayBtn">開始今日 20 字</button>
+      <button class="secondary big" id="startReviewBtn">先複習到期單字</button>
+
+      <div class="section-title"><h3>學習路線</h3><span id="bankStatus">準備中</span></div>
+      <div class="level-list" id="levelList"></div>
+    </section>
+
+    <section class="view" data-view="learn">
+      <div class="learn-head">
+        <button class="text-btn" id="exitLearnBtn">← 返回</button>
+        <div class="progress-wrap"><div class="progress-bar" id="sessionProgress"></div></div>
+        <span id="sessionCounter">0/0</span>
+      </div>
+
+      <article class="word-card" id="wordCard">
+        <div class="word-meta"><span id="wordLevel">Level 1</span><span id="wordPos">—</span></div>
+        <h2 id="wordText">ready</h2>
+        <button class="speak-btn" id="speakBtn">🔊 聽發音</button>
+        <div class="answer-area hidden" id="answerArea">
+          <div class="meaning" id="wordMeaning">—</div>
+          <div class="example" id="wordExample">—</div>
+          <div class="hint" id="wordHint"></div>
+        </div>
+      </article>
+
+      <button class="primary big" id="showAnswerBtn">顯示答案</button>
+      <div class="rating-grid hidden" id="ratingGrid">
+        <button data-grade="again" class="rate again">忘記了<small>很快再看</small></button>
+        <button data-grade="hard" class="rate hard">有點難<small>1 天後</small></button>
+        <button data-grade="good" class="rate good">記得<small>3 天後</small></button>
+        <button data-grade="easy" class="rate easy">很熟<small>7 天後</small></button>
+      </div>
+    </section>
+
+    <section class="view" data-view="quiz">
+      <div class="section-title"><h2>測驗</h2><span>英 → 中</span></div>
+      <div class="quiz-setup" id="quizSetup">
+        <label>題數<select id="quizCount"><option>10</option><option>20</option><option>30</option></select></label>
+        <label>範圍<select id="quizScope"><option value="all">全部</option><option value="learned">已學過</option><option value="mistakes">錯題</option><option value="1">Level 1</option><option value="2">Level 2</option><option value="3">Level 3</option><option value="4">Level 4</option><option value="5">Level 5</option><option value="6">Level 6</option><option value="7">進階補充</option></select></label>
+        <button class="primary big" id="beginQuizBtn">開始測驗</button>
+      </div>
+      <div class="quiz-area hidden" id="quizArea">
+        <div class="quiz-top"><span id="quizIndex">1/10</span><span id="quizScore">0 分</span></div>
+        <h2 id="quizWord">word</h2>
+        <button class="speak-btn" id="quizSpeakBtn">🔊</button>
+        <div class="options" id="quizOptions"></div>
+        <div class="quiz-feedback" id="quizFeedback"></div>
+        <button class="primary hidden" id="nextQuizBtn">下一題</button>
+      </div>
+    </section>
+
+    <section class="view" data-view="book">
+      <div class="section-title"><h2>字庫</h2><span id="bookCount">0 字</span></div>
+      <div class="search-row">
+        <input id="searchInput" type="search" placeholder="搜尋英文單字或中文意思" />
+        <select id="bookLevel"><option value="all">全部</option><option value="1">L1</option><option value="2">L2</option><option value="3">L3</option><option value="4">L4</option><option value="5">L5</option><option value="6">L6</option><option value="7">進階</option></select>
+      </div>
+      <div class="word-list" id="wordList"></div>
+    </section>
+
+    <section class="view" data-view="progress">
+      <div class="section-title"><h2>學習進度</h2><span>本機保存</span></div>
+      <div class="dashboard-card"><h3>整體進度</h3><div class="big-number"><span id="overallLearned">0</span><small> / <span id="overallTotal">0</span> 字</small></div><div class="progress-track"><div id="overallBar"></div></div></div>
+      <div id="levelProgress" class="level-progress"></div>
+      <div class="dashboard-card"><h3>錯題本</h3><p id="mistakeSummary">目前沒有錯題。</p><button class="secondary" id="practiceMistakesBtn">練習錯題</button></div>
+      <div class="dashboard-card"><h3>資料管理</h3><p>學習紀錄存在這台裝置的瀏覽器。</p><div class="data-actions"><button class="secondary" id="exportBtn">匯出紀錄</button><label class="secondary file-label">匯入紀錄<input type="file" id="importInput" accept="application/json" hidden /></label><button class="danger" id="resetBtn">清除進度</button></div></div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="主要功能">
+    <button class="nav-item active" data-target="home"><span>⌂</span><small>首頁</small></button>
+    <button class="nav-item" data-target="learn"><span>◫</span><small>學習</small></button>
+    <button class="nav-item" data-target="quiz"><span>✓</span><small>測驗</small></button>
+    <button class="nav-item" data-target="book"><span>☰</span><small>字庫</small></button>
+    <button class="nav-item" data-target="progress"><span>◔</span><small>進度</small></button>
+  </nav>
+
+  <dialog id="settingsDialog">
+    <form method="dialog" class="settings-card">
+      <div class="section-title"><h2>設定</h2><button class="icon-btn">✕</button></div>
+      <label>每日新單字<input type="number" id="dailyGoal" min="5" max="100" step="5" value="20" /></label>
+      <label>學習範圍<select id="studyMode"><option value="7000">7000 完整模式</option><option value="6000">108 課綱 6000 核心</option><option value="4500">4500 核心優先</option></select></label>
+      <label class="toggle"><input type="checkbox" id="autoSpeak" checked />顯示單字時自動發音</label>
+      <p class="note">版本 V1.0 · 108 課綱 Level 1–6 + 進階補充層</p>
+      <button class="primary big" id="saveSettingsBtn">儲存</button>
+    </form>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
