@@ -84,15 +84,15 @@ def main():
                 by_section[sec].update(sc); sec_stats[sec]={'tokens':sum(sc.values()),'unique':len(sc)}
             yearly[str(year)]={'source':url,'tokens':len(content),'unique':len(c),'sections':sec_stats,'status':'tokenized'}
     words={}
-    for w,count in agg.most_common(5000):
+    for w,count in agg.most_common():
         years=sorted(word_years[w]); words[w]={
           'count':count,'yearCount':len(years),'years':years,
           'byYear':{str(y):by_year[y][w] for y in years},
           'sections':{s:c[w] for s,c in by_section.items() if c[w]}
         }
-    data={'version':'1.4','range':[101,115],'generatedAt':__import__('datetime').datetime.utcnow().isoformat()+'Z','years':yearly,
+    data={'version':'1.4.1','range':[101,115],'generatedAt':__import__('datetime').datetime.utcnow().isoformat()+'Z','years':yearly,
           'summary':{'papers':len(yearly),'tokens':sum(x['tokens'] for x in yearly.values()),'unique':len(agg)},'words':words,
-          'method':'Official CEEC PDFs -> pdftotext -> English word tokenization; stop words excluded from content-word frequency. Full exam text is not stored.'}
+          'method':'Official CEEC PDFs -> pdftotext -> English word tokenization; stop words excluded from content-word frequency. All observed content-word types are retained as derived statistics; full exam text is not stored.'}
     out.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),'utf-8')
     print('wrote',out, out.stat().st_size)
 if __name__=='__main__': main()
