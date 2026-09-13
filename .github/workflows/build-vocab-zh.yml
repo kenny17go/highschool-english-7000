@@ -1,0 +1,56 @@
+name: Build vocabulary meanings
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/build_vocab_zh.py'
+      - '.github/workflows/build-vocab-zh.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  vocabulary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Traditional Chinese converter
+        run: python3 -m pip install --disable-pip-version-check opencc-python-reimplemented
+
+      - name: Build local Traditional Chinese vocabulary bank
+        run: python3 tools/build_vocab_zh.py
+
+      - name: Validate Chinese meanings
+        run: |
+          python3 - <<'PY'
+          import json
+          with open('data/vocabulary-zh.json', encoding='utf-8') as f:
+              x=json.load(f)
+
+          s=x['summary']
+          assert x['version']=='1.4.3'
+          assert x['language']=='zh-Hant-TW'
+          assert s['words'] >= 6500, s
+          assert s['current108'] >= 6000, s
+          assert s['coverage'] >= 0.995, s
+          assert s['missingMeaning'] <= 35, s
+
+          words={w['word']:w for w in x['words']}
+          for key in ('ability','abandon','academic','achieve','environment','significant'):
+              assert key in words
+              assert words[key]['meaning'] not in ('','—','中文釋義待補充')
+
+          print(s)
+          PY
+
+      - name: Commit generated local vocabulary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/vocabulary-zh.json
+          git diff --cached --quiet || git commit -m "data: build Traditional Chinese meanings v1.4.3 [skip ci]"
+          git push
