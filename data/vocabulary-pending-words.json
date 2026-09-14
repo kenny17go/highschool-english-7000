@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T14:41:29.754696Z",
-  "count": 1056,
+  "generatedAt": "2026-09-14T14:51:15.565384Z",
+  "count": 1006,
   "words": [
     {
       "word": "alcoholic",
@@ -229,76 +229,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "joke",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "jolly",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "joy",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "joyous",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "judgement",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "judicial",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "jug",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "juicy",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "jungle",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "junk",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "kangaroo",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "keeper",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ketchup",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "kettle",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "kidnap",
       "level": 5,
       "reason": "awaiting_ai_original"
@@ -334,132 +264,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "mass",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mate",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "merchant",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mercy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mere",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "merge",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "merit",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mermaid",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "merry",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mess",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "messenger",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "messy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "metal",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "metaphor",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "meter",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "metro",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "metropolitan",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "microphone",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "microscope",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "microwave",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "midnight",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "midst",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "missile",
       "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "mistress",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mourn",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mournful",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
@@ -489,21 +299,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "muscle",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "muscular",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mustache",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "naked",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -524,48 +319,13 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "occupation",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "occurrence",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "octopus",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "odds",
       "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "odor",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "outlaw",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "p.m.",
       "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pharmacist",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pharmacy",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -716,16 +476,6 @@
     {
       "word": "poisonous",
       "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "policeman",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "political",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
