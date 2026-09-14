@@ -1,0 +1,29 @@
+{
+  "version": "1.5.1",
+  "batch": "68",
+  "language": "zh-Hant-TW",
+  "policy": {
+    "source": "ChatGPT original",
+    "copiedFromCommercialDictionary": false,
+    "preferredLength": "8-22 words",
+    "mode": "exact-pending-final-cleanup",
+    "shard": 2
+  },
+  "words": {
+    "scorn": {"en": "The character responds with scorn when the dishonest plan is revealed.", "zh": "當不誠實的計畫被揭露時，這個角色以輕蔑的態度回應。"},
+    "scream": {"en": "A sudden scream in the play signals that something unexpected happened.", "zh": "戲劇中的一聲突然尖叫表示發生了意外的事情。"},
+    "shave": {"en": "Some actors shave for a role when the costume design requires it.", "zh": "有些演員會因角色造型需要而刮除鬍鬚。"},
+    "shaver": {"en": "The museum displays an early electric shaver as an example of household technology.", "zh": "博物館展示早期電動刮鬍刀，作為家用科技的例子。"},
+    "skin": {"en": "The biology lesson explains how skin helps protect the human body.", "zh": "生物課說明皮膚如何協助保護人體。"},
+    "stutter": {"en": "The teacher explains that a stutter can affect the flow of speech.", "zh": "老師說明口吃可能會影響說話的流暢度。"},
+    "stylish": {"en": "The designer created a stylish poster using simple shapes and clear type.", "zh": "設計師運用簡單圖形與清楚字體製作了一張有型的海報。"},
+    "torch": {"en": "The guide carried a torch to light the dark cave path.", "zh": "導覽員帶著手電筒照亮昏暗的洞穴步道。"},
+    "traitor": {"en": "The history text explains why the leader was later called a traitor.", "zh": "歷史課文說明了這位領袖後來為何被稱為叛徒。"},
+    "uprising": {"en": "The museum exhibit describes an uprising that changed the country's political history.", "zh": "博物館展覽描述了一場改變該國政治歷史的起義。"},
+    "vice": {"en": "The essay examines greed as a vice that can weaken judgment.", "zh": "這篇文章把貪婪視為可能削弱判斷力的一種惡習。"},
+    "vicious": {"en": "The editor removed a vicious personal attack from the school article.", "zh": "編輯從校刊文章中刪除了一段惡毒的人身攻擊。"},
+    "mr.": {"en": "The form asks whether the title mr. should appear before the name.", "zh": "這份表格詢問姓名前是否要加上 mr. 這個稱謂。"},
+    "mrs.": {"en": "The guide explains when mrs. is traditionally used as a title.", "zh": "這份指南說明 mrs. 傳統上何時作為稱謂使用。"},
+    "ms.": {"en": "The handbook notes that ms. can be used without stating marital status.", "zh": "手冊指出 ms. 可在不說明婚姻狀態的情況下使用。"}
+  }
+}
