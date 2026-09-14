@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T15:07:17.753555Z",
-  "count": 725,
+  "generatedAt": "2026-09-14T15:19:04.034514Z",
+  "count": 675,
   "words": [
     {
       "word": "alcoholic",
@@ -1204,27 +1204,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "caress",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "cavalry",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ceasefire",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "check-in",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "check-out",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1249,27 +1229,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "christianity",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "churchyard",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "citizen'",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cleanse",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "clergyman",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1304,21 +1264,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "conformity",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "confucius",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "congressional",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "contemptible",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -1349,172 +1294,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "damages",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "darken",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "darkroom",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dart",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "daybreak",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "daydream",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "daylight",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "deal n",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "dearly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "decease",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "december",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "decency",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deception",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deceptive",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "decree",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deduction",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deliberately",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deliberation",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "delicacy",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "delinquent",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "demo",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "demon",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "denomination",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deport",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "depreciate",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "descendant",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "designate",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "despairing",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "devalue",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "devastating",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deviation",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "devoted",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diehard",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "differential",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1674,31 +1459,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "instantly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "institutional",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "insulting",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "integral",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "intelligible",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "intercept",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -1715,16 +1475,6 @@
     },
     {
       "word": "intriguing adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "investor",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "invisible",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
