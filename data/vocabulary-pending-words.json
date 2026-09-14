@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T14:39:19.355831Z",
-  "count": 1063,
+  "generatedAt": "2026-09-14T14:40:04.051828Z",
+  "count": 1062,
   "words": [
     {
       "word": "alcoholic",
@@ -1820,11 +1820,6 @@
     },
     {
       "word": "wine",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wound",
       "level": 2,
       "reason": "awaiting_ai_original"
     },
