@@ -1,0 +1,34 @@
+{
+  "version": "1.5.1",
+  "batch": "66",
+  "language": "zh-Hant-TW",
+  "policy": {
+    "source": "ChatGPT original",
+    "copiedFromCommercialDictionary": false,
+    "preferredLength": "8-22 words",
+    "mode": "exact-pending-final-cleanup",
+    "shard": 1
+  },
+  "words": {
+    "beckon": {"en": "The guide used a small hand signal to beckon the group forward.", "zh": "導遊用一個小手勢示意大家向前。"},
+    "biblical": {"en": "The museum displayed a biblical manuscript beside other ancient religious texts.", "zh": "博物館將一份聖經相關手稿與其他古代宗教文獻一同展出。"},
+    "bikini": {"en": "The clothing store placed a bikini beside other summer swimwear in the window.", "zh": "服飾店把一件比基尼和其他夏季泳裝一起陳列在櫥窗裡。"},
+    "billionaire": {"en": "The article described how a billionaire funded several public science projects.", "zh": "那篇文章描述一名億萬富翁如何資助數個公共科學計畫。"},
+    "binomial": {"en": "In algebra class, we learned how to expand a binomial expression carefully.", "zh": "代數課上，我們學習如何仔細展開二項式。"},
+    "biochemistry": {"en": "Her interest in cells eventually led her to study biochemistry at university.", "zh": "她對細胞的興趣最後讓她在大學研讀生物化學。"},
+    "bishop": {"en": "The bishop spoke at the cathedral during a public cultural ceremony.", "zh": "主教在大教堂的一場公開文化儀式中致詞。"},
+    "bunk": {"en": "The campers stored their bags beneath the lower bunk before dinner.", "zh": "露營者在晚餐前把行李放在下層床位下面。"},
+    "bunker": {"en": "The museum preserved an old bunker as part of its history exhibit.", "zh": "博物館保存了一座舊碉堡，作為歷史展覽的一部分。"},
+    "contemptible": {"en": "The novel portrays the dishonest official as a contemptible character.", "zh": "小說把那名不誠實的官員描寫成一個卑劣的角色。"},
+    "comer": {"en": "The young pianist is a comer in the local music scene.", "zh": "這位年輕鋼琴家是當地樂壇備受看好的後起之秀。"},
+    "demon": {"en": "The fantasy novel describes a demon guarding an imaginary underground gate.", "zh": "這本奇幻小說描述一個惡魔守著虛構的地下入口。"},
+    "hairdo": {"en": "The actor wore a different hairdo for the historical stage performance.", "zh": "那名演員為歷史舞台劇換了不同的髮型。"},
+    "hairstyle": {"en": "The costume designer chose a simple hairstyle that matched the period setting.", "zh": "服裝設計師選了一種符合時代背景的簡單髮型。"},
+    "intercept": {"en": "The defender managed to intercept the pass before it reached the striker.", "zh": "後衛成功攔截傳球，沒有讓球到達前鋒。"},
+    "interchangeable": {"en": "These two parts are interchangeable, so either one fits the device.", "zh": "這兩個零件可以互換，因此任何一個都能裝在這個裝置上。"},
+    "lama": {"en": "The lama explained the monastery's history to visitors during the cultural tour.", "zh": "喇嘛在文化導覽中向訪客介紹寺院的歷史。"},
+    "malaria": {"en": "Researchers study malaria to understand how the disease spreads in tropical regions.", "zh": "研究人員研究瘧疾，以了解這種疾病如何在熱帶地區傳播。"},
+    "malicious": {"en": "The school warned students not to open links from malicious messages.", "zh": "學校提醒學生不要開啟惡意訊息中的連結。"},
+    "parking": {"en": "The library provides bicycle parking near the main entrance for visitors.", "zh": "圖書館在主要入口附近提供訪客自行車停放區。"}
+  }
+}
