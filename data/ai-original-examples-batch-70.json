@@ -1,0 +1,33 @@
+{
+  "version": "1.5.1",
+  "batch": "70",
+  "language": "zh-Hant-TW",
+  "policy": {
+    "source": "ChatGPT original",
+    "copiedFromCommercialDictionary": false,
+    "preferredLength": "8-22 words",
+    "mode": "exact-pending-final-safe-academic-cleanup"
+  },
+  "words": {
+    "café": {"en": "We met at a quiet café near the station after class.", "zh": "下課後，我們在車站附近一間安靜的咖啡館見面。"},
+    "blaze": {"en": "The news report described a blaze that firefighters quickly brought under control.", "zh": "新聞報導描述了一場迅速被消防人員控制住的大火。"},
+    "coffin": {"en": "The museum displayed an ancient coffin as part of its history exhibition.", "zh": "博物館在歷史展覽中展示了一具古代棺木。"},
+    "riot": {"en": "The history class examined how a riot affected the city's public life.", "zh": "歷史課探討了一場暴動如何影響城市的公共生活。"},
+    "slave": {"en": "The textbook explains how a slave was denied basic freedom in many past societies.", "zh": "課本說明在許多過去的社會中，奴隸被剝奪基本自由。"},
+    "slavery": {"en": "The class studied slavery as an important issue in modern world history.", "zh": "全班把奴隸制度作為近代世界史的重要議題來學習。"},
+    "sober": {"en": "The article uses a sober tone when discussing the serious economic problem.", "zh": "這篇文章以嚴肅冷靜的語氣討論這項重要的經濟問題。"},
+    "starvation": {"en": "The documentary explains how crop failure can increase the risk of starvation.", "zh": "這部紀錄片說明農作物歉收如何提高飢荒的風險。"},
+    "starve": {"en": "Wild animals may starve when their natural food sources disappear for long periods.", "zh": "當天然食物來源長期消失時，野生動物可能會挨餓。"},
+    "toxic": {"en": "The science lesson explains why toxic materials require careful professional handling.", "zh": "自然科課程說明為何有毒物質需要由專業人員謹慎處理。"},
+    "underwear": {"en": "The travel checklist reminds students to pack enough underwear for the entire trip.", "zh": "旅行清單提醒學生為整趟旅程準備足夠的內衣褲。"},
+    "battlefield": {"en": "The historian used old maps to explain changes around the battlefield.", "zh": "歷史學家利用舊地圖說明戰場周邊的變化。"},
+    "besiege": {"en": "The history text describes how armies would besiege fortified cities in earlier centuries.", "zh": "歷史課文描述早期幾個世紀軍隊如何圍困設防的城市。"},
+    "brigade": {"en": "The museum exhibit explains the role of a brigade in military organization.", "zh": "博物館展覽說明旅級單位在軍事組織中的角色。"},
+    "brutality": {"en": "The documentary discusses the brutality of war without showing graphic images.", "zh": "這部紀錄片討論戰爭的殘酷性，但沒有呈現血腥畫面。"},
+    "childbirth": {"en": "The health textbook introduces childbirth as part of basic human biology.", "zh": "健康課本把分娩作為基礎人體生物學的一部分來介紹。"},
+    "color-blind": {"en": "The design team tested whether the chart remained clear for color-blind readers.", "zh": "設計團隊測試圖表對色盲讀者而言是否仍然清楚。"},
+    "counterattack": {"en": "The history lesson mentioned a counterattack while explaining the course of the battle.", "zh": "歷史課在說明戰役進程時提到了一次反攻。"},
+    "militant": {"en": "The article uses militant as a historical term in its discussion of political movements.", "zh": "這篇文章在討論政治運動時，把 militant 當作歷史用語使用。"},
+    "warship": {"en": "The maritime museum displays a model warship from an earlier period of history.", "zh": "海事博物館展示了一艘早期歷史時期軍艦的模型。"}
+  }
+}
