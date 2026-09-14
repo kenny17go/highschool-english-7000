@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T12:43:47.521244Z",
-  "count": 2163,
+  "generatedAt": "2026-09-14T12:44:24.337894Z",
+  "count": 2113,
   "words": [
     {
       "word": "alcoholic",
@@ -1909,167 +1909,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "slip",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slipper",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slippery",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slogan",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slope",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sloppy",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slot",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slow",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slum",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slump",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sly",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "smart",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "smog",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "smoke",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "smooth",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "smuggle",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "snack",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "snail",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "snake",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "snap",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "snatch",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sneak",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sneaker",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sneaky",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sneeze",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sniff",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "snore",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "snow",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "snowy",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "so",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "soak",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "soap",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "soar",
       "level": 5,
       "reason": "awaiting_ai_original"
     },
@@ -2081,41 +1926,6 @@
     {
       "word": "sober",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "soccer",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sociable",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "socialism",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "socialist",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "socialize",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sociology",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sock",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
@@ -2549,68 +2359,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "sponsor",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sponsorship",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "spoon",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sport",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sportsman",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sportsmanship",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sportswoman",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "spot",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "spotlight",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "spouse",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "spray",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "spread",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "spring",
-      "level": 1,
       "reason": "awaiting_ai_original"
     },
     {
