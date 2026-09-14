@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T15:21:35.639101Z",
-  "count": 569,
+  "generatedAt": "2026-09-14T15:27:05.162524Z",
+  "count": 543,
   "words": [
     {
       "word": "alcoholic",
@@ -329,126 +329,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "physician",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "picnic",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pie",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pier",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pig",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pigeon",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pile",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pilgrim",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pill",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pillar",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pillow",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pilot",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pimple",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pin",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pinch",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pine",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pineapple",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pink",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pint",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pioneer",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pipe",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pipeline",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pirate",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pit",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "poison",
       "level": 2,
       "reason": "awaiting_ai_original"
@@ -456,16 +336,6 @@
     {
       "word": "poisonous",
       "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prescribe",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prescription",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
