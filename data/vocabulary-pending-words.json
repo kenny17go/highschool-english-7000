@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T15:06:35.808142Z",
-  "count": 775,
+  "generatedAt": "2026-09-14T15:07:17.753555Z",
+  "count": 725,
   "words": [
     {
       "word": "alcoholic",
@@ -2049,36 +2049,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "meaningless",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "measles",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mechanics",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "meek",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mellow",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "memo",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "men n.",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -2094,57 +2064,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "metaphysical",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mileage",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "militant",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "milligram",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "miraculously",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "misbehave",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "misconduct",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mishap",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "misunderstanding",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "modem",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "momentary",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2159,26 +2079,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "motif",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "movable",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mutton",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mythology",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "naive adj.",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -2189,117 +2089,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "negotiable",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "newcomer",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "newlywed",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "newscaster",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nightingale",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nineteen",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ninety",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nitrogen",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nobility",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nominal",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nonetheless",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "notably",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "noteworthy",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "noun",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "novelty",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "november",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nuisance",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "numerical",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "obituary",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "oblong",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "observant",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "observatory",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "obsession",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2315,41 +2110,6 @@
     },
     {
       "word": "ointment",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "omen",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ominous",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "onset",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "optical",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ordering",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ordinance",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ordinarily",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2370,16 +2130,6 @@
     },
     {
       "word": "overnight ad",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "oxidation",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pact",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
