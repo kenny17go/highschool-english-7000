@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T01:59:42.418788Z",
-  "count": 4513,
+  "generatedAt": "2026-09-14T02:54:12.201055Z",
+  "count": 4408,
   "words": [
     {
       "word": "alcoholic",
@@ -114,97 +114,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "childish",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chili",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chill",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chilly",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "china",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chirp",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "choke",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cholesterol",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chord",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chore",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "chubby",
       "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "chunk",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "cigar",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "circuit",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "circular",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "citizenship",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "civilize",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "clam",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "clasp",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
@@ -244,331 +159,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "commonwealth",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "communism",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "communist",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "comrade",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "confederation",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "congress",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "congressman",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "congresswoman",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conquer",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conquest",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conscience",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conscientious",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conscious",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "consent",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "consequent",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conservation",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conservative",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "considerate",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "consideration",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "consolation",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "console",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "consonant",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conspiracy",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "constitution",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "constitutional",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "constructive",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "consultant",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "consultation",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "consume",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "consumer",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "consumption",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "contagious",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "contempt",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "contend",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "contention",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "contentment",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "contestant",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "continent",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "continental",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "continual",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "continuity",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "continuous",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "contractor",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "contradiction",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "contrary",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "contribution",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "controller",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "convenience",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "convention",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "converse",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conversion",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "convict",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conviction",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "convince",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cooker",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cookie",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cooperative",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cop",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cope",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "copper",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "copyright",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "coral",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cord",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "corn",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "corporate",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "corporation",
       "level": 5,
       "reason": "awaiting_ai_original"
@@ -584,33 +174,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "correspondence",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "correspondent",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "corridor",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "corrupt",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "corruption",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cosmetic",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -629,11 +194,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "cottage",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "couch",
       "level": 1,
       "reason": "awaiting_ai_original"
@@ -641,11 +201,6 @@
     {
       "word": "cough",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "counsel",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -661,11 +216,6 @@
     {
       "word": "counter",
       "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "counterpart",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -694,11 +244,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "courtesy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "courtyard",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -709,18 +254,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "coverage",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "cow",
       "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "coward",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -764,11 +299,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "craft",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "cram",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -779,11 +309,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "crane",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "crash",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -791,11 +316,6 @@
     {
       "word": "crater",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "crawl",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -819,11 +339,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "creativity",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "creator",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -839,22 +354,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "creek",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "creep",
       "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "crew",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cricket",
       "level": 3,
       "reason": "awaiting_ai_original"
     },
@@ -874,33 +379,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "critic",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "critical",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "criticism",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "crocodile",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "crossing",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "crow",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
@@ -18915,11 +18395,6 @@
     },
     {
       "word": "cosmopolitan",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cosmos",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
