@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T16:07:54.369633Z",
-  "count": 264,
+  "generatedAt": "2026-09-14T16:08:21.067219Z",
+  "count": 256,
   "words": [
     {
       "word": "alcoholic",
@@ -749,11 +749,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "air-tight",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "allow v.",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -780,11 +775,6 @@
     },
     {
       "word": "audio adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "audio-visual",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -824,17 +814,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "bbc",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "b.c.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "belly",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1024,11 +1004,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "ghetto",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "gin",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -1105,11 +1080,6 @@
     },
     {
       "word": "killer",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "king-size",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1309,17 +1279,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "walkman",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "warship",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yale",
       "level": 7,
       "reason": "awaiting_ai_original"
     }
