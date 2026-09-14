@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T12:42:20.965362Z",
-  "count": 2263,
+  "generatedAt": "2026-09-14T12:43:05.980809Z",
+  "count": 2213,
   "words": [
     {
       "word": "alcoholic",
@@ -1819,51 +1819,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "shame",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shameful",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shampoo",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shape",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shareholder",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shark",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sharp",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sharpen",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shatter",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "shave",
       "level": 4,
       "reason": "awaiting_ai_original"
@@ -1874,148 +1829,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "she",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shed",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sheep",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sheer",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sheet",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shelf",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shell",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shelter",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shepherd",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sheriff",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shield",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shift",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shine",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shiny",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ship",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shirt",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shiver",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shock",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shoe",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "shoot",
       "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shop",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shopkeeper",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shore",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shortage",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shortcoming",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shorten",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shortly",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shorts",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shortsighted",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -2024,73 +1839,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "shoulder",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shout",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "shove",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shovel",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "show",
-      "level": 1,
-      "reason": "ai_example_failed_quality"
-    },
-    {
-      "word": "shower",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shred",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shriek",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shrimp",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shrink",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shrub",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shrug",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shuffle",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shut",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
