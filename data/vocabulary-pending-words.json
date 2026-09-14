@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T11:22:22.845053Z",
-  "count": 2863,
+  "generatedAt": "2026-09-14T11:22:47.846030Z",
+  "count": 2813,
   "words": [
     {
       "word": "alcoholic",
@@ -509,178 +509,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "net",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nickel",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nickname",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "niece",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nightmare",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "noble",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nod",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "noisy",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nominate",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nomination",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nominee",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nonprofit",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nonsense",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "noodle",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "noon",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nope",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nor",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "norm",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nostril",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "notebook",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "noticeable",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "notify",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "notorious",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "novice",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nowhere",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nuclear",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nucleus",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "nude",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nun",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nursery",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nurture",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nut",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nutrient",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nutrition",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nutritious",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -691,81 +521,6 @@
     {
       "word": "o’clock",
       "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "oak",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "oasis",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "oath",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "oatmeal",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "obedience",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "obedient",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "obey",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "objection",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "obscure",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "observation",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "observer",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "obsess",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "obstacle",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "obstinate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "occasional",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1046,11 +801,6 @@
     {
       "word": "outlaw",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "outlet",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
