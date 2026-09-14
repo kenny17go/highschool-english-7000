@@ -1,8 +1,9 @@
 {
   "version": "1.5.1",
   "policy": {
-    "purpose": "Normalize malformed source entries without rewriting the original vocabulary source.",
-    "invalidEntriesExcludedFromPending": true
+    "purpose": "Normalize malformed source entries and track words that require manual content review without rewriting the original vocabulary source.",
+    "invalidEntriesExcludedFromPending": true,
+    "manualReviewEntriesExcludedFromPending": true
   },
   "words": {
     "abandon v.": {"type":"normalized_target","normalizedTarget":"abandon","reason":"source_pos_suffix"},
@@ -38,7 +39,7 @@
     "intriguing adj.": {"type":"normalized_target","normalizedTarget":"intriguing","reason":"source_pos_suffix"},
     "men n.": {"type":"normalized_target","normalizedTarget":"men","reason":"source_pos_suffix"},
     "naive adj.": {"type":"normalized_target","normalizedTarget":"naive","reason":"source_pos_suffix"},
-    "naked adj.": {"type":"normalized_target","normalizedTarget":"naked","reason":"source_pos_suffix"},
+    "naked adj.": {"type":"manual_review_exception","normalizedTarget":"naked","reason":"age_sensitive_body_content"},
     "overnight ad": {"type":"normalized_target","normalizedTarget":"overnight","reason":"source_pos_suffix"},
     "painfully ad": {"type":"normalized_target","normalizedTarget":"painfully","reason":"source_pos_suffix"},
     "pour v.": {"type":"normalized_target","normalizedTarget":"pour","reason":"source_pos_suffix"},
@@ -58,6 +59,30 @@
     "fiu": {"type":"invalid_source_entry","reason":"probable_source_typo"},
     "halftvay": {"type":"invalid_source_entry","reason":"probable_source_typo"},
     "stu": {"type":"invalid_source_entry","reason":"probable_source_typo"},
-    "tumpike": {"type":"invalid_source_entry","reason":"probable_source_typo"}
+    "tumpike": {"type":"invalid_source_entry","reason":"probable_source_typo"},
+    "hom": {"type":"invalid_source_entry","reason":"probable_source_typo"},
+    "bosom": {"type":"manual_review_exception","reason":"age_sensitive_body_content"},
+    "chubby": {"type":"manual_review_exception","reason":"body_appearance_term"},
+    "cock": {"type":"manual_review_exception","reason":"ambiguous_age_sensitive_term"},
+    "heroin": {"type":"manual_review_exception","reason":"dangerous_substance_term"},
+    "liquor": {"type":"manual_review_exception","reason":"age_restricted_substance_term"},
+    "naked": {"type":"manual_review_exception","reason":"age_sensitive_body_content"},
+    "nude": {"type":"manual_review_exception","reason":"age_sensitive_body_content"},
+    "seduce": {"type":"manual_review_exception","reason":"age_sensitive_relationship_term"},
+    "sexy": {"type":"manual_review_exception","reason":"sexualized_appearance_term"},
+    "skinny": {"type":"manual_review_exception","reason":"body_appearance_term"},
+    "suck": {"type":"manual_review_exception","reason":"ambiguous_age_sensitive_term"},
+    "suicide": {"type":"manual_review_exception","reason":"self_harm_term"},
+    "virgin": {"type":"manual_review_exception","reason":"age_sensitive_sexual_health_term"},
+    "condom": {"type":"manual_review_exception","reason":"age_sensitive_sexual_health_term"},
+    "gypsy": {"type":"manual_review_exception","reason":"outdated_identity_term"},
+    "homely": {"type":"manual_review_exception","reason":"appearance_term"},
+    "intercourse": {"type":"manual_review_exception","reason":"age_sensitive_sexual_health_term"},
+    "manhood": {"type":"manual_review_exception","reason":"age_sensitive_development_term"},
+    "penis": {"type":"manual_review_exception","reason":"age_sensitive_anatomy_term"},
+    "prostitute": {"type":"manual_review_exception","reason":"age_sensitive_sexual_content"},
+    "rape": {"type":"manual_review_exception","reason":"sexual_violence_term"},
+    "sperm": {"type":"manual_review_exception","reason":"age_sensitive_anatomy_term"},
+    "suckle": {"type":"manual_review_exception","reason":"age_sensitive_anatomy_context"}
   }
 }
