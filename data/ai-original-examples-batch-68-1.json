@@ -1,0 +1,30 @@
+{
+  "version": "1.5.1",
+  "batch": "68",
+  "language": "zh-Hant-TW",
+  "policy": {
+    "source": "ChatGPT original",
+    "copiedFromCommercialDictionary": false,
+    "preferredLength": "8-22 words",
+    "mode": "exact-pending-final-cleanup",
+    "shard": 1
+  },
+  "words": {
+    "blot": {"en": "A small blot of ink covered part of the handwritten note.", "zh": "一小塊墨漬蓋住了手寫筆記的一部分。"},
+    "bribe": {"en": "The civics class discussed why a bribe can damage public trust.", "zh": "公民課討論了賄賂為何會破壞公共信任。"},
+    "democrat": {"en": "The textbook defines a democrat as someone who supports democratic government.", "zh": "課本把 democrat 解釋為支持民主政府的人。"},
+    "hell": {"en": "The novel uses hell as a symbol of fear and punishment.", "zh": "這本小說把地獄作為恐懼與懲罰的象徵。"},
+    "heterosexual": {"en": "The health textbook lists heterosexual as one term describing sexual orientation.", "zh": "健康教育課本把 heterosexual 列為描述性傾向的詞之一。"},
+    "homosexual": {"en": "The glossary explains homosexual as a term related to sexual orientation.", "zh": "詞彙表把 homosexual 解釋為與性傾向相關的詞。"},
+    "intimacy": {"en": "Trust and honesty can create emotional intimacy in close friendships.", "zh": "信任與誠實可以在親近的友誼中建立情感上的親密感。"},
+    "intimate": {"en": "The memoir gives an intimate view of the artist's daily routine.", "zh": "這本回憶錄深入呈現了這位藝術家的日常生活。"},
+    "kiss": {"en": "In some cultures, a kiss on the cheek is a common greeting.", "zh": "在某些文化中，親吻臉頰是一種常見的問候方式。"},
+    "ma’am": {"en": "The student said ma’am politely when answering the guest speaker.", "zh": "學生回答來賓講者時，禮貌地使用了 ma’am 這個稱呼。"},
+    "o.k.": {"en": "The editor noted that o.k. is an older written form of okay.", "zh": "編輯指出 o.k. 是 okay 較舊的一種書寫形式。"},
+    "o’clock": {"en": "The museum closes at five o’clock on weekdays during winter.", "zh": "冬季平日時，博物館下午五點閉館。"},
+    "odds": {"en": "The odds of drawing a red card are easy to calculate.", "zh": "抽到紅色牌的機率很容易計算。"},
+    "p.m.": {"en": "The library closes at 9 p.m. from Monday through Friday.", "zh": "圖書館從星期一到星期五晚上九點關門。"},
+    "romance": {"en": "The novel mixes mystery with a quiet romance between adult characters.", "zh": "這本小說把懸疑元素與成年角色之間平淡的愛情情節結合在一起。"},
+    "romantic": {"en": "The film uses romantic music to signal a change in mood.", "zh": "這部電影用浪漫的音樂來暗示情緒的轉變。"}
+  }
+}
