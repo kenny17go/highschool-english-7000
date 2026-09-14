@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T10:39:52.907083Z",
-  "count": 3113,
+  "generatedAt": "2026-09-14T10:40:45.182876Z",
+  "count": 3112,
   "words": [
     {
       "word": "alcoholic",
@@ -577,11 +577,6 @@
       "word": "madam",
       "level": 6,
       "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "magazine",
-      "level": 2,
-      "reason": "ai_example_failed_quality"
     },
     {
       "word": "magic",
