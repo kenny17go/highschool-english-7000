@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T13:29:25.283959Z",
-  "count": 1563,
+  "generatedAt": "2026-09-14T13:29:59.792583Z",
+  "count": 1513,
   "words": [
     {
       "word": "alcoholic",
@@ -2019,162 +2019,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "upset",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "upstairs",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "upward",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "upwards",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "urge",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "urgency",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "urgent",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "us",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "usage",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "used",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "usher",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "utensil",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "utility",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "utter",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vacancy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vacant",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "vaccine",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "vacuum",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vague",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vain",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "valley",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "van",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vanilla",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vanish",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "vanity",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vapor",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "variation",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vase",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vast",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vegetable",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vegetarian",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "veil",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
@@ -2184,112 +2034,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "velvet",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vendor",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "venture",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "venue",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "verbal",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "verdict",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "verse",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "versus",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vertical",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vessel",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vest",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vet",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "veteran",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "veterinarian",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "veto",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "via",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vibrate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vibration",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "vice",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "vicious",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "victor",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "viewer",
       "level": 5,
       "reason": "awaiting_ai_original"
     },
