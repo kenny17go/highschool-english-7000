@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T12:06:30.577258Z",
-  "count": 2563,
+  "generatedAt": "2026-09-14T12:07:13.329429Z",
+  "count": 2513,
   "words": [
     {
       "word": "alcoholic",
@@ -1354,51 +1354,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "prototype",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "proud",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "proverb",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "provide",
-      "level": 2,
-      "reason": "ai_example_failed_quality"
-    },
-    {
-      "word": "province",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "provincial",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "provision",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "provisional",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "provoke",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "psychiatry",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -1429,58 +1384,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "publicity",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "publicize",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "publisher",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pudding",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "puff",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pull",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pulse",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pump",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pumpkin",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "punch",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "punctual",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1489,143 +1394,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "puppet",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "puppy",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pure",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "purify",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "purity",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "purple",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "purse",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pursuit",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "push",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "put",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "puzzle",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pyramid",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quake",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "qualification",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quarrel",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quarter",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "queen",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "queer",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quest",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "questionnaire",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quilt",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quit",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quiver",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quiz",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quota",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quotation",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quote",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rabbit",
-      "level": 1,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1636,21 +1406,6 @@
     {
       "word": "racism",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rack",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "radar",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "radiant",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1665,11 +1420,6 @@
     },
     {
       "word": "radioactive",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "radish",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
