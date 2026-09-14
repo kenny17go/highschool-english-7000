@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T11:13:05.324377Z",
-  "count": 2913,
+  "generatedAt": "2026-09-14T11:22:22.845053Z",
+  "count": 2863,
   "words": [
     {
       "word": "alcoholic",
@@ -464,26 +464,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "mouse",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mouth",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "movement",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mow",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "mr.",
       "level": 1,
       "reason": "awaiting_ai_original"
@@ -499,52 +479,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "mud",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "muddy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mug",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mule",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "multiply",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mumble",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "municipal",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "murder",
       "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "murderer",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "murmur",
       "level": 4,
       "reason": "awaiting_ai_original"
     },
@@ -559,202 +499,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "muse",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "museum",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mushroom",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "musical",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "musician",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "mustache",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "mustard",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mute",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "myself",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mysterious",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mystery",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "myth",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nag",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nail",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "naive",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "naked",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "namely",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nap",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "napkin",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "narrate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "narrative",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "narrator",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nasty",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nationalism",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nationality",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "naughty",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "navigate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "navigation",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "navy",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nearsighted",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "neat",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "necessity",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "necklace",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "necktie",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "needle",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "needy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "neglect",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nephew",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nerve",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nest",
       "level": 3,
       "reason": "awaiting_ai_original"
     },
