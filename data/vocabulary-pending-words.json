@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T22:27:39.649728Z",
-  "count": 225,
+  "generatedAt": "2026-09-14T22:53:16.186991Z",
+  "count": 201,
   "words": [
     {
       "word": "alcoholic",
@@ -26,11 +26,6 @@
     {
       "word": "bet",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "blast",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -136,16 +131,6 @@
     {
       "word": "coke",
       "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "combat",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "commander",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -389,11 +374,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "sob",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "sober",
       "level": 5,
       "reason": "awaiting_ai_original"
@@ -421,21 +401,6 @@
     {
       "word": "strangle",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "stroke",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "stun",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "stupid",
-      "level": 1,
       "reason": "awaiting_ai_original"
     },
     {
@@ -514,11 +479,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "vanity",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "virgin",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -589,11 +549,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "aids",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "allow v.",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -659,17 +614,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "b.c.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "besiege",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "brew",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -695,11 +640,6 @@
     },
     {
       "word": "carbon n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cavalry",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -734,17 +674,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "compulsively",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "condom",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "convoy",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -755,11 +685,6 @@
     },
     {
       "word": "creative adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cult",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -904,27 +829,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "infantry",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "intercourse",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "intriguing adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "jerk",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "killer",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -940,11 +850,6 @@
     },
     {
       "word": "manhood",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "marshal",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -989,11 +894,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "penicillin",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "penis",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -1024,22 +924,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "regiment",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "retaliate",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "saloon",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "satan",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1070,11 +960,6 @@
     },
     {
       "word": "stu",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "subdue",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1115,11 +1000,6 @@
     },
     {
       "word": "uranium",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vulgar",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
