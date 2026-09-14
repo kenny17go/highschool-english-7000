@@ -1,7 +1,8 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T23:18:38.196459Z",
-  "count": 181,
+  "generatedAt": "2026-09-14T23:27:46.437358Z",
+  "count": 141,
+  "sourceExceptions": 10,
   "words": [
     {
       "word": "alcoholic",
@@ -459,42 +460,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "abandon v.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "aboriginal adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "aborigine",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "accomplishment n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "accountable adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "acoustic adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ago adv.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "allow v.",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -509,32 +475,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "amenna",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "artillery",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "audio adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "amobiography",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "ax",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "barbershop n.",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -554,67 +500,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "briefmg",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bulb n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carbon n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "children n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chilly adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "chlorine",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "citizen'",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "condom",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "creative adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deal n",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dig v.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "distinctively ad",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diversion n.",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -634,82 +525,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "efficient adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "etemity",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "express v.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "feet n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "fiea",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "fught",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "fiu",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "fond adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "foolish adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "generously ad",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "gin",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "gypsy",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "halftvay",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "happily ad",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "hardly ad",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "hear v.",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -725,16 +546,6 @@
     },
     {
       "word": "i.q.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "identify v.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "indebted adj.",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -864,11 +675,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "stu",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "subsequently ad",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -895,11 +701,6 @@
     },
     {
       "word": "tuesday n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tumpike",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
