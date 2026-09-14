@@ -7,6 +7,7 @@ from pathlib import Path
 VERSION='1.5.1'
 VOCAB=Path('data/vocabulary-zh.json')
 AI=Path('data/ai-original-examples.json')
+EXCEPTIONS=Path('data/vocabulary-source-exceptions.json')
 EXAMPLES=Path('data/vocabulary-examples.json')
 SOURCES=Path('data/vocabulary-example-sources.json')
 AUDIT=Path('data/vocabulary-quality-audit.json')
@@ -57,15 +58,24 @@ def load_ai_batches():
             merged[w]=x
     return merged,files,duplicate_overrides
 
+def load_source_exceptions():
+    payload=load(EXCEPTIONS,{})
+    if not payload:return {}
+    if payload.get('version')!=VERSION:raise SystemExit('source exception version mismatch')
+    words=payload.get('words',{})
+    if not isinstance(words,dict):raise SystemExit('invalid source exception file')
+    return words
+
 def main():
     vocab=load(VOCAB,{}).get('words',[])
     ai,ai_files,duplicate_overrides=load_ai_batches()
+    exceptions=load_source_exceptions()
     old=load(EXAMPLES,{}).get('words',{})
     if len(vocab)<6000:raise SystemExit('vocabulary data incomplete')
     if not ai:raise SystemExit('AI original examples missing')
 
     rows={}; issues=[]; source_counts={}; grades={g:0 for g in 'ABCDP'}
-    ai_ready=0; preserved_ready=0; ai_failed=0; ai_not_in_vocab=[]
+    ai_ready=0; preserved_ready=0; ai_failed=0; ai_not_in_vocab=[]; source_exception_count=0
     seen=set()
     vocab_keys={str(x.get('word','')) for x in vocab}
     for w in sorted(ai):
@@ -76,44 +86,61 @@ def main():
         if w in seen:continue
         seen.add(w)
         level=int(item.get('level') or 7)
-        if w in ai:
-            en=ai[w].get('en',''); zh=ai[w].get('zh','')
-            q,grade,notes=quality(w,en,zh)
-            if grade in ('A','B','C'):
-                row={'en':en,'zh':zh,'source':'ai_original','sourceKey':'chatgpt_original','status':'ready','quality':'reviewed','qualityGrade':grade,'qualityScore':q,'qualityNotes':notes,'wordCount':len(tokens(en)),'level':level}
-                ai_ready+=1
-            else:
-                ai_failed+=1
-                row={'en':'','zh':'','source':'pending','sourceKey':'pending','status':'needs_review','quality':'pending','qualityGrade':'P','qualityScore':0,'qualityNotes':notes,'wordCount':0,'level':level}
-                issues.append({'word':w,'level':level,'reason':'ai_example_failed_quality','notes':notes})
+        exc=exceptions.get(w,{})
+        if exc.get('type')=='invalid_source_entry':
+            source_exception_count+=1
+            reason=exc.get('reason','invalid_source_entry')
+            row={'en':'','zh':'','source':'source_exception','sourceKey':'source_exception','status':'needs_review','quality':'source_exception','qualityGrade':'P','qualityScore':0,'qualityNotes':[reason],'wordCount':0,'level':level,'sourceException':True}
+            issues.append({'word':w,'level':level,'reason':'invalid_source_entry','notes':[reason]})
         else:
-            prev=old.get(w,{})
-            pq,pgrade,pnotes=quality(w,prev.get('en',''),prev.get('zh',''))
-            if prev.get('status')=='ready' and pgrade in ('A','B','C'):
-                row={**prev,'status':'ready','qualityGrade':pgrade,'qualityScore':pq,'qualityNotes':pnotes,'wordCount':len(tokens(prev.get('en',''))),'level':level}
-                row['sourceKey']=row.get('sourceKey') or ('site_reviewed' if row.get('source') in ('manual','reviewed') else row.get('source','legacy_reviewed'))
-                preserved_ready+=1
+            target=exc.get('normalizedTarget') or w
+            if w in ai:
+                en=ai[w].get('en',''); zh=ai[w].get('zh','')
+                q,grade,notes=quality(target,en,zh)
+                if target!=w:notes=['normalized_target:'+target]+notes
+                if grade in ('A','B','C'):
+                    row={'en':en,'zh':zh,'source':'ai_original','sourceKey':'chatgpt_original','status':'ready','quality':'reviewed','qualityGrade':grade,'qualityScore':q,'qualityNotes':notes,'wordCount':len(tokens(en)),'level':level}
+                    if target!=w:row['normalizedTarget']=target
+                    ai_ready+=1
+                else:
+                    ai_failed+=1
+                    row={'en':'','zh':'','source':'pending','sourceKey':'pending','status':'needs_review','quality':'pending','qualityGrade':'P','qualityScore':0,'qualityNotes':notes,'wordCount':0,'level':level}
+                    if target!=w:row['normalizedTarget']=target
+                    issues.append({'word':w,'level':level,'reason':'ai_example_failed_quality','notes':notes})
             else:
-                row={'en':'','zh':'','source':'pending','sourceKey':'pending','status':'needs_review','quality':'pending','qualityGrade':'P','qualityScore':0,'qualityNotes':['awaiting_ai_original'],'wordCount':0,'level':level}
-                issues.append({'word':w,'level':level,'reason':'awaiting_ai_original'})
+                prev=old.get(w,{})
+                pq,pgrade,pnotes=quality(target,prev.get('en',''),prev.get('zh',''))
+                if target!=w:pnotes=['normalized_target:'+target]+pnotes
+                if prev.get('status')=='ready' and pgrade in ('A','B','C'):
+                    row={**prev,'status':'ready','qualityGrade':pgrade,'qualityScore':pq,'qualityNotes':pnotes,'wordCount':len(tokens(prev.get('en',''))),'level':level}
+                    if target!=w:row['normalizedTarget']=target
+                    row['sourceKey']=row.get('sourceKey') or ('site_reviewed' if row.get('source') in ('manual','reviewed') else row.get('source','legacy_reviewed'))
+                    preserved_ready+=1
+                else:
+                    row={'en':'','zh':'','source':'pending','sourceKey':'pending','status':'needs_review','quality':'pending','qualityGrade':'P','qualityScore':0,'qualityNotes':['awaiting_ai_original']+(['normalized_target:'+target] if target!=w else []),'wordCount':0,'level':level}
+                    if target!=w:row['normalizedTarget']=target
+                    issues.append({'word':w,'level':level,'reason':'awaiting_ai_original','notes':(['normalized_target:'+target] if target!=w else [])})
         rows[w]=row
         grades[row['qualityGrade']]=grades.get(row['qualityGrade'],0)+1
         source_counts[row['sourceKey']]=source_counts.get(row['sourceKey'],0)+1
 
-    ready=sum(r['status']=='ready' for r in rows.values()); pending=len(rows)-ready
-    coverage=round(ready/max(1,len(rows)),6)
-    EXAMPLES.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'policy':{'primarySource':'ChatGPT original examples','commercialDictionaryCopying':False,'preferredLength':'8-22 words','fakeFallbackDisabled':True,'workflow':'word + POS + current Chinese meaning -> original sentence + zh-Hant-TW translation -> basic quality check'},'summary':{'words':len(rows),'ready':ready,'pending':pending,'coverage':coverage,'aiOriginalInput':len(ai),'aiOriginalReady':ai_ready,'aiOriginalFailed':ai_failed,'preservedReady':preserved_ready,'qualityGrades':grades,'sources':source_counts,'batchFiles':ai_files,'duplicateOverrides':len(duplicate_overrides),'aiWordsNotInVocabulary':len(ai_not_in_vocab)},'words':rows},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
-    SOURCES.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'sources':{'chatgpt_original':{'name':'ChatGPT 原創例句','type':'original','textImported':True,'copiedFromCommercialDictionary':False},'site_reviewed':{'name':'高中英文7000既有審核例句','type':'original/reviewed','textImported':True},'commercial_dictionaries':{'name':'Cambridge/Oxford/Longman 等商業詞典','type':'reference only','textImported':False,'note':'可用於確認常見義項與用法，不批次複製例句'},'legacy_wordnet_pipeline':{'name':'V1.4.9-V1.5.0 WordNet 候選資料','type':'legacy/archive','textImported':False,'note':'保留舊資料檔供追蹤，不再作為主流程'}},'rules':{'originalExamplesPreferred':True,'externalCommercialExamplesCopied':False}},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
-    AUDIT.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'summary':{'words':len(rows),'ready':ready,'pending':pending,'coverage':coverage,'aiOriginalInput':len(ai),'aiOriginalReady':ai_ready,'aiOriginalFailed':ai_failed,'preservedReady':preserved_ready,'batchFiles':ai_files,'duplicateOverrides':duplicate_overrides,'aiWordsNotInVocabulary':ai_not_in_vocab},'issues':issues},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
-    pending_words=[{'word':w,'level':rows[w]['level'],'reason':next((x.get('reason') for x in issues if x.get('word')==w),'awaiting_ai_original')} for w in rows if rows[w]['status']!='ready']
-    PENDING.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'count':len(pending_words),'words':pending_words},ensure_ascii=False,indent=2),encoding='utf-8')
+    ready=sum(r['status']=='ready' for r in rows.values())
+    pending=sum(r['status']!='ready' and not r.get('sourceException') for r in rows.values())
+    eligible=len(rows)-source_exception_count
+    coverage=round(ready/max(1,eligible),6)
+    summary={'words':len(rows),'eligibleWords':eligible,'ready':ready,'pending':pending,'sourceExceptions':source_exception_count,'coverage':coverage,'aiOriginalInput':len(ai),'aiOriginalReady':ai_ready,'aiOriginalFailed':ai_failed,'preservedReady':preserved_ready,'qualityGrades':grades,'sources':source_counts,'batchFiles':ai_files,'duplicateOverrides':len(duplicate_overrides),'aiWordsNotInVocabulary':len(ai_not_in_vocab)}
+    EXAMPLES.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'policy':{'primarySource':'ChatGPT original examples','commercialDictionaryCopying':False,'preferredLength':'8-22 words','fakeFallbackDisabled':True,'sourceNormalizationExceptions':True,'workflow':'word + POS + current Chinese meaning -> original sentence + zh-Hant-TW translation -> basic quality check'},'summary':summary,'words':rows},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    SOURCES.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'sources':{'chatgpt_original':{'name':'ChatGPT 原創例句','type':'original','textImported':True,'copiedFromCommercialDictionary':False},'site_reviewed':{'name':'高中英文7000既有審核例句','type':'original/reviewed','textImported':True},'source_exception':{'name':'來源資料例外','type':'source-quality','textImported':False,'note':'明顯拼字錯誤或格式異常，不強行產生不自然例句'},'commercial_dictionaries':{'name':'Cambridge/Oxford/Longman 等商業詞典','type':'reference only','textImported':False,'note':'可用於確認常見義項與用法，不批次複製例句'},'legacy_wordnet_pipeline':{'name':'V1.4.9-V1.5.0 WordNet 候選資料','type':'legacy/archive','textImported':False,'note':'保留舊資料檔供追蹤，不再作為主流程'}},'rules':{'originalExamplesPreferred':True,'externalCommercialExamplesCopied':False,'sourceExceptionsTracked':True}},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    AUDIT.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'summary':{**summary,'batchFiles':ai_files,'duplicateOverrides':duplicate_overrides,'aiWordsNotInVocabulary':ai_not_in_vocab},'issues':issues},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    pending_words=[{'word':w,'level':rows[w]['level'],'reason':next((x.get('reason') for x in issues if x.get('word')==w),'awaiting_ai_original')} for w in rows if rows[w]['status']!='ready' and not rows[w].get('sourceException')]
+    PENDING.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'count':len(pending_words),'sourceExceptions':source_exception_count,'words':pending_words},ensure_ascii=False,indent=2),encoding='utf-8')
 
     app=APP.read_text(encoding='utf-8')
     if "const STORAGE_KEY='hs7000-v1';" not in app:raise SystemExit('STORAGE_KEY changed')
     app=re.sub(r"const EXAMPLES_URL='data/vocabulary-examples\.json\?v=[^']+';","const EXAMPLES_URL='data/vocabulary-examples.json?v=1.5.1';",app,count=1)
     app=re.sub(r"console\.info\('V1\.[0-9.]+ examples loaded'","console.info('V1.5.1 examples loaded'",app,count=1)
     APP.write_text(app,encoding='utf-8')
-    idx=INDEX.read_text(encoding='utf-8');idx=re.sub(r'版本 V1\.[0-9.]+ · [^<]*','版本 V1.5.1 · AI 原創例句全量補全',idx,count=1);INDEX.write_text(idx,encoding='utf-8')
+    idx=INDEX.read_text(encoding='utf-8');idx=re.sub(r'版本 V1\.[0-9.]+ · [^<]*','版本 V1.5.1 · AI 原創例句補全中',idx,count=1);INDEX.write_text(idx,encoding='utf-8')
     sw=SW.read_text(encoding='utf-8');sw=re.sub(r"const CACHE='hs7000-v[^']+';","const CACHE='hs7000-v1.5.1';",sw,count=1);SW.write_text(sw,encoding='utf-8')
 
     data=load(EXAMPLES,{})
