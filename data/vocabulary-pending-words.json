@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T16:08:21.067219Z",
-  "count": 256,
+  "generatedAt": "2026-09-14T22:27:24.345941Z",
+  "count": 240,
   "words": [
     {
       "word": "alcoholic",
@@ -64,11 +64,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "blot",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "bomb",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -91,11 +86,6 @@
     {
       "word": "breast",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bribe",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -164,11 +154,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "democrat",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "drug",
       "level": 2,
       "reason": "awaiting_ai_original"
@@ -194,17 +179,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "hell",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "heroin",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "heterosexual",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
@@ -214,28 +189,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "homosexual",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "intimacy",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "intimate",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "kidnap",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "kiss",
-      "level": 1,
       "reason": "awaiting_ai_original"
     },
     {
@@ -255,11 +210,6 @@
     },
     {
       "word": "lottery",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ma’am",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
@@ -309,26 +259,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "o.k.",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "o’clock",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "odds",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "p.m.",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "poison",
       "level": 2,
       "reason": "awaiting_ai_original"
@@ -366,16 +296,6 @@
     {
       "word": "riot",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "romance",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "romantic",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
