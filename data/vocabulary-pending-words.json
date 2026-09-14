@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T12:43:05.980809Z",
-  "count": 2213,
+  "generatedAt": "2026-09-14T12:43:47.521244Z",
+  "count": 2163,
   "words": [
     {
       "word": "alcoholic",
@@ -1844,208 +1844,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "shutter",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shuttle",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shy",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sibling",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sick",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sidewalk",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "siege",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sigh",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sight",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sightseeing",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "signature",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "significance",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "silence",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "silent",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "silk",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "silly",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "silver",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "similarity",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "simplicity",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "simplify",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "simultaneous",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sin",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sincere",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sincerity",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sing",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "singer",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "singular",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sink",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sip",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sir",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sister",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sit",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "size",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "skate",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "skeleton",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sketch",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ski",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "skill",
-      "level": 2,
-      "reason": "ai_example_failed_quality"
-    },
-    {
-      "word": "skilled",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "skillful",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "skim",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -2059,38 +1859,13 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "skip",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "skirt",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "skull",
       "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "sky",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "skyscraper",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "slam",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slang",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -2124,33 +1899,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "sleepy",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sleeve",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "slender",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slice",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slide",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slight",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
