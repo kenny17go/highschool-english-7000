@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T14:40:04.051828Z",
-  "count": 1062,
+  "generatedAt": "2026-09-14T14:40:48.861730Z",
+  "count": 1061,
   "words": [
     {
       "word": "alcoholic",
@@ -2955,11 +2955,6 @@
     },
     {
       "word": "efficient adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "e-mail",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
