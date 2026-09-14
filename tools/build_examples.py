@@ -49,7 +49,7 @@ def load_ai_batches():
         if not p.exists():continue
         payload=load(p,{})
         if payload.get('version')!=VERSION:raise SystemExit(f'AI example batch version mismatch: {p}')
-        words=payload.get('words',{})
+        words=payload.get('words',payload.get('examples',{}))
         if not isinstance(words,dict):raise SystemExit(f'Invalid AI example batch: {p}')
         files.append({'file':str(p),'words':len(words)})
         for w,x in words.items():
