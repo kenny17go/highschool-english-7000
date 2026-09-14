@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T14:02:11.600585Z",
-  "count": 1413,
+  "generatedAt": "2026-09-14T14:09:41.473934Z",
+  "count": 1363,
   "words": [
     {
       "word": "alcoholic",
@@ -2199,142 +2199,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "wrap",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wreck",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wrestle",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wrinkle",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wrist",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yacht",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yam",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yawn",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yeah",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yearly",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yearn",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yell",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yoga",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yogurt",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yolk",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "youngster",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yours",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yourself",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yourselves",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "youthful",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "zebra",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "zipper",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "zoo",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "zoom",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "abandon v.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "abbey",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "abbreviation",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "abolition",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2349,21 +2214,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "absorbing",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "acceleration",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "accomplished",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "accomplishment n.",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -2374,57 +2224,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "ace",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "acoustic adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "acreage",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "adjoin",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "advancement",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "advert",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "advertising",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "aerospace",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "affiliated",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "aftermath",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "aging",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2434,62 +2234,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "aide",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "aids",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "airforce",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "airmail",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "air-tight",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "akin",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "alarming",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "alas",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "albeit",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "alienation",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "allegation",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "allied",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
