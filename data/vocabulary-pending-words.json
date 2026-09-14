@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T03:30:23.232251Z",
-  "count": 4083,
+  "generatedAt": "2026-09-14T03:44:30.081532Z",
+  "count": 3969,
   "words": [
     {
       "word": "alcoholic",
@@ -179,408 +179,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "earphone",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "earring",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "eccentric",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "echo",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "eclipse",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ecological",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ecology",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "economical",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "economics",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "economist",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ecosystem",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "edible",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "editorial",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ego",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "elastic",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "elbow",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "elder",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "electrician",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "electronics",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "elegant",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "elephant",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "elevate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "elevator",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "eligible",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "eloquent",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "elsewhere",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "embarrassment",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "embassy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "embrace",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "emigrant",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "emigrate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "emigration",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "emission",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "emperor",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "emphasis",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "empire",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enclose",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "encouragement",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "encyclopedia",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "endanger",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "endeavor",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ending",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "endorse",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "endorsement",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "endowment",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "endurance",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enemy",
-      "level": 2,
-      "reason": "ai_example_failed_quality"
-    },
-    {
-      "word": "energetic",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enforcement",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "engagement",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enhancement",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enjoyable",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enjoyment",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enlarge",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enlargement",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enlighten",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enlightenment",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enrich",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enrichment",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enroll",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enrollment",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enterprise",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enthusiasm",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "enthusiastic",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "entitle",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "entrepreneur",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "envelope",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "envious",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "envision",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "envy",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "epidemic",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "episode",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "equality",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "equalize",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "equation",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "equity",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "era",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "erase",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "eraser",
       "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "erect",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "errand",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -599,28 +199,13 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "essence",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "establishment",
       "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "estate",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "esteem",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "eternal",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -634,31 +219,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "ethnic",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "evacuate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "evaluation",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "eve",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "eventual",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "evergreen",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -666,31 +226,6 @@
     {
       "word": "everybody",
       "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "evident",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "evil",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "evolution",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "evolve",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "exaggeration",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -714,33 +249,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "excellence",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "exception",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "exceptional",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "excerpt",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "excess",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "excessive",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -754,47 +264,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "exclusion",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "exclusive",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "execute",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "execution",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "executive",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "exempt",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "exhaust",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "exhibition",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "exile",
       "level": 5,
       "reason": "awaiting_ai_original"
     },
@@ -804,24 +274,9 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "exotic",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "expansion",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "expectation",
       "level": 3,
       "reason": "ai_example_failed_quality"
-    },
-    {
-      "word": "expedition",
-      "level": 5,
-      "reason": "awaiting_ai_original"
     },
     {
       "word": "expenditure",
@@ -834,17 +289,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "expertise",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "expiration",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "expire",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
@@ -17469,11 +16914,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "erosion",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "err",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -17489,17 +16929,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "ethics",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "etiquette",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "evaporate",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
