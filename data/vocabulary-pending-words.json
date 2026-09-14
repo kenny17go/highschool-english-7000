@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T03:10:25.989666Z",
-  "count": 4281,
+  "generatedAt": "2026-09-14T03:26:57.669716Z",
+  "count": 4161,
   "words": [
     {
       "word": "alcoholic",
@@ -164,428 +164,13 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "dancer",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dawn",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dazzle",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deadly",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deaf",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deafen",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "debut",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "decisive",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "declaration",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deer",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "default",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "defendant",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "defensible",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "defiance",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deficit",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "definitive",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "defy",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "delegation",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "delightful",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "democrat",
       "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "demonstration",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "denial",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dental",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "depart",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "depict",
-      "level": 5,
-      "reason": "ai_example_failed_quality"
-    },
-    {
-      "word": "deploy",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deputy",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "descent",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "descriptive",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "desirable",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "despair",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "desperate",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "despise",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dessert",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "destined",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "destiny",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "destruction",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "detach",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "detain",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "deter",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "detergent",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "determination",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "devil",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "devise",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "devour",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dew",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diabetes",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diagnosis",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dial",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dialect",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diameter",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diamond",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diaper",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dictate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dictation",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dictator",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dictatorship",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diesel",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dig",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "digest",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "digestion",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diligence",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dim",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dime",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dine",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dinosaur",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dip",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diplomacy",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "diplomatic",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "directive",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dirt",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disable",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disadvantage",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disappointment",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disapprove",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disastrous",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disbelief",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disc",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "discard",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "discharge",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disciple",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "disciplinary",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disclosure",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "discomfort",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disconnect",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -614,47 +199,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "discrimination",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disgrace",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disguise",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "disgust",
       "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "dishonest",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dislike",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dismay",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "dismiss",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disorder",
       "level": 4,
       "reason": "awaiting_ai_original"
     },
@@ -664,23 +214,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "dispense",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "disposable",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "disposal",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dispute",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -704,27 +239,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "distinctive",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "distinguished",
       "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "distract",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "distraction",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "distress",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
@@ -759,16 +279,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "diversity",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "divert",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "dividend",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -784,16 +294,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "divorce",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dizzy",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "do",
       "level": 1,
       "reason": "awaiting_ai_original"
@@ -801,21 +301,6 @@
     {
       "word": "doc",
       "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dock",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "doctrine",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "documentary",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -839,18 +324,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "domain",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "dome",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dominant",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -864,18 +339,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "donation",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "donkey",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "donor",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -899,18 +364,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "dose",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "dot",
       "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "doubtful",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -939,11 +394,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "downward",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "downwards",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -964,23 +414,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "drain",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "drama",
       "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dramatic",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "drastic",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -999,11 +434,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "dread",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "dreadful",
       "level": 5,
       "reason": "awaiting_ai_original"
@@ -1019,11 +449,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "drift",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "drill",
       "level": 4,
       "reason": "awaiting_ai_original"
@@ -1036,21 +461,6 @@
     {
       "word": "driveway",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "drought",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "drown",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "drowsy",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1135,11 +545,6 @@
     },
     {
       "word": "dwell",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dwelling",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
@@ -18140,11 +17545,6 @@
     },
     {
       "word": "disorganized",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dispatch",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
