@@ -1,0 +1,29 @@
+{
+  "version": "1.5.1",
+  "batch": "67",
+  "language": "zh-Hant-TW",
+  "policy": {
+    "source": "ChatGPT original",
+    "copiedFromCommercialDictionary": false,
+    "preferredLength": "8-22 words",
+    "mode": "exact-pending-final-cleanup",
+    "shard": 1
+  },
+  "words": {
+    "august": {"en": "The museum will open a new exhibition in august this year.", "zh": "這座博物館今年八月將推出一個新展覽。"},
+    "barkeeper": {"en": "The novel describes a barkeeper who listens carefully to travelers' stories.", "zh": "這本小說描寫一位細心聆聽旅人故事的酒館管理者。"},
+    "beijing": {"en": "Our geography class compared beijing with several other major Asian cities.", "zh": "我們的地理課比較了北京與其他幾個亞洲主要城市。"},
+    "bingo": {"en": "The club used bingo as a simple game during its social event.", "zh": "社團在聯誼活動中把賓果當作簡單的遊戲。"},
+    "briton": {"en": "The biography follows a briton who spent many years studying languages abroad.", "zh": "這本傳記描寫一位在海外多年研究語言的英國人。"},
+    "buddha": {"en": "The history lesson introduced how buddha influenced several Asian religious traditions.", "zh": "歷史課介紹了佛陀如何影響數個亞洲宗教傳統。"},
+    "buddhism": {"en": "The class discussed buddhism as part of a unit on world religions.", "zh": "全班在世界宗教單元中討論了佛教。"},
+    "italian": {"en": "The menu includes an italian dish made with tomatoes, herbs, and pasta.", "zh": "菜單中有一道以番茄、香草和義大利麵製作的義式料理。"},
+    "january": {"en": "Our new semester schedule will be announced in january next year.", "zh": "我們的新學期課表將在明年一月公布。"},
+    "japanese": {"en": "She joined a japanese language club to practice basic conversation after school.", "zh": "她加入日語社，在放學後練習基礎會話。"},
+    "july": {"en": "The science camp will take place in july during the summer break.", "zh": "科學營將在暑假期間的七月舉行。"},
+    "june": {"en": "The school festival is usually held in june before final examinations begin.", "zh": "學校慶典通常在期末考開始前的六月舉行。"},
+    "o'clock": {"en": "The library closes at nine o'clock on weekdays during the semester.", "zh": "學期期間，圖書館平日晚上九點關門。"},
+    "part-time": {"en": "She found a part-time job helping organize books at a community library.", "zh": "她找到一份在社區圖書館協助整理書籍的兼職工作。"},
+    "wednesday": {"en": "Our class will visit the science museum next wednesday morning.", "zh": "我們班下週三早上將參觀科學博物館。"}
+  }
+}
