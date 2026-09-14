@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T12:05:10.923245Z",
-  "count": 2663,
+  "generatedAt": "2026-09-14T12:05:52.388524Z",
+  "count": 2613,
   "words": [
     {
       "word": "alcoholic",
@@ -1244,136 +1244,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "porter",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "portfolio",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "portrait",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "portray",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "possess",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "possession",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "possibility",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "postage",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "postcard",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "poster",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "postpone",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "postponement",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "posture",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pot",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "potato",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "potent",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pottery",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "poultry",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pound",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pour",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "poverty",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "powder",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "powerful",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "practical",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "practitioner",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "praise",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "pray",
       "level": 2,
       "reason": "awaiting_ai_original"
@@ -1389,46 +1259,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "precaution",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "precedent",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "precious",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "precision",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "predator",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "predecessor",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prefer",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "preference",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "pregnancy",
       "level": 4,
       "reason": "awaiting_ai_original"
@@ -1439,46 +1269,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "prehistoric",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prejudice",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "premature",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "premier",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "premiere",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "premise",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "premium",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "preparation",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "prescribe",
       "level": 5,
       "reason": "awaiting_ai_original"
@@ -1486,16 +1276,6 @@
     {
       "word": "prescription",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "presence",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "preservation",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1519,42 +1299,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "press",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prestige",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "presumably",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pretend",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pretty",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "prevention",
       "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "preventive",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "preview",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
