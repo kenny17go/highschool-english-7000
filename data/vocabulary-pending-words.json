@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T15:19:04.034514Z",
-  "count": 675,
+  "generatedAt": "2026-09-14T15:19:55.571023Z",
+  "count": 625,
   "words": [
     {
       "word": "alcoholic",
@@ -2349,142 +2349,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "recapture",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "recollect",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reconstruction",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "redundant",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reel",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "refrain",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "regain",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "regiment",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "rehabilitation",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rein",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "relinquish",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "relish",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reluctantly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "remains",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reminiscence",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "renaissance",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reorganization",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "repel",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "repent",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "replaceable",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "repress",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resonance",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resultant",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "retaliate",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rhythmic",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "righteous",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rite",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "robin",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2514,102 +2384,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "satire",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "satisfactorily",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "saturday",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "scarlet",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "scholastic",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "seam",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "secular",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "seemingly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "segregate",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sensibility",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "separately",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "september",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sequential",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "serum",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "seven",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "seventeen",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "seventy",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "sever",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "severely",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sewer",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2629,42 +2409,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "solely",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "solicitor",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "spectacles",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "spectra",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "sperm",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "spot.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sprawl",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "squarely",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
