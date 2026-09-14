@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T15:28:52.090816Z",
-  "count": 454,
+  "generatedAt": "2026-09-14T15:45:58.580309Z",
+  "count": 414,
   "words": [
     {
       "word": "alcoholic",
@@ -899,91 +899,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "bitterly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bitterness",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "biweekly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "blameworthy",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bland",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bleak",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bloc",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "blueprint",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "blues",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bluff",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "blunder",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "boldly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "botany",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "breach",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "break-up",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "breathtaking",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "breeder",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "brew",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -999,27 +914,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "brighten",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "brisk",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "briton",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "broker",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "brood",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1050,21 +945,6 @@
     },
     {
       "word": "bunker",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "businesslike",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "calf",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "candy",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1109,22 +989,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "compatibly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "compulsively",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conceited",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "conceitedly",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1349,36 +1214,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "inviting",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "inward",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "irregular",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "irrelevant",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "irresponsible",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "isolated",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "italian",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -1390,11 +1225,6 @@
     },
     {
       "word": "japanese",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "jaywalk",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1414,42 +1244,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "justification",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "justly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "keenly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "killer",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "kindly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "kindness",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "king-size",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "know-how",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
