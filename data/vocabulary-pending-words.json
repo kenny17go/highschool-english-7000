@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T01:11:09.357049Z",
-  "count": 4621,
+  "generatedAt": "2026-09-14T01:59:42.418788Z",
+  "count": 4513,
   "words": [
     {
       "word": "alcoholic",
@@ -109,463 +109,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "canoe",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "canvas",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "canyon",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cap",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "capability",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cape",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "capitalism",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "capitalist",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "capsule",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "caption",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "captive",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "captivity",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carbon",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cardboard",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cardinal",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carefree",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "caretaker",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cargo",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carnival",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carpenter",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carpet",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carriage",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carrier",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carrot",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cart",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carton",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cartoon",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "carve",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cashier",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "casino",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cast",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "castle",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "casual",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "casualty",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "catalogue",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "catastrophe",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cater",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "caterpillar",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cathedral",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cattle",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "caution",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cave",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cavity",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "celebrity",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "celery",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cell",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cellphone",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cellular",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "celsius",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cement",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cemetery",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "census",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cent",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "centimeter",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ceramic",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cereal",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "certainty",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "certificate",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "certify",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chain",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chairperson",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chairwoman",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chalk",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chamber",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "champagne",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "champion",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "championship",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chant",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chaos",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chapel",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "characterize",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "charitable",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "charity",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "charm",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chase",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chat",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cheap",
-      "level": 1,
-      "reason": "ai_example_failed_quality"
-    },
-    {
-      "word": "cheat",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "checkup",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cheek",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cheerful",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cheese",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chef",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chemist",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cherish",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cherry",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chess",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chest",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chestnut",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chew",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chief",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "childhood",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
@@ -589,43 +134,13 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "chimney",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chimpanzee",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chin",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "china",
       "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "chip",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "chirp",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chocolate",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "choir",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -639,16 +154,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "chop",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chopstick",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "chord",
       "level": 5,
       "reason": "awaiting_ai_original"
@@ -656,11 +161,6 @@
     {
       "word": "chore",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chorus",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -679,16 +179,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "cigarette",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cinema",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "circuit",
       "level": 5,
       "reason": "awaiting_ai_original"
@@ -696,16 +186,6 @@
     {
       "word": "circular",
       "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "circulation",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "circus",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -724,27 +204,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "clap",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "clash",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "clasp",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "classification",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "coalition",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
