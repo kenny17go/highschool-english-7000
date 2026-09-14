@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T15:59:02.975981Z",
-  "count": 299,
+  "generatedAt": "2026-09-14T15:59:25.240837Z",
+  "count": 279,
   "words": [
     {
       "word": "alcoholic",
@@ -1239,32 +1239,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "parlor",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "partially",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "part-time",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "passerby",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pasture",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "patiently",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1285,11 +1260,6 @@
     },
     {
       "word": "pour v.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "preacher",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -1419,82 +1389,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "wayside",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "wednesday",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "whichever",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wholly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wildly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "willingness",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "winner",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "withstand",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "worried",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wreckage",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "writing",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "yale",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "yeast",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "zeal",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "zealously",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "zip",
       "level": 7,
       "reason": "awaiting_ai_original"
     }
