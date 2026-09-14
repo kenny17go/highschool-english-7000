@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T12:05:52.388524Z",
-  "count": 2613,
+  "generatedAt": "2026-09-14T12:06:30.577258Z",
+  "count": 2563,
   "words": [
     {
       "word": "alcoholic",
@@ -1309,52 +1309,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "previous",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prey",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "priceless",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pride",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "priest",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prime",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "primitive",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prince",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "princess",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "printer",
       "level": 2,
       "reason": "awaiting_ai_original"
     },
@@ -1369,153 +1324,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "privacy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "privatize",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "privilege",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prize",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "probable",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "probe",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "procession",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "proclaim",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "producer",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "production",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "productive",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "productivity",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "profession",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "professor",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "proficiency",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "profile",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "profit",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "profitable",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "progress",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "progressive",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "prohibition",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "projection",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prolong",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "promising",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "promote",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "promotion",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prone",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pronounce",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pronunciation",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "proof",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1524,33 +1334,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "propel",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "property",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "prophet",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "proposal",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "propose",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prose",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1561,41 +1346,6 @@
     {
       "word": "prosecution",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prospective",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prosper",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prosperity",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prosperous",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "protection",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "protective",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "protein",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
