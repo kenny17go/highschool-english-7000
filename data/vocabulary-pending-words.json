@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T11:11:55.933053Z",
-  "count": 3013,
+  "generatedAt": "2026-09-14T11:12:28.918016Z",
+  "count": 2963,
   "words": [
     {
       "word": "alcoholic",
@@ -351,201 +351,6 @@
     {
       "word": "mate",
       "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "math",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mathematical",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mathematics",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mattress",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "maturity",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "maximum",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mayor",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "me",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "meadow",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "meaningful",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "means",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "meantime",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "meanwhile",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "measurable",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "measurement",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "meat",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mechanic",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mechanical",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "medal",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "medication",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "medieval",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "meditate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "meditation",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "medium",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "melancholy",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "melody",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "melon",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "melt",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "membership",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "memorable",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "memorial",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "memorize",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mend",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mental",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mentality",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mention",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mentor",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "menu",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "merchandise",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1079,21 +884,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "nourish",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "nourishment",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "novelist",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "novice",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -1451,21 +1241,6 @@
     {
       "word": "originality",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "originate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ornament",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "orphan",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1859,21 +1634,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "pardon",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "parliament",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "parrot",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "partial",
       "level": 4,
       "reason": "awaiting_ai_original"
@@ -1990,16 +1750,6 @@
     },
     {
       "word": "pause",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pave",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pavement",
       "level": 3,
       "reason": "awaiting_ai_original"
     },
