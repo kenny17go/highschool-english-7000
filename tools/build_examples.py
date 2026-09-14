@@ -10,6 +10,7 @@ AI=Path('data/ai-original-examples.json')
 EXAMPLES=Path('data/vocabulary-examples.json')
 SOURCES=Path('data/vocabulary-example-sources.json')
 AUDIT=Path('data/vocabulary-quality-audit.json')
+PENDING=Path('data/vocabulary-pending-words.json')
 APP=Path('app.js'); INDEX=Path('index.html'); SW=Path('sw.js')
 BANNED=('In this passage, the word','The word “','helps readers understand its meaning','http://','https://')
 
@@ -104,6 +105,8 @@ def main():
     EXAMPLES.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'policy':{'primarySource':'ChatGPT original examples','commercialDictionaryCopying':False,'preferredLength':'8-22 words','fakeFallbackDisabled':True,'workflow':'word + POS + current Chinese meaning -> original sentence + zh-Hant-TW translation -> basic quality check'},'summary':{'words':len(rows),'ready':ready,'pending':pending,'coverage':coverage,'aiOriginalInput':len(ai),'aiOriginalReady':ai_ready,'aiOriginalFailed':ai_failed,'preservedReady':preserved_ready,'qualityGrades':grades,'sources':source_counts,'batchFiles':ai_files,'duplicateOverrides':len(duplicate_overrides),'aiWordsNotInVocabulary':len(ai_not_in_vocab)},'words':rows},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     SOURCES.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'sources':{'chatgpt_original':{'name':'ChatGPT 原創例句','type':'original','textImported':True,'copiedFromCommercialDictionary':False},'site_reviewed':{'name':'高中英文7000既有審核例句','type':'original/reviewed','textImported':True},'commercial_dictionaries':{'name':'Cambridge/Oxford/Longman 等商業詞典','type':'reference only','textImported':False,'note':'可用於確認常見義項與用法，不批次複製例句'},'legacy_wordnet_pipeline':{'name':'V1.4.9-V1.5.0 WordNet 候選資料','type':'legacy/archive','textImported':False,'note':'保留舊資料檔供追蹤，不再作為主流程'}},'rules':{'originalExamplesPreferred':True,'externalCommercialExamplesCopied':False}},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     AUDIT.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'summary':{'words':len(rows),'ready':ready,'pending':pending,'coverage':coverage,'aiOriginalInput':len(ai),'aiOriginalReady':ai_ready,'aiOriginalFailed':ai_failed,'preservedReady':preserved_ready,'batchFiles':ai_files,'duplicateOverrides':duplicate_overrides,'aiWordsNotInVocabulary':ai_not_in_vocab},'issues':issues},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+    pending_words=[{'word':w,'level':rows[w]['level'],'reason':next((x.get('reason') for x in issues if x.get('word')==w),'awaiting_ai_original')} for w in rows if rows[w]['status']!='ready']
+    PENDING.write_text(json.dumps({'version':VERSION,'generatedAt':now(),'count':len(pending_words),'words':pending_words},ensure_ascii=False,indent=2),encoding='utf-8')
 
     app=APP.read_text(encoding='utf-8')
     if "const STORAGE_KEY='hs7000-v1';" not in app:raise SystemExit('STORAGE_KEY changed')
@@ -117,6 +120,7 @@ def main():
     assert data.get('version')==VERSION and len(data.get('words',{}))>=6000
     assert data.get('summary',{}).get('aiOriginalReady',0)>0
     assert data.get('summary',{}).get('aiOriginalInput',0)==len(ai)
+    assert len(load(PENDING,{}).get('words',[]))==pending
     assert "const STORAGE_KEY='hs7000-v1';" in APP.read_text(encoding='utf-8')
     assert 'vocabulary-examples.json?v=1.5.1' in APP.read_text(encoding='utf-8')
     print('V1.5.1 AI-original pipeline passed',data['summary'])
