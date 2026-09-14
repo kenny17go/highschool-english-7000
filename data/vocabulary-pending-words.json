@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T14:53:22.513923Z",
-  "count": 925,
+  "generatedAt": "2026-09-14T15:04:38.517311Z",
+  "count": 875,
   "words": [
     {
       "word": "alcoholic",
@@ -449,72 +449,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "pitch",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pitcher",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pm",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pneumonia",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "poison",
       "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "poisonous",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "politician",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "politics",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "poll",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pray",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prayer",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "preach",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pregnancy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pregnant",
       "level": 4,
       "reason": "awaiting_ai_original"
     },
@@ -529,106 +469,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "preside",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "presidency",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "president",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "presidential",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prevention",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "preventive",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "priest",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prison",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prisoner",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prohibition",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "propaganda",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prophet",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prosecute",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prosecution",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "protest",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "psychiatry",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "psychic",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "psychological",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "psychologist",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "psychotherapy",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "pub",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -639,103 +479,13 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "punish",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "queer",
       "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "racial",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "racism",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "radiate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "radiation",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "radioactive",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "radius",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rag",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rage",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ragged",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "raid",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "razor",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "republican",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reputation",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rescue",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resemblance",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resemble",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reservoir",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reside",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
