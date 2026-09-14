@@ -1,0 +1,34 @@
+{
+  "version": "1.5.1",
+  "batch": "66",
+  "language": "zh-Hant-TW",
+  "policy": {
+    "source": "ChatGPT original",
+    "copiedFromCommercialDictionary": false,
+    "preferredLength": "8-22 words",
+    "mode": "exact-pending-final-cleanup",
+    "shard": 2
+  },
+  "words": {
+    "parlor": {"en": "The old house had a quiet parlor where guests could read.", "zh": "那棟老房子有一間安靜的客廳，客人可以在那裡閱讀。"},
+    "partially": {"en": "The road was partially blocked while workers repaired the damaged surface.", "zh": "工人修復受損路面時，道路有一部分被封閉。"},
+    "passerby": {"en": "A passerby returned the notebook after finding it near the station.", "zh": "一名路人在線站附近撿到筆記本後把它歸還。"},
+    "pasture": {"en": "The cattle moved slowly across the green pasture before sunset.", "zh": "牛群在日落前緩慢穿過翠綠的牧場。"},
+    "patiently": {"en": "She waited patiently while the teacher checked each student's answer.", "zh": "老師檢查每位學生的答案時，她耐心地等待。"},
+    "preacher": {"en": "The preacher discussed the building's history during the community tour.", "zh": "傳教士在社區導覽中談到這棟建築的歷史。"},
+    "wayside": {"en": "Wildflowers grew along the wayside beside the quiet country road.", "zh": "野花沿著安靜鄉間道路的路旁生長。"},
+    "whichever": {"en": "Choose whichever book interests you most for the reading assignment.", "zh": "閱讀作業可以選你最感興趣的任何一本書。"},
+    "wholly": {"en": "The committee found the first proposal wholly unsuitable for the project.", "zh": "委員會認為第一份提案完全不適合這個計畫。"},
+    "wildly": {"en": "The survey results varied wildly between the two age groups.", "zh": "調查結果在兩個年齡群體之間差異非常大。"},
+    "willingness": {"en": "Her willingness to ask questions helped the whole group learn faster.", "zh": "她願意主動提問，幫助整個小組學得更快。"},
+    "winner": {"en": "The contest winner thanked everyone who supported the school project.", "zh": "比賽冠軍感謝所有支持這項學校計畫的人。"},
+    "withstand": {"en": "The bridge was designed to withstand strong winds during severe storms.", "zh": "這座橋的設計能承受強烈暴風雨中的強風。"},
+    "worried": {"en": "She felt worried about the deadline but finished the report on time.", "zh": "她雖然擔心期限，仍準時完成了報告。"},
+    "wreckage": {"en": "Workers cleared wreckage from the road after the severe storm passed.", "zh": "強烈風暴過後，工人清除了道路上的殘骸。"},
+    "writing": {"en": "Regular reading can improve both vocabulary and writing over time.", "zh": "規律閱讀長期下來可以同時提升字彙與寫作能力。"},
+    "yeast": {"en": "The science class observed how yeast produces gas during fermentation.", "zh": "自然課觀察酵母在發酵過程中如何產生氣體。"},
+    "zeal": {"en": "The volunteers worked with zeal to prepare the community science fair.", "zh": "志工們熱心地準備社區科學展。"},
+    "zealously": {"en": "The team zealously protected the accuracy of its research records.", "zh": "團隊十分積極地維護研究紀錄的正確性。"},
+    "zip": {"en": "Please zip the file before sending the project folder by email.", "zh": "請先把檔案壓縮成 zip，再用電子郵件寄出專案資料夾。"}
+  }
+}
