@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T13:14:07.846341Z",
-  "count": 1713,
+  "generatedAt": "2026-09-14T13:27:43.377844Z",
+  "count": 1663,
   "words": [
     {
       "word": "alcoholic",
@@ -1199,73 +1199,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "rigorous",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rim",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "riot",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rip",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ripe",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ripple",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "risky",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ritual",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rival",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rivalry",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "roach",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "roam",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "roar",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "roast",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1284,41 +1219,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "robe",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "robot",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rock",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rocket",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rocky",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rod",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "roll",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "romance",
       "level": 4,
       "reason": "awaiting_ai_original"
@@ -1329,158 +1229,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "roof",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rooster",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "root",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rope",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rose",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rot",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rotate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rotation",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rotten",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "roughly",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "row",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "royal",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "royalty",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rub",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rubber",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rubbish",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rude",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rug",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rugged",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ruin",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ruler",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rumor",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "runner",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rural",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rush",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rust",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rusty",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "ruthless",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sack",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sacred",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sacrifice",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
