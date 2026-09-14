@@ -1,0 +1,40 @@
+{
+  "version": "1.5.1",
+  "batch": "69",
+  "language": "zh-Hant-TW",
+  "policy": {
+    "source": "ChatGPT original",
+    "copiedFromCommercialDictionary": false,
+    "preferredLength": "8-22 words",
+    "mode": "exact-pending-final-safe-cleanup",
+    "shard": 1
+  },
+  "words": {
+    "blast": {"en": "A blast of cold air entered when the classroom door opened.", "zh": "教室門打開時，一股冷空氣吹了進來。"},
+    "combat": {"en": "The campaign uses clear facts to combat false information online.", "zh": "這項活動利用清楚的事實來對抗網路上的錯誤資訊。"},
+    "commander": {"en": "The museum exhibit explains the commander role within an ancient army.", "zh": "博物館展覽說明古代軍隊中指揮官的角色。"},
+    "sob": {"en": "A quiet sob from the character changed the mood of the scene.", "zh": "角色輕輕的一聲啜泣改變了整個場景的氣氛。"},
+    "stroke": {"en": "Each brush stroke added more detail to the landscape painting.", "zh": "每一筆筆觸都為這幅風景畫增添了更多細節。"},
+    "stun": {"en": "The sudden beauty of the night sky can stun first-time visitors.", "zh": "夜空突如其來的美景可能讓第一次來訪的人驚嘆不已。"},
+    "stupid": {"en": "The teacher explained why calling an idea stupid can stop useful discussion.", "zh": "老師說明為什麼把一個想法說成愚蠢可能會中斷有益的討論。"},
+    "vanity": {"en": "The novel presents vanity as a weakness that clouds good judgment.", "zh": "這本小說把虛榮描寫成會蒙蔽良好判斷力的弱點。"},
+    "vice": {"en": "The story treats greed as a vice that harms the whole community.", "zh": "故事把貪婪描寫成會傷害整個社群的惡習。"},
+    "vicious": {"en": "The report describes a vicious cycle of delay and rising costs.", "zh": "這份報告描述了延誤與成本上升形成的惡性循環。"},
+    "aids": {"en": "The health textbook explains how AIDS affects the human immune system.", "zh": "健康課本說明愛滋病如何影響人體免疫系統。"},
+    "b.c.": {"en": "The timeline places this ancient settlement around 500 B.C. in the region.", "zh": "時間軸將這個古代聚落標示在約西元前五百年的此地區。"},
+    "brew": {"en": "We watched the tea brew slowly while discussing the science of temperature.", "zh": "我們一邊看著茶慢慢沖泡，一邊討論溫度的科學原理。"},
+    "compulsively": {"en": "The novel portrays a character who checks the clock compulsively during meetings.", "zh": "小說描寫一名在會議中反覆不停看時鐘的角色。"},
+    "cult": {"en": "The history class examined the word cult in several ancient cultural contexts.", "zh": "歷史課從幾個古代文化脈絡中探討 cult 這個詞。"},
+    "jerk": {"en": "A sudden jerk of the train made several passengers grab the handrail.", "zh": "列車突然一震，讓幾名乘客趕緊抓住扶手。"},
+    "killer": {"en": "The aquarium sign explains why a killer whale is actually a dolphin.", "zh": "水族館的看板說明虎鯨其實屬於海豚的一種。"},
+    "penicillin": {"en": "The science lesson discussed penicillin while reviewing major medical discoveries.", "zh": "自然課在複習重要醫學發現時討論了盤尼西林。"},
+    "satan": {"en": "The literature class discussed satan as a figure in several historical texts.", "zh": "文學課討論了撒旦在數篇歷史文本中的角色。"},
+    "subdue": {"en": "Soft curtains can subdue echoes in the school music room.", "zh": "柔軟的窗簾可以減弱學校音樂教室裡的回音。"},
+    "vulgar": {"en": "The teacher explained that vulgar language may be inappropriate in formal writing.", "zh": "老師說明粗俗用語在正式寫作中可能並不適當。"},
+    "infantry": {"en": "The history map shows where the infantry moved during the ancient campaign.", "zh": "歷史地圖顯示古代戰役中步兵移動的位置。"},
+    "marshal": {"en": "An event marshal guided visitors toward the correct entrance before the ceremony.", "zh": "活動引導員在典禮前帶領訪客前往正確入口。"},
+    "cavalry": {"en": "The museum display compares cavalry equipment from several historical periods.", "zh": "博物館展示比較了數個歷史時期的騎兵裝備。"},
+    "convoy": {"en": "A relief convoy carried food and blankets to communities after the storm.", "zh": "救援車隊在暴風雨後將食物與毛毯送往各個社區。"},
+    "regiment": {"en": "The archive preserves letters written by members of one historic regiment.", "zh": "檔案館保存了一支歷史軍團成員所寫的信件。"}
+  }
+}
