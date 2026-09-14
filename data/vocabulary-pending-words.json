@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T13:59:33.091867Z",
-  "count": 1463,
+  "generatedAt": "2026-09-14T14:00:18.206503Z",
+  "count": 1439,
   "words": [
     {
       "word": "alcoholic",
@@ -1626,126 +1626,6 @@
     {
       "word": "trauma",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trek",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tremble",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tremendous",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "triangle",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tribal",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tribe",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tribute",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trick",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tricky",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trifle",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trillion",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trim",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "triple",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "triumph",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trivial",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "troop",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trophy",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tropic",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tropical",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "troublesome",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trout",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "truck",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trumpet",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trunk",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
