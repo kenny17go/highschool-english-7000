@@ -1,14 +1,9 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T23:38:39.484379Z",
-  "count": 61,
+  "generatedAt": "2026-09-14T23:50:26.536208Z",
+  "count": 25,
   "sourceExceptions": 10,
   "words": [
-    {
-      "word": "alcoholic",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
     {
       "word": "bosom",
       "level": 6,
@@ -25,11 +20,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "cocktail",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "heroin",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -40,16 +30,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "lottery",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mistress",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "naked",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -57,11 +37,6 @@
     {
       "word": "nude",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pub",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -90,107 +65,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "terror",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tobacco",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "torment",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "virgin",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "whip",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "whiskey",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "whisky",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wine",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ambush",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ammunition",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "artillery",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ax",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bam",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bartender",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bastard",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "chlorine",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "condom",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dosage",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "drunkard",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "dynamite",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "gin",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -215,27 +95,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "landmine",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "machinegun",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "manhood",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "massacre",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mortar",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -250,42 +110,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "pesticide",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "prostitute",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "ransom",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "rape",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "retaliate",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "saloon",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sever",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slave n.",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -296,16 +126,6 @@
     },
     {
       "word": "suckle",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tranquilizer",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "uranium",
       "level": 7,
       "reason": "awaiting_ai_original"
     }
