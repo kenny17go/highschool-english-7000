@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T15:19:55.571023Z",
-  "count": 625,
+  "generatedAt": "2026-09-14T15:20:47.236608Z",
+  "count": 575,
   "words": [
     {
       "word": "alcoholic",
@@ -2419,41 +2419,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "standardize",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "standpoint",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "static",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "steward",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "stoop",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "streak",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "streetcar",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "stu",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -2469,67 +2434,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "substantially",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "suckle",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "suffering",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sugarcane",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "summer",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sunday",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sunlight",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sunset",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sunshine",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "superfluous",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "superhighway",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "superimpose",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "surprising",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2544,167 +2449,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "syllabus",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "synthesis",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "systematically",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tablespoon",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tabloid",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "taboo",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tally",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tangible",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tanker",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tariff",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "telegram",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "temperament",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tempest",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ten",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tern",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "terrified",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "theatrical",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "theologian",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "theological",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "therapeutic",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "thermal",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "thirteen",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "thirty",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "thrift",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "thrilling",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "thunderstorm",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "thursday",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "thyroid",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tightly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "totally",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "touchstone",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tractor",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tranquil",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
