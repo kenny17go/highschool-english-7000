@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T11:23:34.079464Z",
-  "count": 2713,
+  "generatedAt": "2026-09-14T12:05:10.923245Z",
+  "count": 2663,
   "words": [
     {
       "word": "alcoholic",
@@ -1199,126 +1199,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "pity",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plain",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plane",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "planet",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plantation",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "platform",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "playful",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "playground",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "playwright",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plea",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plead",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pleasant",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pleasure",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pledge",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plentiful",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plenty",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plot",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plow",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plug",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plum",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plumber",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plunge",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plural",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plus",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "pm",
       "level": 1,
       "reason": "awaiting_ai_original"
@@ -1326,31 +1206,6 @@
     {
       "word": "pneumonia",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pocket",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "poem",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "poet",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "poetic",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "poetry",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1364,33 +1219,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "poke",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "polar",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pole",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "policeman",
       "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "polish",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "polite",
-      "level": 1,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1411,86 +1241,6 @@
     {
       "word": "poll",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pollute",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pollution",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pond",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ponder",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pony",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pool",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "poor",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pop",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "popcorn",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "popularity",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "populate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "porcelain",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "porch",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pork",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "port",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "portable",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
