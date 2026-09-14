@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T23:31:39.466359Z",
-  "count": 101,
+  "generatedAt": "2026-09-14T23:38:39.484379Z",
+  "count": 61,
   "sourceExceptions": 10,
   "words": [
     {
@@ -10,43 +10,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "assassinate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bleed",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "blond",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "blonde",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bloody",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bomb",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "bosom",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bullet",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -65,27 +30,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "corpse",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "heroin",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "hijack",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "kidnap",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "lethal",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
@@ -100,23 +45,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "missile",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "mistress",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "murder",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "murderer",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -130,33 +60,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "poison",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "poisonous",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "pub",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "punch",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "razor",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rifle",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -170,83 +75,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "shoot",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shot",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shove",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "siege",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "skinny",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "skull",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slam",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slap",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slash",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slaughter",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slay",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "smuggle",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "snatch",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "spear",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "stab",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "strangle",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -255,33 +85,13 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "suffocate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "suicide",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sword",
       "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
       "word": "terror",
       "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "terrorism",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "terrorist",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
@@ -295,18 +105,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "torture",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "virgin",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "weapon",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
