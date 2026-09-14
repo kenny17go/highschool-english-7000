@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T15:04:38.517311Z",
-  "count": 875,
+  "generatedAt": "2026-09-14T15:05:30.188361Z",
+  "count": 825,
   "words": [
     {
       "word": "alcoholic",
@@ -489,211 +489,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "residence",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resident",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "residential",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resign",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resignation",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resistance",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resistant",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resolution",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resort",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "respectable",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "respectful",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "respondent",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "restoration",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "restraint",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "restriction",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "restroom",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resume",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "retail",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "retreat",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "retrieve",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reunion",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "revelation",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "revenge",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "revenue",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reverse",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "revival",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "revive",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "revolt",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "revolution",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "revolutionary",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "revolve",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rhetoric",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rhyme",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rhythm",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rib",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ribbon",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "riches",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rid",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "riddle",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ridge",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ridiculous",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "rifle",
       "level": 5,
       "reason": "awaiting_ai_original"
@@ -701,21 +496,6 @@
     {
       "word": "riot",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rob",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "robber",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "robbery",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -729,38 +509,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "ruthless",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "savage",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "scar",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "scoop",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "scooter",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "scorn",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "scout",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
