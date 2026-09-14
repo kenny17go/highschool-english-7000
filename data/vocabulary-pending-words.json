@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T15:27:05.162524Z",
-  "count": 543,
+  "generatedAt": "2026-09-14T15:28:08.949590Z",
+  "count": 494,
   "words": [
     {
       "word": "alcoholic",
@@ -2069,92 +2069,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "profess",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "proficient",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pronoun",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prophesy",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "prostitute",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "proudly",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prudent",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "prune",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "psalm",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "psychiatrist",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pulmonary",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "punctuation",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "purely",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pyjamas",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quaint",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "quarrelsome",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "queue",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rancher",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2165,26 +2080,6 @@
     },
     {
       "word": "rape",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reactionary",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "readiness",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rebellious",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "rebuild",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2204,27 +2099,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "salvation",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sanction",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sarcastic",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "satan",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "serum",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2240,11 +2115,6 @@
     },
     {
       "word": "slave n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "smallpox",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2289,57 +2159,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "therapeutic",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "thyroid",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "tranquilizer",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "transcend",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "traverse",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trespass",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tribune",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "triumphant",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trousers",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tsunami",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tuberculosis",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -2349,72 +2169,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "turkey",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "tumpike",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "twelve",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "twenty",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "two",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "typewriter",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "typist",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tyrant",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ulcer",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ultraviolet",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "unanimously",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "unaware",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "uncomfortable",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "unconsciously",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
