@@ -1,0 +1,14 @@
+{
+  "version": "1.5.1",
+  "batch": "49",
+  "language": "zh-Hant-TW",
+  "policy": {
+    "source": "ChatGPT original",
+    "copiedFromCommercialDictionary": false,
+    "preferredLength": "8-22 words",
+    "mode": "validation-refresh"
+  },
+  "words": {
+    "magazine": {"en": "The library keeps a science magazine near the reading area.", "zh": "圖書館在閱讀區附近放了一本科學雜誌。"}
+  }
+}
