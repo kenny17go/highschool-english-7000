@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T22:53:16.186991Z",
-  "count": 201,
+  "generatedAt": "2026-09-14T23:18:38.196459Z",
+  "count": 181,
   "words": [
     {
       "word": "alcoholic",
@@ -26,11 +26,6 @@
     {
       "word": "bet",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "blaze",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -89,11 +84,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "café",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "champagne",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -121,11 +111,6 @@
     {
       "word": "cocktail",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "coffin",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -264,11 +249,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "riot",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "seduce",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -339,16 +319,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "slave",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slavery",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "slay",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -374,11 +344,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "sober",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "spear",
       "level": 4,
       "reason": "awaiting_ai_original"
@@ -386,16 +351,6 @@
     {
       "word": "stab",
       "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "starvation",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "starve",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -464,18 +419,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "toxic",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "ugly",
       "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "underwear",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -609,27 +554,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "battlefield",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "besiege",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "briefmg",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "brigade",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "brutality",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -640,11 +565,6 @@
     },
     {
       "word": "carbon n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "childbirth",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -669,17 +589,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "color-blind",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "condom",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "counterattack",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -864,11 +774,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "militant",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "mortar",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -1000,11 +905,6 @@
     },
     {
       "word": "uranium",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "warship",
       "level": 7,
       "reason": "awaiting_ai_original"
     }
