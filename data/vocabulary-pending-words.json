@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T11:12:28.918016Z",
-  "count": 2963,
+  "generatedAt": "2026-09-14T11:13:05.324377Z",
+  "count": 2913,
   "words": [
     {
       "word": "alcoholic",
@@ -329,18 +329,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "lousy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "ma’am",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "marry",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
@@ -1754,21 +1744,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "paw",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "payment",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pea",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "peaceful",
       "level": 2,
       "reason": "awaiting_ai_original"
@@ -2226,21 +2201,6 @@
     {
       "word": "pity",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pizza",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "placement",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "plague",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -3279,16 +3239,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "punishment",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pupil",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "puppet",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -3699,21 +3649,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "recognition",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "recommendation",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "recorder",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "recovery",
       "level": 4,
       "reason": "awaiting_ai_original"
@@ -3769,21 +3704,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "referendum",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "refinement",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reflection",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "reflective",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -3791,21 +3711,6 @@
     {
       "word": "reform",
       "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "refresh",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "refreshment",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "refrigerator",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
@@ -3974,21 +3879,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "remarkable",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "remedy",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reminder",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "reminiscent",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -4031,21 +3921,6 @@
     {
       "word": "repay",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "repetition",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "replacement",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reporter",
-      "level": 1,
       "reason": "awaiting_ai_original"
     },
     {
@@ -4100,21 +3975,6 @@
     },
     {
       "word": "resemble",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resent",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "resentment",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "reservation",
       "level": 4,
       "reason": "awaiting_ai_original"
     },
@@ -4216,21 +4076,6 @@
     {
       "word": "retail",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "retire",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "retirement",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "retort",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -5049,21 +4894,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "seesaw",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "segment",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "seize",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "seldom",
       "level": 2,
       "reason": "awaiting_ai_original"
@@ -5129,26 +4959,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "sensor",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sentiment",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sentimental",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "separation",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "serene",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -5196,21 +5006,6 @@
     {
       "word": "setting",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "settle",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "settlement",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "settler",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -5924,21 +5719,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "smash",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "smell",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "smile",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "smog",
       "level": 5,
       "reason": "awaiting_ai_original"
@@ -6161,21 +5941,6 @@
     {
       "word": "solo",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "somebody",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "someday",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "somehow",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -9546,21 +9311,6 @@
     {
       "word": "wary",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "waterfall",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "watermelon",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "waterproof",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
