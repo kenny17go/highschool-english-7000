@@ -1,0 +1,29 @@
+{
+  "version": "1.5.1",
+  "batch": "67",
+  "language": "zh-Hant-TW",
+  "policy": {
+    "source": "ChatGPT original",
+    "copiedFromCommercialDictionary": false,
+    "preferredLength": "8-22 words",
+    "mode": "exact-pending-final-cleanup",
+    "shard": 2
+  },
+  "words": {
+    "air-tight": {"en": "The science teacher showed us an air-tight container used in the experiment.", "zh": "自然科老師向我們展示實驗中使用的密封容器。"},
+    "audio-visual": {"en": "The presentation used audio-visual materials to explain the topic more clearly.", "zh": "這場簡報使用視聽教材，讓主題說明得更清楚。"},
+    "bbc": {"en": "Our media class compared a bbc report with articles from other news organizations.", "zh": "媒體課比較了一篇 BBC 報導與其他新聞機構的文章。"},
+    "belly": {"en": "The children's story describes a bear with a round belly after lunch.", "zh": "這本兒童故事描寫一隻午餐後肚子圓圓的熊。"},
+    "ghetto": {"en": "The history textbook explains how the term ghetto developed in different periods.", "zh": "歷史課本說明了 ghetto 這個詞在不同時期的發展。"},
+    "king-size": {"en": "The hotel brochure lists a king-size bed among the available room features.", "zh": "飯店手冊把特大雙人床列為可選的房間設備之一。"},
+    "malaria": {"en": "The biology lesson mentioned malaria while discussing diseases carried by mosquitoes.", "zh": "生物課在討論蚊子傳播的疾病時提到了瘧疾。"},
+    "malicious": {"en": "The teacher explained how a malicious message can damage trust within a group.", "zh": "老師說明了惡意訊息如何破壞團體中的信任。"},
+    "parking": {"en": "The school map marks the visitor parking area beside the main entrance.", "zh": "校園地圖標示了正門旁的訪客停車區。"},
+    "parlor": {"en": "The old house has a small parlor where guests once gathered to talk.", "zh": "這棟老房子有一間小客廳，過去客人會在那裡聚會聊天。"},
+    "passerby": {"en": "A passerby noticed the lost notebook and brought it to the information desk.", "zh": "一名路人發現遺失的筆記本，並把它送到服務台。"},
+    "pasture": {"en": "The geography photo shows cattle grazing quietly across a wide green pasture.", "zh": "地理課照片顯示牛群在廣闊的綠色牧場上安靜吃草。"},
+    "patiently": {"en": "The tutor patiently explained the difficult equation until everyone understood it.", "zh": "家教老師耐心地講解那道困難的方程式，直到大家都理解。"},
+    "walkman": {"en": "The museum displays a walkman as an example of portable music technology.", "zh": "博物館展示隨身聽，作為可攜式音樂科技的例子。"},
+    "yale": {"en": "The article mentions yale while comparing the histories of several American universities.", "zh": "這篇文章在比較幾所美國大學的歷史時提到了耶魯。"}
+  }
+}
