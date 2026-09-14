@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T15:05:30.188361Z",
-  "count": 825,
+  "generatedAt": "2026-09-14T15:06:35.808142Z",
+  "count": 775,
   "words": [
     {
       "word": "alcoholic",
@@ -514,38 +514,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "scramble",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "scrap",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "scrape",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "scratch",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "scream",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "screw",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "screwdriver",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -729,16 +699,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "subsidize",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "substance",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "suck",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -754,63 +714,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "superiority",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "surgeon",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "surgery",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "surgical",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "surrender",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "surveillance",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "survivor",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "suspect",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "suspend",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "sword",
       "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "symptom",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "syndrome",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -869,21 +774,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "transplant",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "trauma",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tumor",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "ugly",
       "level": 2,
       "reason": "awaiting_ai_original"
@@ -899,18 +789,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "vaccine",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "vanity",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vein",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -929,122 +809,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "virus",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "visa",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vision",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vital",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vitality",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vitamin",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vocabulary",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vocal",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vocation",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vocational",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "volcano",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "volleyball",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vomit",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "voter",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "voucher",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vow",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vowel",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "voyage",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vulnerable",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wag",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wage",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wagon",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "waist",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "waiter",
       "level": 2,
       "reason": "awaiting_ai_original"
     },
@@ -1214,11 +979,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "behold",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "beijing",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -1230,16 +990,6 @@
     },
     {
       "word": "besiege",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bestseller",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bewilder",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
