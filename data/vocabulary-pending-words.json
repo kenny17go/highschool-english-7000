@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T23:27:46.437358Z",
-  "count": 141,
+  "generatedAt": "2026-09-14T23:31:39.466359Z",
+  "count": 101,
   "sourceExceptions": 10,
   "words": [
     {
@@ -10,27 +10,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "ass",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "assassinate",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "beer",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bet",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "bleach",
       "level": 6,
       "reason": "awaiting_ai_original"
     },
@@ -65,42 +45,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "bra",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "brassiere",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "breast",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "bullet",
       "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "champagne",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "chubby",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cigar",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "cocaine",
       "level": 5,
       "reason": "awaiting_ai_original"
     },
@@ -115,38 +65,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "coke",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "corpse",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "drug",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "drunk",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "firecracker",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "gun",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "handsome",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
@@ -162,11 +82,6 @@
     {
       "word": "kidnap",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "lesbian",
-      "level": 6,
       "reason": "awaiting_ai_original"
     },
     {
@@ -235,11 +150,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "queer",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "razor",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -252,16 +162,6 @@
     {
       "word": "seduce",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sex",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "sexual",
-      "level": 3,
       "reason": "awaiting_ai_original"
     },
     {
@@ -325,16 +225,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "slender",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "slim",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "smuggle",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -380,11 +270,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "tan",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "terror",
       "level": 4,
       "reason": "awaiting_ai_original"
@@ -397,11 +282,6 @@
     {
       "word": "terrorist",
       "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "thigh",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
@@ -420,18 +300,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "ugly",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "virgin",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "waist",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
@@ -457,11 +327,6 @@
     {
       "word": "wine",
       "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "aborigine",
-      "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
@@ -545,17 +410,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "i.q.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "intercourse",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "intriguing adj.",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -580,32 +435,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "men n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "mortar",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "naive adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "naked adj.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "overnight ad",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "painfully ad",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -616,11 +451,6 @@
     },
     {
       "word": "pesticide",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "pour v.",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
@@ -655,11 +485,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "shorts n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "slave n.",
       "level": 7,
       "reason": "awaiting_ai_original"
@@ -670,37 +495,12 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "spot.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "subsequently ad",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "suckle",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "sweep n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "swim n.",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "tranquilizer",
-      "level": 7,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "tuesday n.",
       "level": 7,
       "reason": "awaiting_ai_original"
     },
