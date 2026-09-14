@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T22:27:24.345941Z",
-  "count": 240,
+  "generatedAt": "2026-09-14T22:27:39.649728Z",
+  "count": 225,
   "words": [
     {
       "word": "alcoholic",
@@ -224,21 +224,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "mr.",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "mrs.",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "ms.",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "murder",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -299,16 +284,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "scorn",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "scream",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "seduce",
       "level": 6,
       "reason": "awaiting_ai_original"
@@ -329,16 +304,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "shave",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "shaver",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "shoot",
       "level": 2,
       "reason": "awaiting_ai_original"
@@ -356,11 +321,6 @@
     {
       "word": "siege",
       "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "skin",
-      "level": 2,
       "reason": "awaiting_ai_original"
     },
     {
@@ -479,16 +439,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "stutter",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "stylish",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "suck",
       "level": 3,
       "reason": "awaiting_ai_original"
@@ -539,11 +489,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "torch",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "torment",
       "level": 5,
       "reason": "awaiting_ai_original"
@@ -559,11 +504,6 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "traitor",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "ugly",
       "level": 2,
       "reason": "awaiting_ai_original"
@@ -574,23 +514,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "uprising",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "vanity",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vice",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vicious",
-      "level": 5,
       "reason": "awaiting_ai_original"
     },
     {
