@@ -1,7 +1,7 @@
 {
   "version": "1.5.1",
-  "generatedAt": "2026-09-14T14:00:18.206503Z",
-  "count": 1439,
+  "generatedAt": "2026-09-14T14:02:11.600585Z",
+  "count": 1413,
   "words": [
     {
       "word": "alcoholic",
@@ -1674,83 +1674,8 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "viewpoint",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vigor",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vigorous",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "villa",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "villain",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vine",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vinegar",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "vineyard",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "violate",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "violation",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "violet",
-      "level": 3,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "violin",
-      "level": 1,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "violinist",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "virgin",
       "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "virtual",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "virtue",
-      "level": 4,
       "reason": "awaiting_ai_original"
     },
     {
@@ -2229,62 +2154,7 @@
       "reason": "awaiting_ai_original"
     },
     {
-      "word": "witness",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "witty",
-      "level": 5,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wizard",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "woe",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wolf",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wooden",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "woodpecker",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "wool",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "workbook",
-      "level": 2,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "workforce",
-      "level": 6,
-      "reason": "awaiting_ai_original"
-    },
-    {
       "word": "workout",
-      "level": 4,
-      "reason": "awaiting_ai_original"
-    },
-    {
-      "word": "workplace",
       "level": 4,
       "reason": "awaiting_ai_original"
     },
