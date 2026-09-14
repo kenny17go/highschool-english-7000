@@ -43,7 +43,7 @@ jobs:
           for path in ['data/ai-original-examples.json']+sorted(glob.glob('data/ai-original-examples-batch-*.json')):
               p=json.load(open(path,encoding='utf-8'))
               assert p.get('version') == '1.5.1'
-              merged.update(p.get('words',{}))
+              merged.update(p.get('words',p.get('examples',{})))
           assert e.get('version') == '1.5.1'
           assert len(e.get('words',{})) >= 6000
           assert e.get('summary',{}).get('aiOriginalReady',0) > 0
