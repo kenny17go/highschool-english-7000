@@ -1,0 +1,12 @@
+name: Diagnose V1.5.3 JavaScript
+on:
+  push:
+    paths:
+      - '.github/workflows/v153-js-diagnose.yml'
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Syntax check
+        run: node --check app.js
