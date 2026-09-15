@@ -1,0 +1,91 @@
+name: Apply V1.5.2 learning navigation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v152-learning-nav.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply V1.5.2 navigation changes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          # index.html: add Previous / Next controls under rating buttons
+          p=Path('index.html')
+          s=p.read_text(encoding='utf-8')
+          old='''      <div class="rating-grid hidden" id="ratingGrid">\n        <button data-grade="again" class="rate again">忘記了<small>很快再看</small></button>\n        <button data-grade="hard" class="rate hard">有點難<small>1 天後</small></button>\n        <button data-grade="good" class="rate good">記得<small>3 天後</small></button>\n        <button data-grade="easy" class="rate easy">很熟<small>7 天後</small></button>\n      </div>'''
+          new=old+'''\n      <div class="learn-nav" id="learnNav">\n        <button class="learn-nav-btn" id="prevWordBtn" type="button">← <span>上一個</span></button>\n        <button class="learn-nav-btn primary-nav" id="nextWordBtn" type="button"><span>下一個</span> →</button>\n      </div>'''
+          if 'id="prevWordBtn"' not in s:
+              if old not in s: raise SystemExit('index ratingGrid anchor not found')
+              s=s.replace(old,new,1)
+          s=s.replace('版本 V1.5.1 ·','版本 V1.5.2 ·')
+          p.write_text(s,encoding='utf-8')
+
+          # app.js: navigation behavior + button states
+          p=Path('app.js')
+          s=p.read_text(encoding='utf-8')
+          anchor="document.getElementById('sessionCounter').textContent=`${sessionIndex+1}/${session.length}`;document.getElementById('sessionProgress').style.width=`${sessionIndex/session.length*100}%`;if(state.settings.autoSpeak)speak(w.word)}"
+          replacement="document.getElementById('sessionCounter').textContent=`${sessionIndex+1}/${session.length}`;document.getElementById('sessionProgress').style.width=`${sessionIndex/session.length*100}%`;const prevBtn=document.getElementById('prevWordBtn'),nextBtn=document.getElementById('nextWordBtn');if(prevBtn)prevBtn.disabled=sessionIndex===0;if(nextBtn){nextBtn.innerHTML=sessionIndex===session.length-1?'<span>完成學習</span> ✓':'<span>下一個</span> →';nextBtn.setAttribute('aria-label',sessionIndex===session.length-1?'完成學習':'下一個單字')}if(state.settings.autoSpeak)speak(w.word)}"
+          if "id='prevWordBtn'" not in s and 'prevWordBtn' not in s:
+              if anchor not in s: raise SystemExit('showSessionWord anchor not found')
+              s=s.replace(anchor,replacement,1)
+
+          if 'function moveSession(' not in s:
+              grade_anchor='function gradeWord(grade){'
+              helper="function moveSession(step){if(!session.length)return;if(step<0){if(sessionIndex<=0)return;sessionIndex--;showSessionWord();return}if(sessionIndex>=session.length-1){sessionIndex=session.length;showSessionWord();return}sessionIndex++;showSessionWord()}\n"
+              if grade_anchor not in s: raise SystemExit('gradeWord anchor not found')
+              s=s.replace(grade_anchor,helper+grade_anchor,1)
+
+          bind_anchor="document.querySelectorAll('.rate').forEach(b=>b.onclick=()=>gradeWord(b.dataset.grade));"
+          bind_new=bind_anchor+"const prevWordBtn=document.getElementById('prevWordBtn'),nextWordBtn=document.getElementById('nextWordBtn');if(prevWordBtn)prevWordBtn.onclick=()=>moveSession(-1);if(nextWordBtn)nextWordBtn.onclick=()=>moveSession(1);"
+          if "prevWordBtn.onclick" not in s:
+              if bind_anchor not in s: raise SystemExit('bind anchor not found')
+              s=s.replace(bind_anchor,bind_new,1)
+          p.write_text(s,encoding='utf-8')
+
+          # styles.css: mobile-friendly bottom navigation
+          p=Path('styles.css')
+          s=p.read_text(encoding='utf-8')
+          if '/* V1.5.2 learning navigation */' not in s:
+              s += '''\n\n/* V1.5.2 learning navigation */\n.learn-nav{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0 6px}.learn-nav-btn{min-height:58px;border:1px solid #d5e1ec;border-radius:22px;background:#eef4f8;color:#285579;font:inherit;font-size:16px;font-weight:800;display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 5px 16px rgba(28,70,105,.07);-webkit-tap-highlight-color:transparent}.learn-nav-btn.primary-nav{background:#e7f1f8;color:#1e5d89}.learn-nav-btn:active{transform:translateY(1px)}.learn-nav-btn:disabled{opacity:.42;box-shadow:none;cursor:not-allowed}.learn-nav-btn:focus-visible{outline:3px solid rgba(76,174,140,.3);outline-offset:2px}@media(max-width:430px){.learn-nav{gap:10px;margin-top:12px}.learn-nav-btn{min-height:56px;border-radius:20px;font-size:16px}}\n'''
+          p.write_text(s,encoding='utf-8')
+
+          # sw.js: force clients to receive updated UI assets
+          p=Path('sw.js')
+          s=p.read_text(encoding='utf-8')
+          s=s.replace("const CACHE='hs7000-v1.5.1';","const CACHE='hs7000-v1.5.2';")
+          p.write_text(s,encoding='utf-8')
+          PY
+
+      - name: Verify navigation hooks
+        run: |
+          grep -q 'id="prevWordBtn"' index.html
+          grep -q 'id="nextWordBtn"' index.html
+          grep -q 'function moveSession' app.js
+          grep -q 'V1.5.2 learning navigation' styles.css
+          grep -q "hs7000-v1.5.2" sw.js
+          grep -q "const STORAGE_KEY='hs7000-v1';" app.js
+
+      - name: Commit V1.5.2
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html app.js styles.css sw.js
+          if git diff --cached --quiet; then
+            echo "No changes needed"
+          else
+            git commit -m "feat: add V1.5.2 learning previous-next navigation"
+            git push
+          fi
