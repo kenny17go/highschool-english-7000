@@ -122,6 +122,14 @@
         <div class="options" id="quizOptions"></div>
         <div class="spelling-box hidden" id="spellingBox"><input id="spellingInput" autocomplete="off" autocapitalize="none" placeholder="輸入英文拼字"/><button class="primary" id="submitSpellingBtn">送出</button></div>
         <div class="quiz-feedback" id="quizFeedback"></div>
+        <div class="quiz-explanation-panel hidden" id="quizExplanationPanel">
+          <div class="question-explanation" id="questionExplanation"></div>
+          <div class="option-explanations" id="optionExplanations"></div>
+          <div class="quiz-help-actions">
+            <button class="quiz-help-btn" id="markUnknownBtn" type="button">我不懂</button>
+            <button class="quiz-help-btn" id="askChatGPTBtn" type="button">詢問 ChatGPT</button>
+          </div>
+        </div>
         <button class="primary hidden" id="nextQuizBtn">下一題</button>
       </div>
     </section>
@@ -283,11 +291,22 @@
       <label>學習範圍<select id="studyMode"><option value="7000">7000 完整模式</option><option value="6000">108 課綱 6000 核心</option><option value="4500">4500 核心優先</option></select></label>
       <label class="toggle"><input type="checkbox" id="autoSpeak" checked />顯示單字時自動發音</label>
       <label class="toggle"><input type="checkbox" id="showExampleZh" checked />顯示例句中文翻譯</label>
-      <p class="note">版本 V1.5.2 · AI 原創例句補全完成（例外項目已標記）</p>
+      <p class="note">版本 V1.5.3 · 測驗解析輔助版</p>
       <button class="primary big" id="saveSettingsBtn">儲存</button>
     </form>
   </dialog>
 
   <script src="app.js" defer></script>
+
+  <dialog id="chatgptPromptDialog" class="chatgpt-sheet">
+    <div class="chatgpt-sheet-card">
+      <div class="chatgpt-sheet-head"><h3>詢問 ChatGPT</h3><button id="closeChatGPTPromptBtn" class="text-btn" type="button">關閉</button></div>
+      <p>已依照目前題目整理好提問指令，可直接複製到 ChatGPT。</p>
+      <textarea id="chatgptPromptText" class="chatgpt-prompt" readonly></textarea>
+      <button id="copyChatGPTPromptBtn" class="primary big copy-prompt-btn" type="button">複製指令</button>
+      <div id="copyPromptStatus" class="copy-prompt-status"></div>
+    </div>
+  </dialog>
+
 </body>
 </html>

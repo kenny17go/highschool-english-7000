@@ -147,7 +147,7 @@ def main():
     APP.write_text(app,encoding='utf-8')
     footer='版本 V1.5.1 · AI 原創例句補全完成（例外項目已標記）' if pending==0 else '版本 V1.5.1 · AI 原創例句補全中'
     idx=INDEX.read_text(encoding='utf-8'); idx=re.sub(r'版本 V1\.[0-9.]+ · [^<]*',footer,idx,count=1); INDEX.write_text(idx,encoding='utf-8')
-    sw=SW.read_text(encoding='utf-8'); sw=re.sub(r"const CACHE='hs7000-v[^']+';","const CACHE='hs7000-v1.5.1';",sw,count=1); SW.write_text(sw,encoding='utf-8')
+    sw=SW.read_text(encoding='utf-8'); sw=re.sub(r"const CACHE='hs7000-v[^']+';","const CACHE='hs7000-v1.5.3';",sw,count=1); SW.write_text(sw,encoding='utf-8')
 
     data=load(EXAMPLES,{})
     assert data.get('version')==VERSION and len(data.get('words',{}))>=6000
