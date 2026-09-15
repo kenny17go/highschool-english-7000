@@ -1,0 +1,37 @@
+name: Apply V1.5.3 JavaScript hotfix
+
+on:
+  push:
+    paths:
+      - '.github/workflows/v153-hotfix-js.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  hotfix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fix malformed prompt join and validate JavaScript
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('app.js')
+          s=p.read_text(encoding='utf-8')
+          bad="}).join('\n+');if(q.type==='cloze')"
+          good="}).join('\\n');if(q.type==='cloze')"
+          if bad not in s:
+              raise SystemExit('expected malformed join not found')
+          s=s.replace(bad,good,1)
+          p.write_text(s,encoding='utf-8')
+          PY
+          node --check app.js
+          grep -q "const STORAGE_KEY='hs7000-v1'" app.js
+      - name: Commit hotfix
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app.js
+          git commit -m "fix: repair V1.5.3 JavaScript startup error"
+          git push
