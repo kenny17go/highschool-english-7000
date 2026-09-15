@@ -1,0 +1,35 @@
+name: Repair V1.5.3 JavaScript
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/v153-repair-js.yml'
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Repair malformed multiline join
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          p=Path('app.js')
+          s=p.read_text(encoding='utf-8')
+          # V1.5.3 accidentally placed a literal line break inside the JS single-quoted join separator.
+          s2,n=re.subn(r"\.join\('\s*'\);if\(q\.type==='cloze'\)", ".join('\\\\n');if(q.type==='cloze')", s, count=1)
+          if n != 1:
+              raise SystemExit(f'expected one malformed join; repaired {n}')
+          p.write_text(s2,encoding='utf-8')
+          PY
+          node --check app.js
+          grep -q "const STORAGE_KEY='hs7000-v1'" app.js
+      - name: Commit repair
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app.js
+          git commit -m "fix: restore V1.5.3 app JavaScript loading"
+          git push
