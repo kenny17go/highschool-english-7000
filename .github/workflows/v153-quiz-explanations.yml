@@ -1,0 +1,103 @@
+name: Apply V1.5.3 quiz explanations
+
+on:
+  push:
+    paths:
+      - '.github/workflows/v153-quiz-explanations.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply V1.5.3
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          # ---------- index.html ----------
+          p=Path('index.html'); s=p.read_text(encoding='utf-8')
+          old='''        <div class="quiz-feedback" id="quizFeedback"></div>\n        <button class="primary hidden" id="nextQuizBtn">下一題</button>'''
+          new='''        <div class="quiz-feedback" id="quizFeedback"></div>\n        <div class="quiz-explanation-panel hidden" id="quizExplanationPanel">\n          <div class="question-explanation" id="questionExplanation"></div>\n          <div class="option-explanations" id="optionExplanations"></div>\n          <div class="quiz-help-actions">\n            <button class="quiz-help-btn" id="markUnknownBtn" type="button">我不懂</button>\n            <button class="quiz-help-btn" id="askChatGPTBtn" type="button">詢問 ChatGPT</button>\n          </div>\n        </div>\n        <button class="primary hidden" id="nextQuizBtn">下一題</button>'''
+          if old not in s: raise SystemExit('index quiz anchor not found')
+          s=s.replace(old,new,1)
+          dialog='''\n  <dialog id="chatgptPromptDialog" class="chatgpt-sheet">\n    <div class="chatgpt-sheet-card">\n      <div class="chatgpt-sheet-head"><h3>詢問 ChatGPT</h3><button id="closeChatGPTPromptBtn" class="text-btn" type="button">關閉</button></div>\n      <p>已依照目前題目整理好提問指令，可直接複製到 ChatGPT。</p>\n      <textarea id="chatgptPromptText" class="chatgpt-prompt" readonly></textarea>\n      <button id="copyChatGPTPromptBtn" class="primary big copy-prompt-btn" type="button">複製指令</button>\n      <div id="copyPromptStatus" class="copy-prompt-status"></div>\n    </div>\n  </dialog>\n'''
+          if 'id="chatgptPromptDialog"' not in s:
+              s=s.replace('</body>',dialog+'\n</body>',1)
+          s=re.sub(r'版本 V1\.[0-9.]+ · [^<]*','版本 V1.5.3 · 測驗解析輔助版',s,count=1)
+          p.write_text(s,encoding='utf-8')
+
+          # ---------- app.js ----------
+          p=Path('app.js'); s=p.read_text(encoding='utf-8')
+          new_show=r'''function showQuiz(){if(quizIndex>=quiz.length){const pct=Math.round(quizScore/quiz.length*100);document.getElementById('quizArea').innerHTML=`<div class="dashboard-card"><h2>測驗完成</h2><div class="big-number">${pct}%</div><p>答對 ${quizScore} / ${quiz.length} 題</p><button class="primary big" onclick="location.reload()">完成</button></div>`;renderAll();return}const w=quiz[quizIndex],type=pickType(),d=detailFor(w);document.getElementById('quizIndex').textContent=`${quizIndex+1}/${quiz.length}`;document.getElementById('quizScore').textContent=`${quizScore} 分`;document.getElementById('quizFeedback').textContent='';document.getElementById('nextQuizBtn').classList.add('hidden');document.getElementById('quizExplanationPanel')?.classList.add('hidden');document.getElementById('quizOptions').innerHTML='';document.getElementById('spellingBox').classList.add('hidden');document.getElementById('quizSpeakBtn').classList.toggle('hidden',type==='zh-en'||type==='spelling');document.getElementById('quizContext').textContent='';if(type==='en-zh'){const opts=[w,...distractors(w,'meaning')].sort(()=>Math.random()-.5);currentQuestion={w,type,options:opts,userAnswer:null,sentence:'',meaning:w.meaning,explanationZh:'',clue:''};document.getElementById('questionType').textContent='英 → 中';document.getElementById('quizWord').textContent=w.word;renderOptions(opts,o=>o.meaning,o=>o.word===w.word,w)}else if(type==='zh-en'){const opts=[w,...distractors(w,'word')].sort(()=>Math.random()-.5);currentQuestion={w,type,options:opts,userAnswer:null,sentence:'',meaning:w.meaning,explanationZh:'',clue:''};document.getElementById('questionType').textContent='中 → 英';document.getElementById('quizWord').textContent=w.meaning;renderOptions(opts,o=>o.word,o=>o.word===w.word,w)}else if(type==='spelling'){currentQuestion={w,type,options:[],userAnswer:null,sentence:'',meaning:w.meaning,explanationZh:'',clue:''};document.getElementById('questionType').textContent='拼字';document.getElementById('quizWord').textContent=w.meaning;document.getElementById('spellingBox').classList.remove('hidden');const inp=document.getElementById('spellingInput');inp.value='';inp.disabled=false;setTimeout(()=>inp.focus(),50)}else{const opts=[w,...distractors(w,'word')].sort(()=>Math.random()-.5),sentence=d.example.replace(new RegExp(`\\b${w.word}\\b`,'i'),'_____');currentQuestion={w,type,options:opts,userAnswer:null,sentence,fullSentence:d.example,meaning:w.meaning,explanationZh:d.exampleZh||'',clue:(d.collocations||[]).slice(0,2).join(' · ')};document.getElementById('questionType').textContent='學測情境克漏字';document.getElementById('quizWord').textContent='選出最適合的單字';document.getElementById('quizContext').textContent=sentence;renderOptions(opts,o=>o.word,o=>o.word===w.word,w)}}
+'''
+          s,n=re.subn(r"function showQuiz\(\)\{.*?\nfunction renderOptions",new_show+'function renderOptions',s,count=1,flags=re.S)
+          if n!=1: raise SystemExit('showQuiz patch failed')
+
+          new_render=r'''function renderOptions(opts,label,isCorrect,w){const el=document.getElementById('quizOptions');opts.forEach(o=>{const b=document.createElement('button');b.className='option';b.textContent=label(o);b.dataset.word=o.word;b.dataset.label=label(o);b.onclick=()=>answerQuiz(b,isCorrect(o),w,label(w),o);el.appendChild(b)})}
+'''
+          s,n=re.subn(r"function renderOptions\(.*?\nfunction answerQuiz",new_render+'function answerQuiz',s,count=1,flags=re.S)
+          if n!=1: raise SystemExit('renderOptions patch failed')
+
+          new_answer=r'''function answerQuiz(btn,correct,w,answerText,selected){document.querySelectorAll('.option').forEach(b=>b.disabled=true);state.stats.total++;currentQuestion.userAnswer=selected?.word||btn.dataset.word||btn.textContent;currentQuestion.correctAnswer=w.word;if(correct){btn.classList.add('correct');quizScore++;state.stats.correct++;document.getElementById('quizFeedback').textContent='答對了！'}else{btn.classList.add('wrong');state.mistakes[w.word]=(Number(state.mistakes[w.word])||0)+1;document.getElementById('quizFeedback').textContent=`正確答案：${answerText}`;document.querySelectorAll('.option').forEach(b=>{if(b.dataset.word===w.word)b.classList.add('correct')})}saveState();renderQuizExplanation();document.getElementById('nextQuizBtn').classList.remove('hidden')}
+'''
+          s,n=re.subn(r"function answerQuiz\(.*?\nfunction submitSpelling",new_answer+'function submitSpelling',s,count=1,flags=re.S)
+          if n!=1: raise SystemExit('answerQuiz patch failed')
+
+          new_submit=r'''function submitSpelling(){if(!currentQuestion||currentQuestion.type!=='spelling')return;const {w}=currentQuestion,inp=document.getElementById('spellingInput'),ans=normalizeWord(inp.value),correct=ans===w.word;state.stats.total++;inp.disabled=true;currentQuestion.userAnswer=ans||'（未作答）';currentQuestion.correctAnswer=w.word;if(correct){quizScore++;state.stats.correct++;document.getElementById('quizFeedback').textContent='拼字正確！'}else{state.mistakes[w.word]=(Number(state.mistakes[w.word])||0)+1;document.getElementById('quizFeedback').textContent=`正確拼字：${w.word}`}saveState();renderQuizExplanation();document.getElementById('nextQuizBtn').classList.remove('hidden')}
+
+function escapeHtml(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function getWordInfo(word){const key=normalizeWord(word),w=bank.find(x=>x.word===key);return {word:key,pos:w?.pos||[],meaning:w?.meaning||'目前無完整釋義'}}
+function optionReason(info,correct){return correct?'符合題目所需的字義與語境。':'此選項的字義與題目所需語意不同。'}
+function renderQuizExplanation(){if(!currentQuestion)return;const q=currentQuestion,w=q.w,d=detailFor(w),panel=document.getElementById('quizExplanationPanel'),qe=document.getElementById('questionExplanation'),oe=document.getElementById('optionExplanations');if(!panel||!qe||!oe)return;let body='';if(q.type==='cloze'){body=`<h3>題目解析</h3><p><b>完整句：</b>${escapeHtml(q.fullSentence||'')}</p><p><b>中文：</b>${escapeHtml(q.explanationZh||'此題目前尚無完整中文翻譯。')}</p><p><b>題意：</b>這題要依句意選出最合適的單字。${q.clue?` 常見搭配：${escapeHtml(q.clue)}。`:''}</p>`}else if(q.type==='spelling'){body=`<h3>題目解析</h3><p><b>${escapeHtml(w.word)}</b> ${(w.pos||[]).map(escapeHtml).join(' / ')}</p><p>${escapeHtml(w.meaning)}</p><p>你的拼字：${escapeHtml(q.userAnswer||'（未作答）')}</p>`}else{body=`<h3>題目解析</h3><p><b>${escapeHtml(w.word)}</b> ${(w.pos||[]).map(escapeHtml).join(' / ')}</p><p>${escapeHtml(w.meaning)}</p>`}qe.innerHTML=body;if(q.type==='spelling'){oe.innerHTML=''}else{oe.innerHTML='<h3>選項解析</h3>'+q.options.map(o=>{const info=getWordInfo(o.word),isCorrect=o.word===w.word,isWrong=q.userAnswer===o.word&&!isCorrect;return `<div class="option-explanation ${isCorrect?'correct':''} ${isWrong?'wrong':''}"><div class="option-explanation-title"><b>${escapeHtml(info.word)}</b>${isCorrect?'<span>✓ 正確</span>':isWrong?'<span>✗ 你的答案</span>':''}</div><div class="option-meaning">${escapeHtml((info.pos||[]).join(' / ')||'—')} ${escapeHtml(info.meaning)}</div><div class="option-reason">${escapeHtml(optionReason(info,isCorrect))}</div></div>`}).join('')}const mb=document.getElementById('markUnknownBtn');if(mb){const marked=!!state.mistakes[w.word];mb.textContent=marked?'✓ 已加入弱點':'我不懂';mb.classList.toggle('active',marked)}panel.classList.remove('hidden')}
+function markCurrentQuestionUnknown(){if(!currentQuestion?.w)return;const word=currentQuestion.w.word;state.mistakes[word]=(Number(state.mistakes[word])||0)+1;saveState();const b=document.getElementById('markUnknownBtn');if(b){b.textContent='✓ 已加入弱點';b.classList.add('active')}renderProgress();renderInsights()}
+function buildChatGPTPrompt(){if(!currentQuestion)return'';const q=currentQuestion,w=q.w,opts=(q.options||[]).map((o,i)=>{const x=getWordInfo(o.word);return `${i+1}. ${x.word}｜${(x.pos||[]).join(' / ')||'—'}｜${x.meaning}`}).join('\n');if(q.type==='cloze')return `我是台灣高中生，請幫我解析這題英文克漏字。\n\n【題目】\n${q.sentence||''}\n\n【我的答案】\n${q.userAnswer||'未作答'}\n\n【正確答案】\n${w.word}\n\n【選項】\n${opts}\n\n請用台灣高中程度依序說明：\n1. 完整句子的中文翻譯\n2. 這題在考什麼\n3. 關鍵線索是什麼\n4. 為什麼正解是 ${w.word}\n5. 其他選項為什麼不適合\n6. 如何更快從句意判斷\n7. 出一題同類型題目，先不要公布答案\n\n請使用繁體中文。`;if(q.type==='spelling')return `我是台灣高中生，請幫我解析這題英文拼字題。\n\n【中文意思】\n${w.meaning}\n\n【我的拼字】\n${q.userAnswer||'未作答'}\n\n【正確拼字】\n${w.word}\n\n請依序說明：\n1. 正確拼字如何記\n2. 詞性與中文意思\n3. 我可能是哪裡拼錯\n4. 有沒有字首、字根、字尾可以幫助記憶\n5. 給我一個簡短例句\n6. 再出一題相近拼字題，但先不要公布答案\n\n請使用繁體中文。`;if(q.type==='zh-en')return `我是台灣高中生，請幫我解析這題中翻英單字題。\n\n【題目】\n中文：${w.meaning}\n\n【我的答案】\n${q.userAnswer||'未作答'}\n\n【正確答案】\n${w.word}\n\n【選項】\n${opts}\n\n請依序說明：\n1. 為什麼正確英文是 ${w.word}\n2. 這個字的詞性與常見用法\n3. 其他選項與正解有什麼差異\n4. 有哪些容易混淆的字\n5. 出一題同程度練習題，先不要公布答案\n\n請用繁體中文。`;return `我是台灣高中生，請幫我解析這題英文單字題。\n\n【題目】\n單字：${w.word}\n\n【我的答案】\n${q.userAnswer||'未作答'}\n\n【正確答案】\n${w.meaning}\n\n【選項】\n${opts}\n\n請用台灣高中程度，依序說明：\n1. 這個單字的中文意思與詞性\n2. 為什麼正確答案是這個\n3. 其他選項為什麼不對\n4. 這個字常見用法與搭配\n5. 有哪些容易混淆的字\n6. 最後出一題同程度練習題，但先不要公布答案\n\n請使用繁體中文，說明清楚但不要太冗長。`}
+function openChatGPTPrompt(){const dlg=document.getElementById('chatgptPromptDialog'),ta=document.getElementById('chatgptPromptText'),st=document.getElementById('copyPromptStatus');if(!dlg||!ta)return;ta.value=buildChatGPTPrompt();if(st)st.textContent='';dlg.showModal?dlg.showModal():dlg.setAttribute('open','')}
+async function copyChatGPTPrompt(){const ta=document.getElementById('chatgptPromptText'),st=document.getElementById('copyPromptStatus');if(!ta)return;let ok=false;try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(ta.value);ok=true}}catch{}if(!ok){ta.focus();ta.select();try{ok=document.execCommand('copy')}catch{ok=false}}if(st)st.textContent=ok?'已複製，可以貼到 ChatGPT 詢問':'複製失敗，請長按文字手動複製'}
+'''
+          s,n=re.subn(r"function submitSpelling\(\).*?\nfunction fillDetail",new_submit+'\nfunction fillDetail',s,count=1,flags=re.S)
+          if n!=1: raise SystemExit('submitSpelling/helper patch failed')
+
+          bind_anchor="document.getElementById('nextQuizBtn').onclick=()=>{quizIndex++;document.getElementById('spellingInput').disabled=false;showQuiz()};"
+          bind_new=bind_anchor+"document.getElementById('markUnknownBtn').onclick=markCurrentQuestionUnknown;document.getElementById('askChatGPTBtn').onclick=openChatGPTPrompt;document.getElementById('closeChatGPTPromptBtn').onclick=()=>document.getElementById('chatgptPromptDialog').close();document.getElementById('copyChatGPTPromptBtn').onclick=copyChatGPTPrompt;"
+          if bind_anchor not in s: raise SystemExit('bind anchor not found')
+          s=s.replace(bind_anchor,bind_new,1)
+          if "const STORAGE_KEY='hs7000-v1';" not in s: raise SystemExit('STORAGE_KEY changed')
+          p.write_text(s,encoding='utf-8')
+
+          # ---------- styles.css ----------
+          p=Path('styles.css'); s=p.read_text(encoding='utf-8')
+          css=r'''
+/* V1.5.3 — quiz explanations + ChatGPT help */
+.quiz-explanation-panel{margin:18px 0 14px;text-align:left;display:grid;gap:14px}.question-explanation,.option-explanations{background:#fff;border:1px solid #dce7f0;border-radius:20px;padding:16px;box-shadow:0 8px 24px rgba(31,74,118,.05)}.question-explanation h3,.option-explanations h3{margin:0 0 10px;color:#173f68;font-size:16px}.question-explanation p{margin:7px 0;color:#4c6883;line-height:1.65}.option-explanations{display:grid;gap:10px}.option-explanation{border:1px solid #dce7f0;border-radius:16px;padding:13px;background:#f9fbfd}.option-explanation.correct{border-color:#52cf9a;background:#eefbf5}.option-explanation.wrong{border-color:#f28a8a;background:#fff3f3}.option-explanation-title{display:flex;align-items:center;justify-content:space-between;gap:10px;color:#173f68}.option-explanation-title span{font-size:12px;font-weight:800}.option-meaning{margin-top:6px;color:#365a7b;font-weight:700;line-height:1.55}.option-reason{margin-top:5px;color:#7089a1;font-size:13px;line-height:1.5}.quiz-help-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.quiz-help-btn{min-height:50px;border:1px solid #cad9e6;background:#fff;color:#234f76;border-radius:16px;font-weight:800;font-size:15px}.quiz-help-btn.active{border-color:#50c995;background:#ecfaf4;color:#16895f}.chatgpt-sheet{width:min(92vw,620px);border:0;padding:0;background:transparent}.chatgpt-sheet::backdrop{background:rgba(24,54,82,.3);backdrop-filter:blur(5px)}.chatgpt-sheet-card{background:#fff;color:#173f68;border-radius:24px;padding:18px;box-shadow:0 22px 60px rgba(30,65,100,.2)}.chatgpt-sheet-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.chatgpt-sheet-head h3{margin:0}.chatgpt-sheet-card p{color:#668099;line-height:1.55}.chatgpt-prompt{width:100%;min-height:300px;resize:vertical;border:1px solid #d4e0ea;background:#f7fafc;color:#234f76;border-radius:16px;padding:14px;font:14px/1.65 -apple-system,BlinkMacSystemFont,"Noto Sans TC",sans-serif}.copy-prompt-status{min-height:20px;margin-top:9px;text-align:center;color:#25a876;font-size:13px;font-weight:700}@media(max-width:520px){.quiz-help-actions{grid-template-columns:1fr 1fr}.chatgpt-sheet-card{padding:16px}.chatgpt-prompt{min-height:250px}}
+'''
+          if '/* V1.5.3 — quiz explanations + ChatGPT help */' not in s:s+='\n'+css
+          p.write_text(s,encoding='utf-8')
+
+          # ---------- sw.js ----------
+          p=Path('sw.js'); s=p.read_text(encoding='utf-8');s=re.sub(r"const CACHE='hs7000-v[^']+';","const CACHE='hs7000-v1.5.3';",s,count=1);p.write_text(s,encoding='utf-8')
+
+          # ---------- keep builder from downgrading UI cache/version ----------
+          p=Path('tools/build_examples.py'); s=p.read_text(encoding='utf-8')
+          s=s.replace("idx=re.sub(r'版本 V1\\.[0-9.]+ · [^<]*','版本 V1.5.1 · AI 原創例句補全中',idx,count=1)","idx=re.sub(r'版本 V1\\.[0-9.]+ · [^<]*','版本 V1.5.3 · 測驗解析輔助版',idx,count=1)")
+          s=s.replace("sw=re.sub(r\"const CACHE='hs7000-v[^']+';\",\"const CACHE='hs7000-v1.5.1';\",sw,count=1)","sw=re.sub(r\"const CACHE='hs7000-v[^']+';\",\"const CACHE='hs7000-v1.5.3';\",sw,count=1)")
+          p.write_text(s,encoding='utf-8')
+
+          # ---------- sanity checks ----------
+          assert "const STORAGE_KEY='hs7000-v1';" in Path('app.js').read_text(encoding='utf-8')
+          assert 'quizExplanationPanel' in Path('index.html').read_text(encoding='utf-8')
+          assert 'buildChatGPTPrompt' in Path('app.js').read_text(encoding='utf-8')
+          assert "hs7000-v1.5.3" in Path('sw.js').read_text(encoding='utf-8')
+          print('V1.5.3 patch applied')
+          PY
+      - name: Commit V1.5.3
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html app.js styles.css sw.js tools/build_examples.py
+          git commit -m 'feat: add V1.5.3 quiz explanations and ChatGPT help'
+          git push
