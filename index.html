@@ -114,7 +114,7 @@
         <button class="primary big" id="beginQuizBtn">開始測驗</button>
       </div>
       <div class="quiz-area hidden" id="quizArea">
-        <div class="quiz-top"><span id="quizIndex">1/10</span><span id="quizScore">0 分</span></div>
+        <div class="quiz-top"><button class="text-btn quiz-exit-btn" id="exitQuizBtn" type="button">← 結束測驗</button><span id="quizIndex">1/10</span><span id="quizScore">0 分</span></div>
         <div class="question-type" id="questionType">單字題</div>
         <h2 id="quizWord">word</h2>
         <p class="quiz-context" id="quizContext"></p>
@@ -291,7 +291,7 @@
       <label>學習範圍<select id="studyMode"><option value="7000">7000 完整模式</option><option value="6000">108 課綱 6000 核心</option><option value="4500">4500 核心優先</option></select></label>
       <label class="toggle"><input type="checkbox" id="autoSpeak" checked />顯示單字時自動發音</label>
       <label class="toggle"><input type="checkbox" id="showExampleZh" checked />顯示例句中文翻譯</label>
-      <p class="note">版本 V1.5.3 · 測驗解析輔助版</p>
+      <p class="note">版本 V1.5.3.1 · 測驗退出控制版</p>
       <button class="primary big" id="saveSettingsBtn">儲存</button>
     </form>
   </dialog>
