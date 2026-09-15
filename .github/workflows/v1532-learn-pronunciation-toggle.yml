@@ -1,0 +1,76 @@
+name: Apply V1.5.3.2 learning pronunciation toggle
+
+on:
+  push:
+    paths:
+      - '.github/workflows/v1532-learn-pronunciation-toggle.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch pronunciation toggle
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          # index.html
+          p=Path('index.html')
+          s=p.read_text(encoding='utf-8')
+          old='''          <h2>單字學習</h2>\n          <span id="sessionCounter">0/0</span>'''
+          new='''          <h2>單字學習</h2>\n          <button class="learn-audio-toggle active" id="learnAudioToggle" type="button" aria-pressed="true" aria-label="自動發音已開啟">🔊 發音：開</button>\n          <span id="sessionCounter">0/0</span>'''
+          if old not in s:
+              raise SystemExit('index learning header target not found')
+          s=s.replace(old,new,1)
+          p.write_text(s,encoding='utf-8')
+
+          # app.js
+          p=Path('app.js')
+          s=p.read_text(encoding='utf-8')
+          marker="function syncSettingsUI(){document.getElementById('dailyGoal').value=state.settings.dailyGoal||20;document.getElementById('studyMode').value=state.settings.mode||'7000';document.getElementById('autoSpeak').checked=state.settings.autoSpeak;"
+          if marker not in s:
+              raise SystemExit('syncSettingsUI target not found')
+          helper="function syncLearnAudioToggle(){const b=document.getElementById('learnAudioToggle');if(!b)return;const on=state.settings.autoSpeak!==false;b.textContent=on?'🔊 發音：開':'🔇 發音：關';b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));b.setAttribute('aria-label',on?'自動發音已開啟':'自動發音已關閉')}\n"
+          if 'function syncLearnAudioToggle()' not in s:
+              s=s.replace(marker,helper+marker,1)
+          s=s.replace("function syncSettingsUI(){document.getElementById('dailyGoal').value=state.settings.dailyGoal||20;document.getElementById('studyMode').value=state.settings.mode||'7000';document.getElementById('autoSpeak').checked=state.settings.autoSpeak;",
+                      "function syncSettingsUI(){document.getElementById('dailyGoal').value=state.settings.dailyGoal||20;document.getElementById('studyMode').value=state.settings.mode||'7000';document.getElementById('autoSpeak').checked=state.settings.autoSpeak;syncLearnAudioToggle();",1)
+          bind_target="document.getElementById('speakBtn').onclick=()=>session[sessionIndex]&&speak(session[sessionIndex].word);"
+          bind_new=bind_target+"const learnAudioToggle=document.getElementById('learnAudioToggle');if(learnAudioToggle)learnAudioToggle.onclick=()=>{state.settings.autoSpeak=!(state.settings.autoSpeak!==false);saveState();syncSettingsUI()};"
+          if bind_target not in s:
+              raise SystemExit('speak button bind target not found')
+          s=s.replace(bind_target,bind_new,1)
+          p.write_text(s,encoding='utf-8')
+
+          # styles.css
+          p=Path('styles.css')
+          s=p.read_text(encoding='utf-8')
+          css='''\n.learn-audio-toggle{border:1px solid var(--border,#d9e2ec);background:#fff;border-radius:999px;padding:8px 11px;font-size:13px;font-weight:700;min-height:40px;white-space:nowrap;color:inherit}.learn-audio-toggle.active{border-color:#9fc7b3;background:#eef9f2}.learn-audio-toggle:active{transform:scale(.98)}\n@media(max-width:520px){.learn-title-row{gap:8px}.learn-audio-toggle{padding:7px 9px;font-size:12px;min-height:38px}}\n'''
+          if '.learn-audio-toggle{' not in s:
+              s += css
+          p.write_text(s,encoding='utf-8')
+
+          # service worker cache bump
+          p=Path('sw.js')
+          s=p.read_text(encoding='utf-8')
+          s=s.replace("const CACHE='hs7000-v1.5.3.1';","const CACHE='hs7000-v1.5.3.2';")
+          s=s.replace("const CACHE='hs7000-v1.5.3';","const CACHE='hs7000-v1.5.3.2';")
+          p.write_text(s,encoding='utf-8')
+          PY
+
+          node --check app.js
+          grep -q "const STORAGE_KEY='hs7000-v1'" app.js
+          grep -q 'learnAudioToggle' index.html
+          grep -q '發音：開' app.js
+          grep -q "hs7000-v1.5.3.2" sw.js
+      - name: Commit update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html app.js styles.css sw.js
+          git commit -m "feat: add V1.5.3.2 learning pronunciation toggle"
+          git push
