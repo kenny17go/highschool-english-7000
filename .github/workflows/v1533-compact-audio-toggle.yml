@@ -1,0 +1,71 @@
+name: Apply V1.5.3.3 compact audio toggle
+on:
+  push:
+    paths:
+      - '.github/workflows/v1533-compact-audio-toggle.yml'
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Patch compact audio toggle
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          # index.html
+          p=Path('index.html')
+          s=p.read_text()
+          old='<button class="learn-audio-toggle active" id="learnAudioToggle" type="button" aria-pressed="true" aria-label="自動發音已開啟">🔊 發音：開</button>'
+          new='<button class="learn-audio-toggle active" id="learnAudioToggle" type="button" aria-pressed="true" aria-label="自動發音已開啟，點一下關閉" title="自動發音已開啟">🔊</button>'
+          assert old in s, 'index toggle anchor not found'
+          s=s.replace(old,new,1)
+          p.write_text(s)
+
+          # app.js
+          p=Path('app.js')
+          s=p.read_text()
+          old="function syncLearnAudioToggle(){const b=document.getElementById('learnAudioToggle');if(!b)return;const on=state.settings.autoSpeak!==false;b.textContent=on?'🔊 發音：開':'🔇 發音：關';b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));b.setAttribute('aria-label',on?'自動發音已開啟':'自動發音已關閉')}"
+          new="function syncLearnAudioToggle(){const b=document.getElementById('learnAudioToggle');if(!b)return;const on=state.settings.autoSpeak!==false;b.textContent=on?'🔊':'🔇';b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on));b.setAttribute('aria-label',on?'自動發音已開啟，點一下關閉':'自動發音已關閉，點一下開啟');b.setAttribute('title',on?'自動發音已開啟':'自動發音已關閉')}"
+          assert old in s, 'app toggle function anchor not found'
+          s=s.replace(old,new,1)
+          assert "const STORAGE_KEY='hs7000-v1';" in s
+          p.write_text(s)
+
+          # styles.css
+          p=Path('styles.css')
+          s=p.read_text()
+          old='.learn-audio-toggle{border:1px solid var(--border,#d9e2ec);background:#fff;border-radius:999px;padding:8px 11px;font-size:13px;font-weight:700;min-height:40px;white-space:nowrap;color:inherit}.learn-audio-toggle.active{border-color:#9fc7b3;background:#eef9f2}.learn-audio-toggle:active{transform:scale(.98)}\n@media(max-width:520px){.learn-title-row{gap:8px}.learn-audio-toggle{padding:7px 9px;font-size:12px;min-height:38px}}'
+          new='.learn-audio-toggle{flex:0 0 auto;width:44px;height:44px;min-width:44px;min-height:44px;border:1px solid var(--border,#d9e2ec);background:#fff;border-radius:50%;padding:0;display:grid;place-items:center;font-size:20px;line-height:1;color:inherit;-webkit-tap-highlight-color:transparent}.learn-audio-toggle.active{border-color:#9fc7b3;background:#eef9f2}.learn-audio-toggle:active{transform:scale(.97)}.learn-audio-toggle:focus-visible{outline:3px solid rgba(76,174,140,.28);outline-offset:2px}\n@media(max-width:520px){.learn-title-row{gap:8px}.learn-audio-toggle{width:42px;height:42px;min-width:42px;min-height:42px;font-size:19px}}'
+          assert old in s, 'css toggle anchor not found'
+          s=s.replace(old,new,1)
+          p.write_text(s)
+
+          # sw.js cache bump
+          p=Path('sw.js')
+          s=p.read_text()
+          s=s.replace("const CACHE='hs7000-v1.5.3.2';","const CACHE='hs7000-v1.5.3.3';") if "const CACHE='hs7000-v1.5.3.2';" in s else s.replace("const CACHE='hs7000-v1.5.3';","const CACHE='hs7000-v1.5.3.3';")
+          assert "const CACHE='hs7000-v1.5.3.3';" in s, 'cache version anchor not found'
+          p.write_text(s)
+          PY
+      - name: Validate
+        run: |
+          node --check app.js
+          grep -q "const STORAGE_KEY='hs7000-v1';" app.js
+          grep -q "自動發音已開啟，點一下關閉" app.js
+          grep -q "hs7000-v1.5.3.3" sw.js
+      - name: Commit changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.html app.js styles.css sw.js
+          git diff --cached --quiet && exit 0
+          git commit -m 'fix: compact V1.5.3.3 pronunciation toggle'
+          git push
