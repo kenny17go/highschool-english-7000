@@ -127,3 +127,7 @@ dialog::backdrop{background:rgba(24,49,73,.34);backdrop-filter:blur(5px)}
 
 /* ===== V1.4.5 例句中譯 ===== */
 .example-zh{margin-top:10px;color:#71869a;font-size:.94rem;line-height:1.65;font-weight:500}.detail-section .example-zh{margin-top:8px;padding-top:8px;border-top:1px dashed #dbe5ee}.example-zh.hidden{display:none}
+
+
+/* V1.5.2 learning navigation */
+.learn-nav{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0 6px}.learn-nav-btn{min-height:58px;border:1px solid #d5e1ec;border-radius:22px;background:#eef4f8;color:#285579;font:inherit;font-size:16px;font-weight:800;display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 5px 16px rgba(28,70,105,.07);-webkit-tap-highlight-color:transparent}.learn-nav-btn.primary-nav{background:#e7f1f8;color:#1e5d89}.learn-nav-btn:active{transform:translateY(1px)}.learn-nav-btn:disabled{opacity:.42;box-shadow:none;cursor:not-allowed}.learn-nav-btn:focus-visible{outline:3px solid rgba(76,174,140,.3);outline-offset:2px}@media(max-width:430px){.learn-nav{gap:10px;margin-top:12px}.learn-nav-btn{min-height:56px;border-radius:20px;font-size:16px}}
