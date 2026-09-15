@@ -1,0 +1,63 @@
+name: Apply V1.5.3.1 quiz exit
+
+on:
+  push:
+    paths:
+      - '.github/workflows/v1531-quiz-exit.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add quiz exit control
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          # index.html
+          p=Path('index.html'); s=p.read_text(encoding='utf-8')
+          old='''        <div class="quiz-top"><span id="quizIndex">1/10</span><span id="quizScore">0 分</span></div>'''
+          new='''        <div class="quiz-top"><button class="text-btn quiz-exit-btn" id="exitQuizBtn" type="button">← 結束測驗</button><span id="quizIndex">1/10</span><span id="quizScore">0 分</span></div>'''
+          if old not in s: raise SystemExit('quiz-top anchor not found')
+          s=s.replace(old,new,1)
+          s=s.replace('V1.5.3 · 測驗解析輔助版','V1.5.3.1 · 測驗退出控制版')
+          p.write_text(s,encoding='utf-8')
+
+          # app.js
+          p=Path('app.js'); s=p.read_text(encoding='utf-8')
+          anchor="function distractors(w,kind){let pool=eligibleBank().filter(x=>x.word!==w.word&&x.meaning&&x.meaning!=='中文釋義待補充');if(kind==='word')pool=pool.filter(x=>x.level===w.level||Math.abs(x.level-w.level)<=1);return [...pool].sort(()=>Math.random()-.5).slice(0,3)}"
+          if anchor not in s: raise SystemExit('distractors anchor not found')
+          add=anchor+"\nfunction exitQuiz(){if(!document.getElementById('quizArea')||document.getElementById('quizArea').classList.contains('hidden'))return;const answered=Math.min(quizIndex+(currentQuestion?.userAnswer?1:0),quiz.length);if(!confirm(`確定要結束目前測驗嗎？\\n\\n已完成 ${answered} / ${quiz.length} 題。已作答紀錄會保留，未作答題目不會算錯。`))return;quiz=[];quizIndex=0;quizScore=0;currentQuestion=null;document.getElementById('quizArea').classList.add('hidden');document.getElementById('quizSetup').classList.remove('hidden');document.getElementById('examModeTabs').classList.remove('hidden');document.getElementById('examDesc').classList.remove('hidden');document.getElementById('quizFeedback').textContent='';document.getElementById('quizExplanationPanel')?.classList.add('hidden');document.getElementById('nextQuizBtn').classList.add('hidden');document.getElementById('spellingBox').classList.add('hidden');window.scrollTo({top:0,behavior:'smooth'})}"
+          s=s.replace(anchor,add,1)
+          oldbind="document.getElementById('beginQuizBtn').onclick=beginQuiz;document.getElementById('nextQuizBtn').onclick=()=>{quizIndex++;document.getElementById('spellingInput').disabled=false;showQuiz()}"
+          newbind="document.getElementById('beginQuizBtn').onclick=beginQuiz;document.getElementById('exitQuizBtn').onclick=exitQuiz;document.getElementById('nextQuizBtn').onclick=()=>{quizIndex++;document.getElementById('spellingInput').disabled=false;showQuiz()}"
+          if oldbind not in s: raise SystemExit('bind anchor not found')
+          s=s.replace(oldbind,newbind,1)
+          p.write_text(s,encoding='utf-8')
+
+          # styles.css
+          p=Path('styles.css'); s=p.read_text(encoding='utf-8')
+          css='''\n.quiz-top{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:10px}\n.quiz-exit-btn{justify-self:start;min-height:44px;padding:8px 12px;border-radius:12px}\n@media(max-width:520px){.quiz-top{grid-template-columns:1fr auto auto;gap:7px}.quiz-exit-btn{font-size:14px;padding:7px 10px}}\n'''
+          if '.quiz-exit-btn{' not in s: s += css
+          p.write_text(s,encoding='utf-8')
+
+          # sw.js
+          p=Path('sw.js'); s=p.read_text(encoding='utf-8')
+          s=s.replace("const CACHE='hs7000-v1.5.3';","const CACHE='hs7000-v1.5.3.1';")
+          p.write_text(s,encoding='utf-8')
+          PY
+          node --check app.js
+          grep -q "const STORAGE_KEY='hs7000-v1'" app.js
+          grep -q "id=\"exitQuizBtn\"" index.html
+          grep -q "hs7000-v1.5.3.1" sw.js
+      - name: Commit V1.5.3.1
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html app.js styles.css sw.js
+          git commit -m "fix: add V1.5.3.1 quiz exit control"
+          git push
